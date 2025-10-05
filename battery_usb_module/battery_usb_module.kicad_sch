@@ -4481,7 +4481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -4660,7 +4660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical_SMD_Pin1Left"
 			(at 180.34 116.84 0)
 			(effects
 				(font
@@ -4797,7 +4797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DF12NC_3.0_-60DS-0.5V_51_:HRS_DF12NC_3.0_-60DS-0.5V_51_"
+		(property "Footprint" "Connector_Hirose:Hirose_DF12_DF12E3.0-60DP-0.5V_2x30_P0.50mm_Vertical"
 			(at 242.57 96.52 0)
 			(effects
 				(font
@@ -5262,7 +5262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -5377,7 +5377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 177.8 68.58 0)
 			(effects
 				(font
