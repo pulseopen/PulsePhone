@@ -162,7 +162,7 @@
 	(footprint "Package_SON:WSON-14-1EP_4.0x4.0mm_P0.5mm_EP2.6x2.6mm"
 		(layer "F.Cu")
 		(uuid "1165c23f-057c-4e50-a408-01d1e70a7f74")
-		(at 171.85 109.425)
+		(at 188.1 110)
 		(descr "14-Lead Plastic Dual Flat, No Lead Package - 4.0x4.0x0.8 mm Body [WSON], http://www.ti.com/lit/ml/mpds421/mpds421.pdf")
 		(tags "NHL014B")
 		(property "Reference" "U1"
@@ -179,6 +179,7 @@
 		(property "Value" "LP3947"
 			(at 0 4.7 270)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "164b9cca-3510-48d7-943d-a7f81ef164d2")
 			(effects
 				(font
@@ -580,11 +581,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1fcd5599-65b3-45ef-ae01-dfa2e008396c")
-		(at 172 114.275 -90)
+		(at 188 115 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.43 90)
+			(at -2 0 180)
 			(layer "F.SilkS")
 			(uuid "247f478f-803b-447f-8134-04496d19cee7")
 			(effects
@@ -779,7 +780,7 @@
 	(footprint "Connector_Hirose:Hirose_DF12_DF12E3.0-60DP-0.5V_2x30_P0.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2e3b25c8-8dec-48c6-8285-324aecb866b8")
-		(at 178.75 102.975)
+		(at 173.25 114.3)
 		(descr "Hirose DF12E SMD, DF12E3.0-60DP-0.5V, 60 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0834-6-81&productname=DF12E(3.0)-50DP-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000992393), generated with kicad-footprint-generator")
 		(tags "connector Hirose DF12 vertical")
 		(property "Reference" "J2"
@@ -796,6 +797,7 @@
 		(property "Value" "DF12NC_3.0_-60DS-0.5V_51_"
 			(at 0 4.1 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "10f10140-50e7-471e-a30e-661be3f334e0")
 			(effects
 				(font
@@ -2096,11 +2098,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4c817eda-0da0-4344-96fa-61d439bb0d50")
-		(at 177 110.775 90)
+		(at 192 111 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0.42 -6.5 0)
+			(at 2 0 0)
 			(layer "F.SilkS")
 			(uuid "13588313-04db-4026-8c45-c91bd8c6557d")
 			(effects
@@ -2111,7 +2113,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.43 90)
+			(at 0 1.5 90)
 			(layer "F.Fab")
 			(uuid "e2e77cea-f217-4c7c-9160-e03cb5bc9ff6")
 			(effects
@@ -2295,7 +2297,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical_SMD_Pin1Left"
 		(layer "F.Cu")
 		(uuid "b14d5cfb-8d85-484d-b0c6-66ea8038f0d1")
-		(at 186 113.775 90)
+		(at 192 115 90)
 		(descr "surface-mounted straight pin header, 1x02, 1.00mm pitch, single row, style 1 (pin 1 left)")
 		(tags "Surface mounted pin header SMD 1x02 1.00mm single row style1 pin1 left")
 		(property "Reference" "J3"
@@ -2312,6 +2314,7 @@
 		(property "Value" "Conn_01x02_MountingPin"
 			(at 0 2.11 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5ba1cc91-7c8b-494b-9c45-f1c1b6246c85")
 			(effects
 				(font
@@ -2614,7 +2617,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(layer "F.Cu")
 		(uuid "c69bd01a-c7f1-41bf-95ec-525993dedac3")
-		(at 116.5 75.775 -90)
+		(at 138.5 100.5 -90)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J1"
@@ -2980,6 +2983,220 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_rect
+		(start 161 106)
+		(end 194.5 117.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "88a94193-2c0b-4c17-9420-8caf8b44ab1a")
+	)
+	(gr_line
+		(start 148 106)
+		(end 190.5 106)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "09cb01b9-ebaf-4020-bbb4-31cf83a0f0c8")
+	)
+	(gr_arc
+		(start 140 117.5)
+		(mid 137.171573 116.328427)
+		(end 136 113.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0c4b2ca5-9947-4d8e-823c-c2682b9f3632")
+	)
+	(gr_line
+		(start 194.5 110)
+		(end 194.5 113.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1baedc43-e904-4025-a98e-3691ca314046")
+	)
+	(gr_line
+		(start 190.5 117.5)
+		(end 140 117.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "38e9ebc5-463c-4018-9ddb-b6ee7d19af8e")
+	)
+	(gr_line
+		(start 136 87)
+		(end 146 87)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "77734e59-7ddb-415e-b852-5cb422be6325")
+	)
+	(gr_arc
+		(start 194.5 113.5)
+		(mid 193.328427 116.328427)
+		(end 190.5 117.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "99a6d3f4-7e62-4c70-a2d2-aa4e6a072a13")
+	)
+	(gr_line
+		(start 136 111)
+		(end 136 87)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a3b9a20d-86ac-4b5f-b7b2-aa79b5760031")
+	)
+	(gr_arc
+		(start 148 106)
+		(mid 146.585786 105.414214)
+		(end 146 104)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a578b0e1-463e-45a0-8aa9-5c24c289cf5f")
+	)
+	(gr_line
+		(start 136 113.5)
+		(end 136 110)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c2751ba9-933c-490b-b5c6-13d36f4c4323")
+	)
+	(gr_arc
+		(start 190.5 106)
+		(mid 193.328427 107.171573)
+		(end 194.5 110)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fa6bfb0b-51c5-41e3-a1cd-752e0c7dcd3c")
+	)
+	(gr_line
+		(start 146 87)
+		(end 146 104)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fe3530c1-3a3c-4521-ad4d-d30d568a8bf5")
+	)
+	(gr_text "Stiffener"
+		(at 196.5 104.5 0)
+		(layer "Dwgs.User")
+		(uuid "131968fd-a473-48d6-a426-fd943ba7c4c6")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "a16534f3-d457-4136-9a19-9d4cd6d5d508")
+		(pts
+			(xy 190.5 106) (xy 190.5 117.5)
+		)
+		(height 16.5)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "11.5"
+			(at 205.85 111.75 90)
+			(layer "Dwgs.User")
+			(uuid "a16534f3-d457-4136-9a19-9d4cd6d5d508")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "fbe55c82-d2d9-490c-b508-efe8c88e7b40")
+		(pts
+			(xy 194.5 111.75) (xy 136 111.75)
+		)
+		(height -33.75)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "58.5"
+			(at 165.25 76.85 0)
+			(layer "Dwgs.User")
+			(uuid "fbe55c82-d2d9-490c-b508-efe8c88e7b40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
 		)
 	)
