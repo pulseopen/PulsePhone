@@ -33,7 +33,7 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 ## 🛠 Development Notes 
 
 ### Main Board
-> 
+> First prototype almost done (Still have to wire 
 
 ### Power + USB Module
 > 
