@@ -2986,17 +2986,6 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 161 106)
-		(end 194.5 117.5)
-		(stroke
-			(width 0.3)
-			(type solid)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "88a94193-2c0b-4c17-9420-8caf8b44ab1a")
-	)
 	(gr_line
 		(start 148 106)
 		(end 190.5 106)
@@ -3110,19 +3099,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fe3530c1-3a3c-4521-ad4d-d30d568a8bf5")
-	)
-	(gr_text "Stiffener"
-		(at 196.5 104.5 0)
-		(layer "Dwgs.User")
-		(uuid "131968fd-a473-48d6-a426-fd943ba7c4c6")
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
 	)
 	(dimension
 		(type orthogonal)
