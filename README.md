@@ -5,7 +5,7 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 
 ---
 
-!REMINDER FOR PROJECT! : Change battery connection positions
+!REMINDER FOR PROJECT! : Change battery connection positions and Adjust battery moduel pcb size for case and main pcb
 
 ## 🧠 System Architecture
 
