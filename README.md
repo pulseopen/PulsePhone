@@ -5,6 +5,8 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 
 ---
 
+!REMINDER FOR PROJECT! : Change battery connection positions
+
 ## 🧠 System Architecture
 
 | Component | Module Type | Connector | Function |
