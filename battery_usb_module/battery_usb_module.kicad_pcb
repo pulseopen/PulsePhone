@@ -784,9 +784,9 @@
 		(descr "Hirose DF12E SMD, DF12E3.0-60DP-0.5V, 60 Pins per row (https://www.hirose.com/product/document?clcode=CL0537-0834-6-81&productname=DF12E(3.0)-50DP-0.5V(81)&series=DF12&documenttype=2DDrawing&lang=en&documentid=0000992393), generated with kicad-footprint-generator")
 		(tags "connector Hirose DF12 vertical")
 		(property "Reference" "J2"
-			(at 0 -4.1 0)
+			(at -0.05 -4.1 0)
 			(layer "F.SilkS")
-			(uuid "56a659b5-6ca3-423a-85af-efcbf6636083")
+			(uuid "a5b5dc45-864c-4893-aa4b-38e1c003e044")
 			(effects
 				(font
 					(size 1 1)
@@ -798,7 +798,7 @@
 			(at 0 4.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10f10140-50e7-471e-a30e-661be3f334e0")
+			(uuid "f734d294-6573-4293-b38f-85dcededb5d8")
 			(effects
 				(font
 					(size 1 1)
@@ -810,7 +810,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4db6696-467f-4e03-837c-88a4eccf5bf0")
+			(uuid "bfc200e3-bdff-440d-8682-e0cad1e80fa4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -822,7 +822,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52dfd5e8-ab4d-4e51-a08c-471d381fbfd0")
+			(uuid "eb3534f6-4f8f-476f-a3df-7c2655403afb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +3143,7 @@
 		(layer "Dwgs.User")
 		(uuid "fbe55c82-d2d9-490c-b508-efe8c88e7b40")
 		(pts
-			(xy 194.5 111.75) (xy 136 111.75)
+			(xy 194.45 111.75) (xy 135.95 111.75)
 		)
 		(height -33.75)
 		(orientation 0)
@@ -3165,7 +3165,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "58.5"
-			(at 165.25 76.85 0)
+			(at 165.2 76.85 0)
 			(layer "Dwgs.User")
 			(uuid "fbe55c82-d2d9-490c-b508-efe8c88e7b40")
 			(effects
@@ -3175,6 +3175,14 @@
 				)
 			)
 		)
+	)
+	(segment
+		(start 142.201492 97.341514)
+		(end 142.641514 97.341514)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "0fe2a1f5-814a-4b05-a009-2bbc087a4693")
 	)
 	(segment
 		(start 140.723215 105.621)
@@ -3225,12 +3233,36 @@
 		(uuid "754f6d3c-3a0f-4462-a641-032b3dfea01b")
 	)
 	(segment
+		(start 145.399 100.099)
+		(end 145.399 103.499)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "768eabe4-c01b-4a47-a695-c13ddb6462fa")
+	)
+	(segment
 		(start 142.956 105.151785)
 		(end 142.956 104.476)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "7de0779d-5d5a-40d1-b830-9d417ef29332")
+	)
+	(segment
+		(start 145.399 103.499)
+		(end 145.156486 103.741514)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "8ed072ac-4a7c-4673-8db6-a7a5e97c8207")
+	)
+	(segment
+		(start 142.641514 97.341514)
+		(end 145.399 100.099)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "9c066655-8725-4729-895d-67766ae9da4a")
 	)
 	(segment
 		(start 139.8 106.7)
@@ -3273,6 +3305,14 @@
 		(uuid "cab5b9c9-5a29-47af-8087-91eff2522a41")
 	)
 	(segment
+		(start 145.156486 103.741514)
+		(end 142.201492 103.741514)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "dae016e3-17c4-4ca0-8904-01e0c6843ae9")
+	)
+	(segment
 		(start 142.956 104.476)
 		(end 142.18 103.7)
 		(width 0.2)
@@ -3305,12 +3345,44 @@
 		(uuid "03836150-f4cc-421e-9910-fd41b92e85cc")
 	)
 	(segment
+		(start 185.6 110.715798)
+		(end 185.6 110)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "262c9882-057a-4946-a68d-bd2f14f1fd3a")
+	)
+	(segment
+		(start 185.6 110)
+		(end 186.2 110)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "3d6a77f7-7d7c-466c-b23d-0b672e5e0b8f")
+	)
+	(segment
+		(start 185.884202 111)
+		(end 185.6 110.715798)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "53d35a4b-839b-49e5-a70d-76bd0a3dcb6e")
+	)
+	(segment
 		(start 185.3 111)
 		(end 186.2 111)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "6df2cfcc-59d3-4e5e-ac02-f446d23b6698")
+	)
+	(segment
+		(start 186.2 111)
+		(end 185.884202 111)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "b323ff33-e935-4f4d-8fc0-9ed386e28df6")
 	)
 	(segment
 		(start 188.1 115.875)
@@ -3361,12 +3433,28 @@
 		(uuid "1809d77e-c547-437d-8ba1-f5739feed5b8")
 	)
 	(segment
+		(start 142.660316 98.141514)
+		(end 143.6 99.081198)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "1c7eb298-1fac-4627-b0d3-bd797b9c6a4e")
+	)
+	(segment
 		(start 167.5 113.8)
 		(end 167.5 114.6)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 13)
 		(uuid "24c3a419-d5dd-414f-a3df-eaf066b4fdf4")
+	)
+	(segment
+		(start 142.201492 98.141514)
+		(end 142.660316 98.141514)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "2b13e8ff-60d1-4493-9680-e062c3a2b363")
 	)
 	(segment
 		(start 192 109.775)
@@ -3391,6 +3479,14 @@
 		(layer "F.Cu")
 		(net 13)
 		(uuid "4920858d-b79c-401b-9c6e-7b6b6470f925")
+	)
+	(segment
+		(start 143.6 99.081198)
+		(end 143.6 102.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "599b889c-75b7-4909-80e0-d541b5fcd722")
 	)
 	(segment
 		(start 180.5 113.8)
@@ -3433,6 +3529,14 @@
 		(uuid "9c314771-0190-4b99-a00d-56794b9f8361")
 	)
 	(segment
+		(start 143.6 102.9)
+		(end 143.558486 102.941514)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "9ea3ad84-c043-4244-88cd-4ca218e33571")
+	)
+	(segment
 		(start 190.725 108.5)
 		(end 192 109.775)
 		(width 0.2)
@@ -3463,6 +3567,14 @@
 		(layer "F.Cu")
 		(net 13)
 		(uuid "e4f029e5-213e-423e-ab5e-8b50b9a69bc7")
+	)
+	(segment
+		(start 143.558486 102.941514)
+		(end 142.201492 102.941514)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "eddf028d-597b-41c9-926e-a78b60d9b64d")
 	)
 	(segment
 		(start 166.001 113.601)
@@ -3519,6 +3631,30 @@
 		(layer "B.Cu")
 		(net 13)
 		(uuid "fa72f95d-dd63-4c26-96bc-ba52e6a5f52d")
+	)
+	(segment
+		(start 141.626492 96.221514)
+		(end 137.446492 96.221514)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 16)
+		(uuid "1392be77-7bcb-452f-b3a6-4f6ece1822e4")
+	)
+	(segment
+		(start 137.446492 104.861514)
+		(end 137.446492 96.221514)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 16)
+		(uuid "41821f11-9025-42f4-a914-ad9852b452bb")
+	)
+	(segment
+		(start 137.446492 104.861514)
+		(end 141.626492 104.861514)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 16)
+		(uuid "6aa56fdd-50be-4d11-8870-aac0e93f0bbd")
 	)
 	(segment
 		(start 138.626 105.151785)
