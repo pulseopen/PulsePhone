@@ -7,8 +7,6 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 
 ---
 
-!REMINDER FOR PROJECT! : Change battery connection positions and Adjust battery moduel pcb size for case and main pcb
-
 ## 🧠 System Architecture
 
 | Component | Module Type | Connector | Function |
@@ -37,19 +35,19 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 ## 🛠 Development Notes 
 
 ### Main Board
-> First prototype almost done (Still have to wire 
+> First prototype done, now almost done with the second.
 
 ### Power + USB Module
-> 
+> First prototype almost done, still needs revision.
 
 ### Wi-Fi / Bluetooth Module
-> 
+> Not here yet.
 
 ### Display Module
-> 
+> Very early stages of work.
 
 ### Audio Module
-> 
+> Not here yet
 
 ---
 
@@ -58,10 +56,15 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 - **One standardized module connector (DF12) across all subsystems**
 - **Analog audio to simplify signal integrity & layout**
 - **Linux / Android / Ubuntu Touch compatibility**
-- **Full KiCad + mechanical release planned under open license**
+- **Full KiCad + mechanical release under open license**
 
 ---
 
+## Notes on PCB design choices
+
+- For the Main PCB I made the choice to use blind vias for power distribution for ease of wiring and a cleaner look.
+
+---
 ## License
 
-- **GNU GPL-V3.0** for hardware  
+- **GNU GPL-V3.0** for hardware
