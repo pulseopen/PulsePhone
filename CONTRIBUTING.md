@@ -36,7 +36,6 @@ All PRs must target the `dev` branch:
 base: dev
 compare: your-branch
 
-yaml
 Copy code
 
 Pull requests **will not** be accepted directly into `main`.
@@ -55,11 +54,7 @@ Once stable, changes from `dev` will be merged into `main`.
 
 # 📫 Communication
 
-For major changes or design proposals, please contact Pedro directly:
-
-**Email:** *pedroporcelli3@gmail.com*  
-
-You can also open GitHub Issues to discuss ideas before working on them.
+For major changes or design proposals, open GitHub Issues to discuss ideas before working on them.
 
 ---
 
