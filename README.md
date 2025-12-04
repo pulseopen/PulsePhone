@@ -1,6 +1,6 @@
 ![Pulsephonelogo](assets/pulsephone.png)
 
-# PulsePhone — Protohaus Modular Phone (MCM-iMX93 SoM)
+# PulsePhone — Pulse Modular Phone (MCM-iMX93 SoM)
 
 An experimental modular smartphone platform built around the **MCM-iMX93 System-on-Module (SoM)**.  
 Designed for *repairability, upgradability, and hardware freedom*. All external subsystems connect through **Hirose DF12 board-to-board connectors**, allowing isolated module development and easy swapping.
