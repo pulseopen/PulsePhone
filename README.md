@@ -59,12 +59,6 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 - **Full KiCad + mechanical release under open license**
 
 ---
-
-## Notes on PCB design choices
-
-- For the Main PCB I made the choice to use blind vias for power distribution for ease of wiring and a cleaner look.
-
----
 ## License
 
 - **GNU GPL-V3.0** for hardware
