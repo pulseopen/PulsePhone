@@ -18,9 +18,6 @@ improve-usb-c-routing
 fix-power-rail
 camera-module-redesign
 
-markdown
-Copy code
-
 ## 3. Make Your Changes
 You may:
 - modify KiCad schematic sheets
