@@ -35,10 +35,10 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 ## 🛠 Development Notes 
 
 ### Main Board
-> First prototype done, now almost done with the second.
+> Second prototype! Working on revamping connector standard pinouts and adding i2c!
 
 ### Power + USB Module
-> First prototype almost done, still needs revision.
+> First prototype! Working on modifying to fit new standard!
 
 ### Wi-Fi / Bluetooth Module
 > Not here yet.
