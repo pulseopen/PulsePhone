@@ -62,3 +62,10 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 ## License
 
 - **GNU GPL-V3.0** for hardware
+
+---
+## Documentation
+
+- [MBI-Lite Module Connector Specification](MBI-LITE.md)
+- [Contributing](CONTRIBUTING.md)
+- [License](LICENSE)
