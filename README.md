@@ -35,16 +35,18 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 ## 🛠 Development Notes 
 
 ### Main Board
-> Second prototype! Working on revamping connector standard pinouts and adding i2c!
+> Second Revision!
+> Working on revamping connector standard pinouts and adding i2c.
 
 ### Power + USB Module
-> First prototype! Working on modifying to fit new standard!
+> First prototype in the works.
+> Working on a revision for new **MBI** standard!
 
 ### Wi-Fi / Bluetooth Module
 > Not here yet.
 
 ### Display Module
-> Very early stages of work.
+> Very VERY early stages of work.
 
 ### Audio Module
 > Not here yet
@@ -55,7 +57,7 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 
 - **One standardized module connector (DF12) across all subsystems**
 - **Analog audio to simplify signal integrity & layout**
-- **Linux / Android / Ubuntu Touch compatibility**
+- **Linux (Debian + Phosh) / Android / Ubuntu Touch compatibility**
 - **Full KiCad + mechanical release under open license**
 
 ---
