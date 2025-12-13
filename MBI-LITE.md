@@ -10,6 +10,8 @@ MBI-Lite is the simplified connector standard for PulsePhone modules that **do n
 
 This standard applies to **general-purpose modules only**. Display and Camera modules have their own dedicated pinouts.
 
+**Dev Note**: DF-12 Connectors being 60pin and not 30pin, is because 60pin provides a more mechanically stable connector which is less likely to disconnect!
+
 ---
 
 ## 2. Block Structure
