@@ -18,16 +18,9 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 
 ---
 
-## 🔌 DF12 Connector Interface (Signal Groups)
+## 🔌 DF40 Connector Interface (Signal Groups)
 
-| Pin Group | Purpose |
-|-----------|---------|
-| **Power Distribution** | VSYS (Battery), 5V, 3.3V |
-| **USB 2.0 Data** | D+ / D− directly from SoM |
-| **Control / GPIO** | Enable, IRQ, I2C (as needed) |
-| **Analog Audio (Main ➝ Audio Module)** | L_OUT, R_OUT, AGND — *no I²S routed* |
-
-> Digital audio stays on the **main board only**, with DAC output sent as **analog** to the audio module.
+>[Moved to MBI-Lite Specification](MBI-LITE.md)
 
 ---
 
