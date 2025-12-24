@@ -59,3 +59,10 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 - [MBI-Lite Module Connector Specification](MBI-LITE.md)
 - [Contributing](CONTRIBUTING.md)
 - [License](LICENSE)
+
+---
+## Current Project Status
+
+- Slow pace since school is a **priorty**!
+- Not ready to boot anything
+- Working on power distribution solutions
