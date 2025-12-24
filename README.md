@@ -28,7 +28,7 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 
 ### Main Board
 > Second Revision!
-> Working on revamping connector standard pinouts and adding i2c.
+> Revamping design.
 
 ### Wi-Fi / Bluetooth Module
 > Not here yet.
