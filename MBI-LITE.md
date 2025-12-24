@@ -1,16 +1,16 @@
 # MBI-Lite Pinout Specification ( Modular Board Interconnect )
 
-*A compact block-based pinout description for PulsePhone DF-12 modules*
+*A compact block-based pinout description for PulsePhone DF-40 modules*
 
 ---
 
 ## 1. Overview
 
-MBI-Lite is the simplified connector standard for PulsePhone modules that **do not require high-speed signals**. It divides the DF-12 pins into consistent functional blocks while keeping flexibility for future expansion.
+MBI-Lite is the simplified connector standard for PulsePhone modules that **do not require high-speed signals**. It divides the DF-40 pins into consistent functional blocks while keeping flexibility for future expansion.
 
 This standard applies to **general-purpose modules only**. Display and Camera modules have their own dedicated pinouts.
 
-**Dev Note**: DF-12 Connectors being 60pin and not 30pin, is because 60pin provides a more mechanically stable connector which is less likely to disconnect!
+**Dev Note**: DF-40 Connectors being 34pin and not 30pin, is because 34pin provides a more mechanically stable connector which is less likely to disconnect! (It's also cus I couldn't find 30pin connectors)
 
 ---
 
@@ -105,7 +105,7 @@ Below is the **recommended standard mapping** for consistency. Modules may imple
 
 ---
 
-## 4. Reserved / Future Pins (26–31)
+## 4. Reserved / Future Pins (26–34)
 
 Pins 26–31 are reserved for:
 
