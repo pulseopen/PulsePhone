@@ -13,7 +13,6 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 |-----------|-------------|-----------|----------|
 | **Main Board** | Core System | DF40 | Hosts MCM-iMX93 SoM, onboard DAC, and routes all signals |
 | **Display Module** | Peripheral | DF40 | MIPI/LVDS (TBD) + Touch Interface |
-| **Power + USB Module** | Peripheral | DF40 | Battery input, charging, voltage rails, USB-C (OTG/Data) |
 | **Wi-Fi / Bluetooth Module** | Wireless | DF12 | SDIO/UART-based wireless radio |
 | **Audio Module** | Peripheral | DF40 | Analog-only amplifier + speaker/headphone/mic interface |
 
@@ -37,10 +36,6 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 ### Main Board
 > Second Revision!
 > Working on revamping connector standard pinouts and adding i2c.
-
-### Power + USB Module
-> First prototype in the works.
-> Working on a revision for new **MBI** standard!
 
 ### Wi-Fi / Bluetooth Module
 > Not here yet.
