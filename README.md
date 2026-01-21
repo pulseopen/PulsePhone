@@ -27,9 +27,9 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 ## 🛠 Development Notes 
 
 ### Main Board
-> Second Revision!
+> Second Revision/V2!
 > Revamping design.
-> Made decision to use I2C multiplexers on V3 **Prototype** for increased I2C interfaces which allows for more
+> Made decision to use I2C multiplexers on V3/Next **Prototype** for increased I2C interfaces which allows for more
 addition to the modules.
 
 ### Wi-Fi / Bluetooth Module
