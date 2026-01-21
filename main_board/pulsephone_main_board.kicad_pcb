@@ -338,10 +338,20 @@
 	(net 219 "/SAI_MASTERCLOCK")
 	(net 220 "Power Good")
 	(net 221 "GNDREF")
+	(net 222 "Net-(U5-CE)")
+	(net 223 "unconnected-(J1-SHIELD-PadS1)")
+	(net 224 "unconnected-(J1-D--PadA7)")
+	(net 225 "unconnected-(J1-D--PadB7)")
+	(net 226 "unconnected-(J1-D+-PadB6)")
+	(net 227 "unconnected-(J1-CC2-PadB5)")
+	(net 228 "unconnected-(J1-CC1-PadA5)")
+	(net 229 "unconnected-(J1-D+-PadA6)")
+	(net 230 "unconnected-(U5-EPAD-Pad9)")
+	(net 231 "unconnected-(U5-PROG-Pad2)")
 	(footprint "PCM5102-DAC:SOP65P640X120-20N"
 		(layer "F.Cu")
 		(uuid "28eeda00-df89-4e8b-9c5d-1aee17aef7da")
-		(at 132 125.5)
+		(at 137.37 122.275)
 		(property "Reference" "U2"
 			(at -0.325 -4.385 0)
 			(layer "F.SilkS")
@@ -1260,7 +1270,7 @@
 	(footprint "DF40-34P:HIROSE_DF40C-34DS-0.4V_58_"
 		(layer "F.Cu")
 		(uuid "404b9a7e-d4eb-4a3a-ae68-140557479cf8")
-		(at 134.9 144.46)
+		(at 153 146.5)
 		(property "Reference" "J5"
 			(at -1.775 -3.635 0)
 			(layer "F.SilkS")
@@ -2251,7 +2261,7 @@
 			)
 			(polygon
 				(pts
-					(xy 131.6 143.27) (xy 131.8 143.27) (xy 131.8 143.71) (xy 131.6 143.71)
+					(xy 149.7 145.31) (xy 149.9 145.31) (xy 149.9 145.75) (xy 149.7 145.75)
 				)
 			)
 		)
@@ -2283,7 +2293,7 @@
 			)
 			(polygon
 				(pts
-					(xy 131.6 145.21) (xy 131.8 145.21) (xy 131.8 145.65) (xy 131.6 145.65)
+					(xy 149.7 147.25) (xy 149.9 147.25) (xy 149.9 147.69) (xy 149.7 147.69)
 				)
 			)
 		)
@@ -2315,7 +2325,7 @@
 			)
 			(polygon
 				(pts
-					(xy 132 143.27) (xy 132.2 143.27) (xy 132.2 143.71) (xy 132 143.71)
+					(xy 150.1 145.31) (xy 150.3 145.31) (xy 150.3 145.75) (xy 150.1 145.75)
 				)
 			)
 		)
@@ -2347,7 +2357,7 @@
 			)
 			(polygon
 				(pts
-					(xy 132 145.21) (xy 132.2 145.21) (xy 132.2 145.65) (xy 132 145.65)
+					(xy 150.1 147.25) (xy 150.3 147.25) (xy 150.3 147.69) (xy 150.1 147.69)
 				)
 			)
 		)
@@ -2379,7 +2389,7 @@
 			)
 			(polygon
 				(pts
-					(xy 132.4 143.27) (xy 132.6 143.27) (xy 132.6 143.71) (xy 132.4 143.71)
+					(xy 150.5 145.31) (xy 150.7 145.31) (xy 150.7 145.75) (xy 150.5 145.75)
 				)
 			)
 		)
@@ -2411,7 +2421,7 @@
 			)
 			(polygon
 				(pts
-					(xy 132.4 145.21) (xy 132.6 145.21) (xy 132.6 145.65) (xy 132.4 145.65)
+					(xy 150.5 147.25) (xy 150.7 147.25) (xy 150.7 147.69) (xy 150.5 147.69)
 				)
 			)
 		)
@@ -2443,7 +2453,7 @@
 			)
 			(polygon
 				(pts
-					(xy 132.8 143.27) (xy 133 143.27) (xy 133 143.71) (xy 132.8 143.71)
+					(xy 150.9 145.31) (xy 151.1 145.31) (xy 151.1 145.75) (xy 150.9 145.75)
 				)
 			)
 		)
@@ -2475,7 +2485,7 @@
 			)
 			(polygon
 				(pts
-					(xy 132.8 145.21) (xy 133 145.21) (xy 133 145.65) (xy 132.8 145.65)
+					(xy 150.9 147.25) (xy 151.1 147.25) (xy 151.1 147.69) (xy 150.9 147.69)
 				)
 			)
 		)
@@ -2507,7 +2517,7 @@
 			)
 			(polygon
 				(pts
-					(xy 133.2 143.27) (xy 133.4 143.27) (xy 133.4 143.71) (xy 133.2 143.71)
+					(xy 151.3 145.31) (xy 151.5 145.31) (xy 151.5 145.75) (xy 151.3 145.75)
 				)
 			)
 		)
@@ -2539,7 +2549,7 @@
 			)
 			(polygon
 				(pts
-					(xy 133.2 145.21) (xy 133.4 145.21) (xy 133.4 145.65) (xy 133.2 145.65)
+					(xy 151.3 147.25) (xy 151.5 147.25) (xy 151.5 147.69) (xy 151.3 147.69)
 				)
 			)
 		)
@@ -2571,7 +2581,7 @@
 			)
 			(polygon
 				(pts
-					(xy 133.6 143.27) (xy 133.8 143.27) (xy 133.8 143.71) (xy 133.6 143.71)
+					(xy 151.7 145.31) (xy 151.9 145.31) (xy 151.9 145.75) (xy 151.7 145.75)
 				)
 			)
 		)
@@ -2603,7 +2613,7 @@
 			)
 			(polygon
 				(pts
-					(xy 133.6 145.21) (xy 133.8 145.21) (xy 133.8 145.65) (xy 133.6 145.65)
+					(xy 151.7 147.25) (xy 151.9 147.25) (xy 151.9 147.69) (xy 151.7 147.69)
 				)
 			)
 		)
@@ -2635,7 +2645,7 @@
 			)
 			(polygon
 				(pts
-					(xy 134 143.27) (xy 134.2 143.27) (xy 134.2 143.71) (xy 134 143.71)
+					(xy 152.1 145.31) (xy 152.3 145.31) (xy 152.3 145.75) (xy 152.1 145.75)
 				)
 			)
 		)
@@ -2667,7 +2677,7 @@
 			)
 			(polygon
 				(pts
-					(xy 134 145.21) (xy 134.2 145.21) (xy 134.2 145.65) (xy 134 145.65)
+					(xy 152.1 147.25) (xy 152.3 147.25) (xy 152.3 147.69) (xy 152.1 147.69)
 				)
 			)
 		)
@@ -2699,7 +2709,7 @@
 			)
 			(polygon
 				(pts
-					(xy 134.4 143.27) (xy 134.6 143.27) (xy 134.6 143.71) (xy 134.4 143.71)
+					(xy 152.5 145.31) (xy 152.7 145.31) (xy 152.7 145.75) (xy 152.5 145.75)
 				)
 			)
 		)
@@ -2731,7 +2741,7 @@
 			)
 			(polygon
 				(pts
-					(xy 134.4 145.21) (xy 134.6 145.21) (xy 134.6 145.65) (xy 134.4 145.65)
+					(xy 152.5 147.25) (xy 152.7 147.25) (xy 152.7 147.69) (xy 152.5 147.69)
 				)
 			)
 		)
@@ -2763,7 +2773,7 @@
 			)
 			(polygon
 				(pts
-					(xy 134.8 143.27) (xy 135 143.27) (xy 135 143.71) (xy 134.8 143.71)
+					(xy 152.9 145.31) (xy 153.1 145.31) (xy 153.1 145.75) (xy 152.9 145.75)
 				)
 			)
 		)
@@ -2795,7 +2805,7 @@
 			)
 			(polygon
 				(pts
-					(xy 134.8 145.21) (xy 135 145.21) (xy 135 145.65) (xy 134.8 145.65)
+					(xy 152.9 147.25) (xy 153.1 147.25) (xy 153.1 147.69) (xy 152.9 147.69)
 				)
 			)
 		)
@@ -2827,7 +2837,7 @@
 			)
 			(polygon
 				(pts
-					(xy 135.2 143.27) (xy 135.4 143.27) (xy 135.4 143.71) (xy 135.2 143.71)
+					(xy 153.3 145.31) (xy 153.5 145.31) (xy 153.5 145.75) (xy 153.3 145.75)
 				)
 			)
 		)
@@ -2859,7 +2869,7 @@
 			)
 			(polygon
 				(pts
-					(xy 135.2 145.21) (xy 135.4 145.21) (xy 135.4 145.65) (xy 135.2 145.65)
+					(xy 153.3 147.25) (xy 153.5 147.25) (xy 153.5 147.69) (xy 153.3 147.69)
 				)
 			)
 		)
@@ -2891,7 +2901,7 @@
 			)
 			(polygon
 				(pts
-					(xy 135.6 143.27) (xy 135.8 143.27) (xy 135.8 143.71) (xy 135.6 143.71)
+					(xy 153.7 145.31) (xy 153.9 145.31) (xy 153.9 145.75) (xy 153.7 145.75)
 				)
 			)
 		)
@@ -2923,7 +2933,7 @@
 			)
 			(polygon
 				(pts
-					(xy 135.6 143.27) (xy 135.8 143.27) (xy 135.8 143.71) (xy 135.6 143.71)
+					(xy 153.7 145.31) (xy 153.9 145.31) (xy 153.9 145.75) (xy 153.7 145.75)
 				)
 			)
 		)
@@ -2955,7 +2965,7 @@
 			)
 			(polygon
 				(pts
-					(xy 135.6 145.21) (xy 135.8 145.21) (xy 135.8 145.65) (xy 135.6 145.65)
+					(xy 153.7 147.25) (xy 153.9 147.25) (xy 153.9 147.69) (xy 153.7 147.69)
 				)
 			)
 		)
@@ -2987,7 +2997,7 @@
 			)
 			(polygon
 				(pts
-					(xy 135.6 145.21) (xy 135.8 145.21) (xy 135.8 145.65) (xy 135.6 145.65)
+					(xy 153.7 147.25) (xy 153.9 147.25) (xy 153.9 147.69) (xy 153.7 147.69)
 				)
 			)
 		)
@@ -3019,7 +3029,7 @@
 			)
 			(polygon
 				(pts
-					(xy 136 143.27) (xy 136.2 143.27) (xy 136.2 143.71) (xy 136 143.71)
+					(xy 154.1 145.31) (xy 154.3 145.31) (xy 154.3 145.75) (xy 154.1 145.75)
 				)
 			)
 		)
@@ -3051,7 +3061,7 @@
 			)
 			(polygon
 				(pts
-					(xy 136 145.21) (xy 136.2 145.21) (xy 136.2 145.65) (xy 136 145.65)
+					(xy 154.1 147.25) (xy 154.3 147.25) (xy 154.3 147.69) (xy 154.1 147.69)
 				)
 			)
 		)
@@ -3083,7 +3093,7 @@
 			)
 			(polygon
 				(pts
-					(xy 136.4 143.27) (xy 136.6 143.27) (xy 136.6 143.71) (xy 136.4 143.71)
+					(xy 154.5 145.31) (xy 154.7 145.31) (xy 154.7 145.75) (xy 154.5 145.75)
 				)
 			)
 		)
@@ -3115,7 +3125,7 @@
 			)
 			(polygon
 				(pts
-					(xy 136.4 145.21) (xy 136.6 145.21) (xy 136.6 145.65) (xy 136.4 145.65)
+					(xy 154.5 147.25) (xy 154.7 147.25) (xy 154.7 147.69) (xy 154.5 147.69)
 				)
 			)
 		)
@@ -3147,7 +3157,7 @@
 			)
 			(polygon
 				(pts
-					(xy 136.8 143.27) (xy 137 143.27) (xy 137 143.71) (xy 136.8 143.71)
+					(xy 154.9 145.31) (xy 155.1 145.31) (xy 155.1 145.75) (xy 154.9 145.75)
 				)
 			)
 		)
@@ -3179,7 +3189,7 @@
 			)
 			(polygon
 				(pts
-					(xy 136.8 145.21) (xy 137 145.21) (xy 137 145.65) (xy 136.8 145.65)
+					(xy 154.9 147.25) (xy 155.1 147.25) (xy 155.1 147.69) (xy 154.9 147.69)
 				)
 			)
 		)
@@ -3211,7 +3221,7 @@
 			)
 			(polygon
 				(pts
-					(xy 137.2 143.27) (xy 137.4 143.27) (xy 137.4 143.71) (xy 137.2 143.71)
+					(xy 155.3 145.31) (xy 155.5 145.31) (xy 155.5 145.75) (xy 155.3 145.75)
 				)
 			)
 		)
@@ -3243,7 +3253,7 @@
 			)
 			(polygon
 				(pts
-					(xy 137.2 145.21) (xy 137.4 145.21) (xy 137.4 145.65) (xy 137.2 145.65)
+					(xy 155.3 147.25) (xy 155.5 147.25) (xy 155.5 147.69) (xy 155.3 147.69)
 				)
 			)
 		)
@@ -3275,7 +3285,7 @@
 			)
 			(polygon
 				(pts
-					(xy 137.6 143.27) (xy 137.8 143.27) (xy 137.8 143.71) (xy 137.6 143.71)
+					(xy 155.7 145.31) (xy 155.9 145.31) (xy 155.9 145.75) (xy 155.7 145.75)
 				)
 			)
 		)
@@ -3307,7 +3317,7 @@
 			)
 			(polygon
 				(pts
-					(xy 137.6 145.21) (xy 137.8 145.21) (xy 137.8 145.65) (xy 137.6 145.65)
+					(xy 155.7 147.25) (xy 155.9 147.25) (xy 155.9 147.69) (xy 155.7 147.69)
 				)
 			)
 		)
@@ -3339,7 +3349,7 @@
 			)
 			(polygon
 				(pts
-					(xy 138 143.27) (xy 138.2 143.27) (xy 138.2 143.71) (xy 138 143.71)
+					(xy 156.1 145.31) (xy 156.3 145.31) (xy 156.3 145.75) (xy 156.1 145.75)
 				)
 			)
 		)
@@ -3371,7 +3381,7 @@
 			)
 			(polygon
 				(pts
-					(xy 138 145.21) (xy 138.2 145.21) (xy 138.2 145.65) (xy 138 145.65)
+					(xy 156.1 147.25) (xy 156.3 147.25) (xy 156.3 147.69) (xy 156.1 147.69)
 				)
 			)
 		)
@@ -3403,7 +3413,7 @@
 			)
 			(polygon
 				(pts
-					(xy 131.6 143.27) (xy 131.8 143.27) (xy 131.8 143.71) (xy 131.6 143.71)
+					(xy 149.7 145.31) (xy 149.9 145.31) (xy 149.9 145.75) (xy 149.7 145.75)
 				)
 			)
 		)
@@ -3435,7 +3445,7 @@
 			)
 			(polygon
 				(pts
-					(xy 131.6 145.21) (xy 131.8 145.21) (xy 131.8 145.65) (xy 131.6 145.65)
+					(xy 149.7 147.25) (xy 149.9 147.25) (xy 149.9 147.69) (xy 149.7 147.69)
 				)
 			)
 		)
@@ -3467,7 +3477,7 @@
 			)
 			(polygon
 				(pts
-					(xy 132 143.27) (xy 132.2 143.27) (xy 132.2 143.71) (xy 132 143.71)
+					(xy 150.1 145.31) (xy 150.3 145.31) (xy 150.3 145.75) (xy 150.1 145.75)
 				)
 			)
 		)
@@ -3499,7 +3509,7 @@
 			)
 			(polygon
 				(pts
-					(xy 132 145.21) (xy 132.2 145.21) (xy 132.2 145.65) (xy 132 145.65)
+					(xy 150.1 147.25) (xy 150.3 147.25) (xy 150.3 147.69) (xy 150.1 147.69)
 				)
 			)
 		)
@@ -3531,7 +3541,7 @@
 			)
 			(polygon
 				(pts
-					(xy 132.4 143.27) (xy 132.6 143.27) (xy 132.6 143.71) (xy 132.4 143.71)
+					(xy 150.5 145.31) (xy 150.7 145.31) (xy 150.7 145.75) (xy 150.5 145.75)
 				)
 			)
 		)
@@ -3563,7 +3573,7 @@
 			)
 			(polygon
 				(pts
-					(xy 132.4 145.21) (xy 132.6 145.21) (xy 132.6 145.65) (xy 132.4 145.65)
+					(xy 150.5 147.25) (xy 150.7 147.25) (xy 150.7 147.69) (xy 150.5 147.69)
 				)
 			)
 		)
@@ -3595,7 +3605,7 @@
 			)
 			(polygon
 				(pts
-					(xy 132.8 143.27) (xy 133 143.27) (xy 133 143.71) (xy 132.8 143.71)
+					(xy 150.9 145.31) (xy 151.1 145.31) (xy 151.1 145.75) (xy 150.9 145.75)
 				)
 			)
 		)
@@ -3627,7 +3637,7 @@
 			)
 			(polygon
 				(pts
-					(xy 132.8 145.21) (xy 133 145.21) (xy 133 145.65) (xy 132.8 145.65)
+					(xy 150.9 147.25) (xy 151.1 147.25) (xy 151.1 147.69) (xy 150.9 147.69)
 				)
 			)
 		)
@@ -3659,7 +3669,7 @@
 			)
 			(polygon
 				(pts
-					(xy 133.2 143.27) (xy 133.4 143.27) (xy 133.4 143.71) (xy 133.2 143.71)
+					(xy 151.3 145.31) (xy 151.5 145.31) (xy 151.5 145.75) (xy 151.3 145.75)
 				)
 			)
 		)
@@ -3691,7 +3701,7 @@
 			)
 			(polygon
 				(pts
-					(xy 133.2 145.21) (xy 133.4 145.21) (xy 133.4 145.65) (xy 133.2 145.65)
+					(xy 151.3 147.25) (xy 151.5 147.25) (xy 151.5 147.69) (xy 151.3 147.69)
 				)
 			)
 		)
@@ -3723,7 +3733,7 @@
 			)
 			(polygon
 				(pts
-					(xy 133.6 143.27) (xy 133.8 143.27) (xy 133.8 143.71) (xy 133.6 143.71)
+					(xy 151.7 145.31) (xy 151.9 145.31) (xy 151.9 145.75) (xy 151.7 145.75)
 				)
 			)
 		)
@@ -3755,7 +3765,7 @@
 			)
 			(polygon
 				(pts
-					(xy 133.6 145.21) (xy 133.8 145.21) (xy 133.8 145.65) (xy 133.6 145.65)
+					(xy 151.7 147.25) (xy 151.9 147.25) (xy 151.9 147.69) (xy 151.7 147.69)
 				)
 			)
 		)
@@ -3787,7 +3797,7 @@
 			)
 			(polygon
 				(pts
-					(xy 134 143.27) (xy 134.2 143.27) (xy 134.2 143.71) (xy 134 143.71)
+					(xy 152.1 145.31) (xy 152.3 145.31) (xy 152.3 145.75) (xy 152.1 145.75)
 				)
 			)
 		)
@@ -3819,7 +3829,7 @@
 			)
 			(polygon
 				(pts
-					(xy 134 145.21) (xy 134.2 145.21) (xy 134.2 145.65) (xy 134 145.65)
+					(xy 152.1 147.25) (xy 152.3 147.25) (xy 152.3 147.69) (xy 152.1 147.69)
 				)
 			)
 		)
@@ -3851,7 +3861,7 @@
 			)
 			(polygon
 				(pts
-					(xy 134.4 143.27) (xy 134.6 143.27) (xy 134.6 143.71) (xy 134.4 143.71)
+					(xy 152.5 145.31) (xy 152.7 145.31) (xy 152.7 145.75) (xy 152.5 145.75)
 				)
 			)
 		)
@@ -3883,7 +3893,7 @@
 			)
 			(polygon
 				(pts
-					(xy 134.4 145.21) (xy 134.6 145.21) (xy 134.6 145.65) (xy 134.4 145.65)
+					(xy 152.5 147.25) (xy 152.7 147.25) (xy 152.7 147.69) (xy 152.5 147.69)
 				)
 			)
 		)
@@ -3915,7 +3925,7 @@
 			)
 			(polygon
 				(pts
-					(xy 134.8 143.27) (xy 135 143.27) (xy 135 143.71) (xy 134.8 143.71)
+					(xy 152.9 145.31) (xy 153.1 145.31) (xy 153.1 145.75) (xy 152.9 145.75)
 				)
 			)
 		)
@@ -3947,7 +3957,7 @@
 			)
 			(polygon
 				(pts
-					(xy 134.8 145.21) (xy 135 145.21) (xy 135 145.65) (xy 134.8 145.65)
+					(xy 152.9 147.25) (xy 153.1 147.25) (xy 153.1 147.69) (xy 152.9 147.69)
 				)
 			)
 		)
@@ -3979,7 +3989,7 @@
 			)
 			(polygon
 				(pts
-					(xy 135.2 143.27) (xy 135.4 143.27) (xy 135.4 143.71) (xy 135.2 143.71)
+					(xy 153.3 145.31) (xy 153.5 145.31) (xy 153.5 145.75) (xy 153.3 145.75)
 				)
 			)
 		)
@@ -4011,7 +4021,7 @@
 			)
 			(polygon
 				(pts
-					(xy 135.2 145.21) (xy 135.4 145.21) (xy 135.4 145.65) (xy 135.2 145.65)
+					(xy 153.3 147.25) (xy 153.5 147.25) (xy 153.5 147.69) (xy 153.3 147.69)
 				)
 			)
 		)
@@ -4043,7 +4053,7 @@
 			)
 			(polygon
 				(pts
-					(xy 135.6 143.27) (xy 135.8 143.27) (xy 135.8 143.71) (xy 135.6 143.71)
+					(xy 153.7 145.31) (xy 153.9 145.31) (xy 153.9 145.75) (xy 153.7 145.75)
 				)
 			)
 		)
@@ -4075,7 +4085,7 @@
 			)
 			(polygon
 				(pts
-					(xy 135.6 143.27) (xy 135.8 143.27) (xy 135.8 143.71) (xy 135.6 143.71)
+					(xy 153.7 145.31) (xy 153.9 145.31) (xy 153.9 145.75) (xy 153.7 145.75)
 				)
 			)
 		)
@@ -4107,7 +4117,7 @@
 			)
 			(polygon
 				(pts
-					(xy 135.6 145.21) (xy 135.8 145.21) (xy 135.8 145.65) (xy 135.6 145.65)
+					(xy 153.7 147.25) (xy 153.9 147.25) (xy 153.9 147.69) (xy 153.7 147.69)
 				)
 			)
 		)
@@ -4139,7 +4149,7 @@
 			)
 			(polygon
 				(pts
-					(xy 135.6 145.21) (xy 135.8 145.21) (xy 135.8 145.65) (xy 135.6 145.65)
+					(xy 153.7 147.25) (xy 153.9 147.25) (xy 153.9 147.69) (xy 153.7 147.69)
 				)
 			)
 		)
@@ -4171,7 +4181,7 @@
 			)
 			(polygon
 				(pts
-					(xy 136 143.27) (xy 136.2 143.27) (xy 136.2 143.71) (xy 136 143.71)
+					(xy 154.1 145.31) (xy 154.3 145.31) (xy 154.3 145.75) (xy 154.1 145.75)
 				)
 			)
 		)
@@ -4203,7 +4213,7 @@
 			)
 			(polygon
 				(pts
-					(xy 136 145.21) (xy 136.2 145.21) (xy 136.2 145.65) (xy 136 145.65)
+					(xy 154.1 147.25) (xy 154.3 147.25) (xy 154.3 147.69) (xy 154.1 147.69)
 				)
 			)
 		)
@@ -4235,7 +4245,7 @@
 			)
 			(polygon
 				(pts
-					(xy 136.4 143.27) (xy 136.6 143.27) (xy 136.6 143.71) (xy 136.4 143.71)
+					(xy 154.5 145.31) (xy 154.7 145.31) (xy 154.7 145.75) (xy 154.5 145.75)
 				)
 			)
 		)
@@ -4267,7 +4277,7 @@
 			)
 			(polygon
 				(pts
-					(xy 136.4 145.21) (xy 136.6 145.21) (xy 136.6 145.65) (xy 136.4 145.65)
+					(xy 154.5 147.25) (xy 154.7 147.25) (xy 154.7 147.69) (xy 154.5 147.69)
 				)
 			)
 		)
@@ -4299,7 +4309,7 @@
 			)
 			(polygon
 				(pts
-					(xy 136.8 143.27) (xy 137 143.27) (xy 137 143.71) (xy 136.8 143.71)
+					(xy 154.9 145.31) (xy 155.1 145.31) (xy 155.1 145.75) (xy 154.9 145.75)
 				)
 			)
 		)
@@ -4331,7 +4341,7 @@
 			)
 			(polygon
 				(pts
-					(xy 136.8 145.21) (xy 137 145.21) (xy 137 145.65) (xy 136.8 145.65)
+					(xy 154.9 147.25) (xy 155.1 147.25) (xy 155.1 147.69) (xy 154.9 147.69)
 				)
 			)
 		)
@@ -4363,7 +4373,7 @@
 			)
 			(polygon
 				(pts
-					(xy 137.2 143.27) (xy 137.4 143.27) (xy 137.4 143.71) (xy 137.2 143.71)
+					(xy 155.3 145.31) (xy 155.5 145.31) (xy 155.5 145.75) (xy 155.3 145.75)
 				)
 			)
 		)
@@ -4395,7 +4405,7 @@
 			)
 			(polygon
 				(pts
-					(xy 137.2 145.21) (xy 137.4 145.21) (xy 137.4 145.65) (xy 137.2 145.65)
+					(xy 155.3 147.25) (xy 155.5 147.25) (xy 155.5 147.69) (xy 155.3 147.69)
 				)
 			)
 		)
@@ -4427,7 +4437,7 @@
 			)
 			(polygon
 				(pts
-					(xy 137.6 143.27) (xy 137.8 143.27) (xy 137.8 143.71) (xy 137.6 143.71)
+					(xy 155.7 145.31) (xy 155.9 145.31) (xy 155.9 145.75) (xy 155.7 145.75)
 				)
 			)
 		)
@@ -4459,7 +4469,7 @@
 			)
 			(polygon
 				(pts
-					(xy 137.6 145.21) (xy 137.8 145.21) (xy 137.8 145.65) (xy 137.6 145.65)
+					(xy 155.7 147.25) (xy 155.9 147.25) (xy 155.9 147.69) (xy 155.7 147.69)
 				)
 			)
 		)
@@ -4491,7 +4501,7 @@
 			)
 			(polygon
 				(pts
-					(xy 138 143.27) (xy 138.2 143.27) (xy 138.2 143.71) (xy 138 143.71)
+					(xy 156.1 145.31) (xy 156.3 145.31) (xy 156.3 145.75) (xy 156.1 145.75)
 				)
 			)
 		)
@@ -4523,7 +4533,7 @@
 			)
 			(polygon
 				(pts
-					(xy 138 145.21) (xy 138.2 145.21) (xy 138.2 145.65) (xy 138 145.65)
+					(xy 156.1 147.25) (xy 156.3 147.25) (xy 156.3 147.69) (xy 156.1 147.69)
 				)
 			)
 		)
@@ -8520,7 +8530,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4c0d5e8e-6e88-4952-8894-1155b68bf95e")
-		(at 122.5 120 180)
+		(at 127.87 116.775 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -12385,7 +12395,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a014c4ad-ccd2-4150-82c5-42d9e4d6988b")
-		(at 122.5 125.5 180)
+		(at 127.87 122.275 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -13059,7 +13069,7 @@
 			(start -15.0001 -15)
 			(end -15 15)
 			(stroke
-				(width 0)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -13069,7 +13079,7 @@
 			(start -15.0001 -15)
 			(end 15 -15)
 			(stroke
-				(width 0)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -13079,7 +13089,7 @@
 			(start -15 15)
 			(end 15 14.99994)
 			(stroke
-				(width 0)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -13089,7 +13099,7 @@
 			(start 15 14.99994)
 			(end 15 -15)
 			(stroke
-				(width 0)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -16949,7 +16959,7 @@
 			(start -15.0001 -15)
 			(end -15 15)
 			(stroke
-				(width 0)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "User.3")
@@ -16959,7 +16969,7 @@
 			(start -15.0001 -15)
 			(end 15 -15)
 			(stroke
-				(width 0)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "User.3")
@@ -16969,7 +16979,7 @@
 			(start -15 15)
 			(end 15 14.99994)
 			(stroke
-				(width 0)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "User.3")
@@ -16979,7 +16989,7 @@
 			(start 15 14.99994)
 			(end 15 -15)
 			(stroke
-				(width 0)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "User.3")
@@ -17065,6 +17075,7 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17076,6 +17087,7 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17087,6 +17099,7 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17099,7 +17112,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "05af1b30-1403-4c44-aab8-aa55d1191774")
 		)
 		(pad "2" smd roundrect
@@ -17111,7 +17124,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "b5cb3417-7d4b-428a-93ed-c89ac2b315d1")
 		)
 		(pad "3" smd roundrect
@@ -17123,7 +17136,7 @@
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "ec54d714-7e14-4c7d-95ec-29a3561a6fe4")
 		)
 		(pad "4" smd roundrect
@@ -17135,7 +17148,7 @@
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "503ac3f4-a81e-434f-9e84-654c7c028adc")
 		)
 		(pad "5" smd roundrect
@@ -17147,7 +17160,7 @@
 			(pinfunction "5")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "3b141d6c-18da-4e93-bc94-c2dc6d0f11c4")
 		)
 		(pad "6" smd roundrect
@@ -17159,7 +17172,7 @@
 			(pinfunction "6")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "9d0edc22-7bfa-4b17-9dde-69ad42101917")
 		)
 		(pad "7" smd roundrect
@@ -17171,7 +17184,7 @@
 			(pinfunction "7")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "51cbcce0-9e66-4039-a8ea-4bf01c2378fd")
 		)
 		(pad "8" smd roundrect
@@ -17183,7 +17196,7 @@
 			(pinfunction "8")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "a8906702-1a31-42a9-8c7a-76c5a17c9118")
 		)
 		(pad "9" smd roundrect
@@ -17195,7 +17208,7 @@
 			(pinfunction "9")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "c5e7795a-dd1c-40c1-b4af-21a90e3faa84")
 		)
 		(pad "10" smd roundrect
@@ -17207,7 +17220,7 @@
 			(pinfunction "10")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "2e26f7cd-01d8-4e48-bc8e-6f5e377ed40f")
 		)
 		(pad "11" smd roundrect
@@ -17219,7 +17232,7 @@
 			(pinfunction "11")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "0e459ca6-c93d-498a-923c-a7eceb169023")
 		)
 		(pad "12" smd roundrect
@@ -17231,7 +17244,7 @@
 			(pinfunction "12")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "8cc87ceb-2cab-4155-9710-37f1b8a4f303")
 		)
 		(pad "13" smd roundrect
@@ -17243,7 +17256,7 @@
 			(pinfunction "13")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "cd7290d1-7b42-4791-8f17-30a73676a9fe")
 		)
 		(pad "14" smd roundrect
@@ -17255,7 +17268,7 @@
 			(pinfunction "14")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "31942ef3-a39a-46c7-b2d6-589d80fa57c1")
 		)
 		(pad "15" smd roundrect
@@ -17267,7 +17280,7 @@
 			(pinfunction "15")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "1cfc6937-5c4b-4fd9-9554-e15b992ec815")
 		)
 		(pad "16" smd roundrect
@@ -17279,7 +17292,7 @@
 			(pinfunction "16")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "a286c505-bf08-47de-b3cd-4a28724175df")
 		)
 		(pad "17" smd roundrect
@@ -17291,7 +17304,7 @@
 			(pinfunction "17")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "eb3284de-b5cd-4190-aad6-d888b0eaf5ac")
 		)
 		(pad "18" smd roundrect
@@ -17303,7 +17316,7 @@
 			(pinfunction "18")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "edb7cd5a-d73a-46ac-9412-07326c2f7ed9")
 		)
 		(pad "19" smd roundrect
@@ -17315,7 +17328,7 @@
 			(pinfunction "19")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "4cb30f33-95ee-4580-84e5-8d77e8707d85")
 		)
 		(pad "20" smd roundrect
@@ -17327,7 +17340,7 @@
 			(pinfunction "20")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "dd333a5d-badd-48a5-b413-2140b66f4b1c")
 		)
 		(pad "21" smd roundrect
@@ -17339,7 +17352,7 @@
 			(pinfunction "21")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "4b9d45df-1c12-43f0-b153-63d8b16ebd3f")
 		)
 		(pad "22" smd roundrect
@@ -17351,7 +17364,7 @@
 			(pinfunction "22")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "bf339d2b-0da6-4dcd-a21a-271db4e86ec0")
 		)
 		(pad "23" smd roundrect
@@ -17363,7 +17376,7 @@
 			(pinfunction "23")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "7ced36c3-0571-4692-bdfd-8baf943dacde")
 		)
 		(pad "24" smd roundrect
@@ -17375,7 +17388,7 @@
 			(pinfunction "24")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "66757c4e-fb07-4918-9e35-d96327db176c")
 		)
 		(pad "25" smd roundrect
@@ -17387,7 +17400,7 @@
 			(pinfunction "25")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "b228cda9-e262-4872-89db-79e9a19d5dcc")
 		)
 		(pad "26" smd roundrect
@@ -17399,7 +17412,7 @@
 			(pinfunction "26")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "4e4fe902-cfb8-4cef-9cc8-03edfb719026")
 		)
 		(pad "27" smd roundrect
@@ -17411,7 +17424,7 @@
 			(pinfunction "27")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "103da7dd-3710-4896-84a1-44b80acc633e")
 		)
 		(pad "28" smd roundrect
@@ -17423,7 +17436,7 @@
 			(pinfunction "28")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "07f0d794-a625-4681-a695-1f4a45e2f5a5")
 		)
 		(pad "29" smd roundrect
@@ -17435,7 +17448,7 @@
 			(pinfunction "29")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "2d99b052-ba97-450b-a60e-64ab10caa318")
 		)
 		(pad "30" smd roundrect
@@ -17447,7 +17460,7 @@
 			(pinfunction "30")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "fad88ae8-84e0-445a-868e-2c1b24c73b7f")
 		)
 		(pad "31" smd roundrect
@@ -17459,7 +17472,7 @@
 			(pinfunction "31")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "a0646918-44e9-402d-9009-dcb4939c9bb6")
 		)
 		(pad "32" smd roundrect
@@ -17471,7 +17484,7 @@
 			(pinfunction "32")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "59bb4c26-4a2d-4dad-aec4-e4340a5dc6dc")
 		)
 		(pad "33" smd roundrect
@@ -17483,7 +17496,7 @@
 			(pinfunction "33")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "5f06f5db-ecf7-4adc-b137-cd49b408ed54")
 		)
 		(pad "34" smd roundrect
@@ -17495,7 +17508,7 @@
 			(pinfunction "34")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "930ac593-b84a-48cf-ac3b-71a7f38c21b5")
 		)
 		(pad "35" smd roundrect
@@ -17507,7 +17520,7 @@
 			(pinfunction "35")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "7cca9b87-cae8-48c7-9685-e5d182c22c6c")
 		)
 		(pad "36" smd roundrect
@@ -17519,7 +17532,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "4f7614ad-867a-4c16-be7e-74e44206cb02")
 		)
 		(pad "37" smd roundrect
@@ -17531,7 +17544,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "25723f3a-9965-4da1-9d6c-e53cbc696730")
 		)
 		(pad "38" smd roundrect
@@ -17543,7 +17556,7 @@
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "8423d68e-8092-4c49-beb4-a9a1011705f3")
 		)
 		(pad "39" smd roundrect
@@ -17555,7 +17568,7 @@
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "679737d7-e67e-4489-ad6f-f6f2d549ac3d")
 		)
 		(pad "40" smd roundrect
@@ -17567,7 +17580,7 @@
 			(pinfunction "5")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "6731af90-4435-439f-8a3b-43425dfb35da")
 		)
 		(pad "41" smd roundrect
@@ -17579,7 +17592,7 @@
 			(pinfunction "6")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "5524e640-36a6-4d26-9720-eb35b17895e9")
 		)
 		(pad "42" smd roundrect
@@ -17591,7 +17604,7 @@
 			(pinfunction "7")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "fa84aab9-3f29-4021-9772-5bfd9fd33106")
 		)
 		(pad "43" smd roundrect
@@ -17603,7 +17616,7 @@
 			(pinfunction "8")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "947926de-0ca3-4885-9a42-312cefdc00c0")
 		)
 		(pad "44" smd roundrect
@@ -17615,7 +17628,7 @@
 			(pinfunction "9")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "25d66e10-9742-409e-ad7e-732e58240083")
 		)
 		(pad "45" smd roundrect
@@ -17627,7 +17640,7 @@
 			(pinfunction "10")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "9da45f97-1303-4360-855f-b999228579c0")
 		)
 		(pad "46" smd roundrect
@@ -17639,7 +17652,7 @@
 			(pinfunction "11")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "8936c9dd-404e-4eca-97f3-a201cf3e7084")
 		)
 		(pad "47" smd roundrect
@@ -17651,7 +17664,7 @@
 			(pinfunction "12")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "e4faca69-340d-4035-a4f8-98ed7af31475")
 		)
 		(pad "48" smd roundrect
@@ -17663,7 +17676,7 @@
 			(pinfunction "13")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "eb77b6e7-b0e3-460b-953e-adfc75ec9b49")
 		)
 		(pad "49" smd roundrect
@@ -17675,7 +17688,7 @@
 			(pinfunction "14")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "34435587-3607-45be-bb28-88be355dbc84")
 		)
 		(pad "50" smd roundrect
@@ -17687,7 +17700,7 @@
 			(pinfunction "15")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "0b03402b-ecb2-478e-83b9-4dc22deb0385")
 		)
 		(pad "51" smd roundrect
@@ -17699,7 +17712,7 @@
 			(pinfunction "16")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "36c0723d-5d6d-4523-b1c2-01e3e46098de")
 		)
 		(pad "52" smd roundrect
@@ -17711,7 +17724,7 @@
 			(pinfunction "17")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "c290babd-e6bf-4767-8639-4ee7b3dbf4d3")
 		)
 		(pad "53" smd roundrect
@@ -17723,7 +17736,7 @@
 			(pinfunction "18")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "e703e7c3-84a4-4b87-a113-22ce7c020331")
 		)
 		(pad "54" smd roundrect
@@ -17735,7 +17748,7 @@
 			(pinfunction "19")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "e64b4b55-3d03-4553-a293-da97deb28c25")
 		)
 		(pad "55" smd roundrect
@@ -17747,7 +17760,7 @@
 			(pinfunction "20")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "bc2e89d4-65fd-4066-ae52-cb2e6d4722ee")
 		)
 		(pad "56" smd roundrect
@@ -17759,7 +17772,7 @@
 			(pinfunction "21")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "64add3fb-1363-448c-9d9f-5dc500ef9a4b")
 		)
 		(pad "57" smd roundrect
@@ -17771,7 +17784,7 @@
 			(pinfunction "22")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "4e0aacfa-518d-4af2-97df-d993d0219148")
 		)
 		(pad "58" smd roundrect
@@ -17783,7 +17796,7 @@
 			(pinfunction "23")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "4c3ca228-67fa-4794-83af-d3f79b732192")
 		)
 		(pad "59" smd roundrect
@@ -17795,7 +17808,7 @@
 			(pinfunction "24")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "f821a19c-11b2-44cc-a833-3d039670ab3b")
 		)
 		(pad "60" smd roundrect
@@ -17807,7 +17820,7 @@
 			(pinfunction "25")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "91e30cf4-b92d-4943-9507-45b70b99f73f")
 		)
 		(pad "61" smd roundrect
@@ -17819,7 +17832,7 @@
 			(pinfunction "26")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "4499d37f-1c84-4f01-9ae6-cccb9f5776ee")
 		)
 		(pad "62" smd roundrect
@@ -17831,7 +17844,7 @@
 			(pinfunction "27")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "e4a9fe28-8ba2-4cd2-af66-df5123783063")
 		)
 		(pad "63" smd roundrect
@@ -17843,7 +17856,7 @@
 			(pinfunction "28")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "96067300-d826-4d57-98a3-fe1ec0bf3aae")
 		)
 		(pad "64" smd roundrect
@@ -17855,7 +17868,7 @@
 			(pinfunction "29")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "57faf20a-c5f0-4011-ba1b-54b7b34942ac")
 		)
 		(pad "65" smd roundrect
@@ -17867,7 +17880,7 @@
 			(pinfunction "30")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "67728a94-f8db-40b9-8462-041a4c3586af")
 		)
 		(pad "66" smd roundrect
@@ -17879,7 +17892,7 @@
 			(pinfunction "31")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "ee215877-5cf4-4827-8596-e02d9aba02ef")
 		)
 		(pad "67" smd roundrect
@@ -17891,7 +17904,7 @@
 			(pinfunction "32")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "62d8f813-b98e-476d-a755-3fdefda81066")
 		)
 		(pad "68" smd roundrect
@@ -17903,7 +17916,7 @@
 			(pinfunction "33")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "f1fcc9ca-b42c-4e35-93b6-05cf348b3eec")
 		)
 		(pad "69" smd roundrect
@@ -17915,7 +17928,7 @@
 			(pinfunction "34")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "1af54fe0-df43-4cf3-b29b-6b05a02c39c2")
 		)
 		(pad "70" smd roundrect
@@ -17927,7 +17940,7 @@
 			(pinfunction "35")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "89ee02ef-64f9-4a34-b639-f95ab430aa4f")
 		)
 		(pad "71" smd roundrect
@@ -17939,7 +17952,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "9769df14-784a-450b-a893-e257c821936b")
 		)
 		(pad "72" smd roundrect
@@ -17951,7 +17964,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "4861747e-f6ae-4c8f-b3fc-7c0216cac6af")
 		)
 		(pad "73" smd roundrect
@@ -17963,7 +17976,7 @@
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "c0916313-e50c-4780-8ff1-a23d7a33210f")
 		)
 		(pad "74" smd roundrect
@@ -17975,7 +17988,7 @@
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "e34ffe21-e95c-4215-b960-87e3736405ff")
 		)
 		(pad "75" smd roundrect
@@ -17987,7 +18000,7 @@
 			(pinfunction "5")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "88be9155-4205-4397-a05c-322ec54e9c6e")
 		)
 		(pad "76" smd roundrect
@@ -17999,7 +18012,7 @@
 			(pinfunction "6")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "1432c233-d3ff-466e-88f2-648ee1c64ca7")
 		)
 		(pad "77" smd roundrect
@@ -18011,7 +18024,7 @@
 			(pinfunction "7")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "61d426cc-457e-46f1-8a18-9b5be939a751")
 		)
 		(pad "78" smd roundrect
@@ -18023,7 +18036,7 @@
 			(pinfunction "8")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "8d3e3af3-6398-421d-baec-bd1c50f5be3b")
 		)
 		(pad "79" smd roundrect
@@ -18035,7 +18048,7 @@
 			(pinfunction "9")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "a217a16e-5712-4989-b9aa-92b9c56207dc")
 		)
 		(pad "80" smd roundrect
@@ -18047,7 +18060,7 @@
 			(pinfunction "10")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "0cba00c8-6e4c-44e3-971a-3c0d16542d64")
 		)
 		(pad "81" smd roundrect
@@ -18059,7 +18072,7 @@
 			(pinfunction "11")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "0aac444e-57f0-4be6-b49f-322ef965b28c")
 		)
 		(pad "82" smd roundrect
@@ -18071,7 +18084,7 @@
 			(pinfunction "12")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "2c8f97bd-3dd4-43ed-8c23-38e08c41c8cd")
 		)
 		(pad "83" smd roundrect
@@ -18083,7 +18096,7 @@
 			(pinfunction "13")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "308bcbf2-fa80-452d-b426-6ee97484b06f")
 		)
 		(pad "84" smd roundrect
@@ -18095,7 +18108,7 @@
 			(pinfunction "14")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "74049d80-3b84-4ca7-871e-9fecc4482f43")
 		)
 		(pad "85" smd roundrect
@@ -18107,7 +18120,7 @@
 			(pinfunction "15")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "18234399-c15c-43ed-861d-aaeccd3c576b")
 		)
 		(pad "86" smd roundrect
@@ -18119,7 +18132,7 @@
 			(pinfunction "16")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "7f36e914-9b23-4b8a-b456-ed6671c2a9ba")
 		)
 		(pad "87" smd roundrect
@@ -18131,7 +18144,7 @@
 			(pinfunction "17")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "66b7736f-d267-445e-8a0b-3d22291c4b02")
 		)
 		(pad "88" smd roundrect
@@ -18143,7 +18156,7 @@
 			(pinfunction "18")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "bb1eeb44-0354-41ee-bf8f-b57e7adca03c")
 		)
 		(pad "89" smd roundrect
@@ -18155,7 +18168,7 @@
 			(pinfunction "19")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "7519f62c-d04d-4ea3-8a4b-6473b59aabbd")
 		)
 		(pad "90" smd roundrect
@@ -18167,7 +18180,7 @@
 			(pinfunction "20")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "54cdfcfe-4ffb-4af2-b03a-c98f3d16761f")
 		)
 		(pad "91" smd roundrect
@@ -18179,7 +18192,7 @@
 			(pinfunction "21")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "5a805133-9539-4619-8da5-5c534f182343")
 		)
 		(pad "92" smd roundrect
@@ -18191,7 +18204,7 @@
 			(pinfunction "22")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "a0ff7771-9748-4d8b-827b-9efb18401f3d")
 		)
 		(pad "93" smd roundrect
@@ -18203,7 +18216,7 @@
 			(pinfunction "23")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "194a3df5-ca8d-4af2-b8f3-20af359295cf")
 		)
 		(pad "94" smd roundrect
@@ -18215,7 +18228,7 @@
 			(pinfunction "24")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "c1cbc122-294c-4a34-872a-2d1cd98392fb")
 		)
 		(pad "95" smd roundrect
@@ -18227,7 +18240,7 @@
 			(pinfunction "25")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "ade60b51-d058-4853-9071-0652ce50e085")
 		)
 		(pad "96" smd roundrect
@@ -18239,7 +18252,7 @@
 			(pinfunction "26")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "1c60e57a-4247-43f9-818f-6daef86ae0ac")
 		)
 		(pad "97" smd roundrect
@@ -18251,7 +18264,7 @@
 			(pinfunction "27")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "cce5f93c-ba1d-4d47-8cda-b308a2632eaf")
 		)
 		(pad "98" smd roundrect
@@ -18263,7 +18276,7 @@
 			(pinfunction "28")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "fb30c30a-ab5d-4a48-9bfe-e2911eb14347")
 		)
 		(pad "99" smd roundrect
@@ -18275,7 +18288,7 @@
 			(pinfunction "29")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "3577feba-2401-4791-aa6f-2b42189561a9")
 		)
 		(pad "100" smd roundrect
@@ -18287,7 +18300,7 @@
 			(pinfunction "30")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "8eed522d-161b-4b22-a0e8-fa3976f4d94a")
 		)
 		(pad "101" smd roundrect
@@ -18299,7 +18312,7 @@
 			(pinfunction "31")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "585aa553-34aa-4070-be6a-62b4f2f748d4")
 		)
 		(pad "102" smd roundrect
@@ -18311,7 +18324,7 @@
 			(pinfunction "32")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "ea787188-e0c9-48fe-a22d-8ab008b0f8a9")
 		)
 		(pad "103" smd roundrect
@@ -18323,7 +18336,7 @@
 			(pinfunction "33")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "9755556a-2836-4b8e-80da-0d22a17bc56a")
 		)
 		(pad "104" smd roundrect
@@ -18335,7 +18348,7 @@
 			(pinfunction "34")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "b7ae5480-3875-4d60-9e22-2c1d3ff94658")
 		)
 		(pad "105" smd roundrect
@@ -18347,7 +18360,7 @@
 			(pinfunction "35")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "e808e545-8b75-462d-b332-6cf311abd9ef")
 		)
 		(pad "106" smd roundrect
@@ -18359,7 +18372,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "3db2f268-f5f2-4918-bdad-19d78ce7c339")
 		)
 		(pad "107" smd roundrect
@@ -18371,7 +18384,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "d8a2d8ab-0101-4b75-bc5e-2ab573ffd603")
 		)
 		(pad "108" smd roundrect
@@ -18383,7 +18396,7 @@
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "f1f08a97-a1e3-4032-9a6f-93bfad068cee")
 		)
 		(pad "109" smd roundrect
@@ -18395,7 +18408,7 @@
 			(pinfunction "4")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "7c7fcb69-2dc9-4096-b6ed-8e39a4326b46")
 		)
 		(pad "110" smd roundrect
@@ -18407,7 +18420,7 @@
 			(pinfunction "5")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "25c00990-43a1-439e-8db6-f5c9c680ce1c")
 		)
 		(pad "111" smd roundrect
@@ -18419,7 +18432,7 @@
 			(pinfunction "6")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "7a5e89ec-988c-4820-8d46-687c063238d4")
 		)
 		(pad "112" smd roundrect
@@ -18431,7 +18444,7 @@
 			(pinfunction "7")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "ce00d1fc-6dc6-47e3-b5d5-c403cc7f38fe")
 		)
 		(pad "113" smd roundrect
@@ -18443,7 +18456,7 @@
 			(pinfunction "8")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "bd3e9385-abcf-401c-908e-ba7bddce7d8a")
 		)
 		(pad "114" smd roundrect
@@ -18455,7 +18468,7 @@
 			(pinfunction "9")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "8dd487cf-ea22-49a5-a225-459da6573d73")
 		)
 		(pad "115" smd roundrect
@@ -18467,7 +18480,7 @@
 			(pinfunction "10")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "8bc21410-aed3-4800-97e5-a405c337baa7")
 		)
 		(pad "116" smd roundrect
@@ -18479,7 +18492,7 @@
 			(pinfunction "11")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "bc63f428-2143-439b-9fd4-c100f765219e")
 		)
 		(pad "117" smd roundrect
@@ -18491,7 +18504,7 @@
 			(pinfunction "12")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "7a8ae03e-220e-44c7-aaea-734af6e6d52d")
 		)
 		(pad "118" smd roundrect
@@ -18503,7 +18516,7 @@
 			(pinfunction "13")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "1724c85b-8fda-47ec-b3ef-6a5ad0b595bc")
 		)
 		(pad "119" smd roundrect
@@ -18515,7 +18528,7 @@
 			(pinfunction "14")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "1f58f28a-d8b7-4917-a6ff-83cf2aad4640")
 		)
 		(pad "120" smd roundrect
@@ -18527,7 +18540,7 @@
 			(pinfunction "15")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "1c80e6bc-ccae-418f-83c1-eeb29ed7cbb8")
 		)
 		(pad "121" smd roundrect
@@ -18539,7 +18552,7 @@
 			(pinfunction "16")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "3444a3be-117d-40aa-a76b-3a3cce407b95")
 		)
 		(pad "122" smd roundrect
@@ -18551,7 +18564,7 @@
 			(pinfunction "17")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "a5bdfcbf-06ce-4035-8c73-0b4d8d78fa70")
 		)
 		(pad "123" smd roundrect
@@ -18563,7 +18576,7 @@
 			(pinfunction "18")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "4401a199-3963-44a6-9786-7c806943a30f")
 		)
 		(pad "124" smd roundrect
@@ -18575,7 +18588,7 @@
 			(pinfunction "19")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "9d50a06a-36a7-4fd3-bb66-98384796203b")
 		)
 		(pad "125" smd roundrect
@@ -18587,7 +18600,7 @@
 			(pinfunction "20")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "68f57fdc-596b-4728-8ec0-4182b708355d")
 		)
 		(pad "126" smd roundrect
@@ -18599,7 +18612,7 @@
 			(pinfunction "21")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "da999820-aee0-44c6-83c9-084da9bcdce6")
 		)
 		(pad "127" smd roundrect
@@ -18611,7 +18624,7 @@
 			(pinfunction "22")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "e09f98df-dbe4-45d9-a028-49e9d1d7b902")
 		)
 		(pad "128" smd roundrect
@@ -18623,7 +18636,7 @@
 			(pinfunction "23")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "30b03fe8-1260-48dc-9461-5d09e41cf2f4")
 		)
 		(pad "129" smd roundrect
@@ -18635,7 +18648,7 @@
 			(pinfunction "24")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "cc7f635a-7e93-4d28-a12b-31373b7e69c4")
 		)
 		(pad "130" smd roundrect
@@ -18647,7 +18660,7 @@
 			(pinfunction "25")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "e8b1f53f-1c86-494e-b5da-d4614a1095c1")
 		)
 		(pad "131" smd roundrect
@@ -18659,7 +18672,7 @@
 			(pinfunction "26")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "508a6d2e-9e0b-4bcc-87a1-8833be07741c")
 		)
 		(pad "132" smd roundrect
@@ -18671,7 +18684,7 @@
 			(pinfunction "27")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "7ba82778-dd3a-4eae-a7fd-aadbfdc6ebb2")
 		)
 		(pad "133" smd roundrect
@@ -18683,7 +18696,7 @@
 			(pinfunction "28")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "5c8fdf45-7b1a-48d7-8462-22c0574da0ec")
 		)
 		(pad "134" smd roundrect
@@ -18695,7 +18708,7 @@
 			(pinfunction "29")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "3fc82b05-f710-4f1d-ad83-66cdaa4c47d4")
 		)
 		(pad "135" smd roundrect
@@ -18707,7 +18720,7 @@
 			(pinfunction "30")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "2c2a0b8f-b23c-4c17-af0b-47b95874f36d")
 		)
 		(pad "136" smd roundrect
@@ -18719,7 +18732,7 @@
 			(pinfunction "31")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "ee84dbfc-eb31-4bd9-8fa0-6d8798b4c8e9")
 		)
 		(pad "137" smd roundrect
@@ -18731,7 +18744,7 @@
 			(pinfunction "32")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "d00e02cf-923b-4f7d-88b4-3c8f7eea4094")
 		)
 		(pad "138" smd roundrect
@@ -18743,7 +18756,7 @@
 			(pinfunction "33")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "1accd1de-a9ec-4e3b-a180-1882eb86b2b5")
 		)
 		(pad "139" smd roundrect
@@ -18755,7 +18768,7 @@
 			(pinfunction "34")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "c304c475-5492-482c-8160-c2264d01af2a")
 		)
 		(pad "140" smd roundrect
@@ -18767,7 +18780,7 @@
 			(pinfunction "35")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "dc970282-6116-442f-90cf-7e45ec1f8b3d")
 		)
 		(pad "G1" smd roundrect
@@ -18779,7 +18792,7 @@
 			(pinfunction "GND_PAD1")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "7e098df5-30da-4bde-a487-5175ab3609ea")
 		)
 		(pad "G2" smd roundrect
@@ -18791,7 +18804,7 @@
 			(pinfunction "GND_PAD2")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "bb19df3b-70b0-41c4-a597-df814f56a75e")
 		)
 		(pad "G3" smd roundrect
@@ -18803,7 +18816,7 @@
 			(pinfunction "GND_PAD3")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "c213f9f2-ffd3-43f0-a65d-13370fa8f085")
 		)
 		(pad "G4" smd roundrect
@@ -18815,7 +18828,7 @@
 			(pinfunction "GND_PAD4")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "8676a3f4-4d38-411f-9df0-c85ed0e5bffc")
 		)
 		(pad "G5" smd roundrect
@@ -18827,7 +18840,7 @@
 			(pinfunction "GND_PAD5")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "9c9983e6-d4aa-4e26-bc2a-ea8e2d20d89a")
 		)
 		(pad "G6" smd roundrect
@@ -18839,7 +18852,7 @@
 			(pinfunction "GND_PAD6")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "a06cd642-3ef0-4bf4-8cd0-c12fac8da580")
 		)
 		(pad "G7" smd roundrect
@@ -18851,7 +18864,7 @@
 			(pinfunction "GND_PAD7")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "429d6451-8bb4-4d84-bcee-0cf9d878234b")
 		)
 		(pad "G8" smd roundrect
@@ -18863,7 +18876,7 @@
 			(pinfunction "GND_PAD8")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "9d7a636b-4ceb-40ec-9258-6365e83ca407")
 		)
 		(pad "G9" smd roundrect
@@ -18875,7 +18888,7 @@
 			(pinfunction "GND_PAD9")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "8fb5bbf6-45f3-4f9d-a0a3-2f4b0a8b0213")
 		)
 		(pad "G10" smd roundrect
@@ -18887,7 +18900,7 @@
 			(pinfunction "GND_PAD10")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "cf02e03d-6493-428e-970e-088da8a54fdb")
 		)
 		(pad "G11" smd roundrect
@@ -18899,7 +18912,7 @@
 			(pinfunction "GND_PAD11")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "ee5bdf60-cc86-4b61-9e20-411930b3bbf7")
 		)
 		(pad "G12" smd roundrect
@@ -18911,7 +18924,7 @@
 			(pinfunction "GND_PAD12")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "23b5ecbf-555f-4935-93b7-811282bad371")
 		)
 		(pad "G13" smd roundrect
@@ -18923,7 +18936,7 @@
 			(pinfunction "GND_PAD13")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "d6b025a8-977f-4b97-8c8b-ed661b4fb498")
 		)
 		(pad "G14" smd roundrect
@@ -18935,7 +18948,7 @@
 			(pinfunction "GND_PAD14")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "bd17b41f-6d70-4847-afa0-11665b552284")
 		)
 		(pad "G15" smd roundrect
@@ -18947,7 +18960,7 @@
 			(pinfunction "GND_PAD15")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "80c36286-fbb9-4650-bd33-22f8c5ef3a88")
 		)
 		(pad "G16" smd roundrect
@@ -18959,7 +18972,7 @@
 			(pinfunction "GND_PAD16")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "5203ad24-47a8-4426-a27a-43859e9a3061")
 		)
 		(pad "G17" smd roundrect
@@ -18971,7 +18984,7 @@
 			(pinfunction "GND_PAD17")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "65c436bd-d1d9-4d64-9d90-f85121df96ff")
 		)
 		(pad "G18" smd roundrect
@@ -18983,7 +18996,7 @@
 			(pinfunction "GND_PAD18")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "26ea32c6-91b6-4ba6-8162-8b891f4331c0")
 		)
 		(pad "G19" smd roundrect
@@ -18995,7 +19008,7 @@
 			(pinfunction "GND_PAD19")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "756c128e-9f33-44c2-8741-5eedf1642b94")
 		)
 		(pad "G20" smd roundrect
@@ -19007,7 +19020,7 @@
 			(pinfunction "GND_PAD20")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "9fd26456-f3bb-49d9-ac07-4da7878aca6f")
 		)
 		(pad "G21" smd roundrect
@@ -19019,7 +19032,7 @@
 			(pinfunction "GND_PAD21")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "edc7cb50-46dd-43f4-8d66-5cbadaf85cfe")
 		)
 		(pad "G22" smd roundrect
@@ -19031,7 +19044,7 @@
 			(pinfunction "GND_PAD22")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "fd2d33f3-857b-4e2f-9295-fbee256d73c5")
 		)
 		(pad "G23" smd roundrect
@@ -19043,7 +19056,7 @@
 			(pinfunction "GND_PAD23")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "8e1e54ef-da60-40fe-92d0-3d9e21535ffd")
 		)
 		(pad "G24" smd roundrect
@@ -19055,7 +19068,7 @@
 			(pinfunction "GND_PAD24")
 			(pintype "passive")
 			(solder_mask_margin 0)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "3c7e88dd-57d5-40cb-8399-3a3e085fda19")
 		)
 		(pad "G25" smd roundrect
@@ -19067,7 +19080,7 @@
 			(pinfunction "GND_PAD25")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "c5eeeb5b-eb31-496c-a6cb-cd95de96e436")
 		)
 		(pad "G26" smd roundrect
@@ -19079,7 +19092,7 @@
 			(pinfunction "GND_PAD26")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "12a890b0-5896-4d56-898b-7ccd4003ea30")
 		)
 		(pad "G27" smd roundrect
@@ -19091,7 +19104,7 @@
 			(pinfunction "GND_PAD27")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "b35c05b4-ffa4-4d29-a58b-5d8b272e5b1a")
 		)
 		(pad "G28" smd roundrect
@@ -19103,7 +19116,7 @@
 			(pinfunction "GND_PAD28")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
-			(solder_paste_margin -2147.48364)
+			(solder_paste_margin -2147.483637)
 			(uuid "6883fd76-1b21-42bd-9c0f-ff7b26012157")
 		)
 		(embedded_fonts no)
@@ -19664,6 +19677,205 @@
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
+		(uuid "bd352b7d-476d-461a-864c-51d34df66a58")
+		(at 127.725 144.99)
+		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor")
+		(property "Reference" "C12"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "66b5837b-3423-4b05-b8ee-f17abd839e97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "c9cbe1b1-d299-4702-a28d-19327e6f244b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cb4ec12-b5a9-465a-a524-d4f45127b207")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57f4186d-84d3-4036-930f-1b7d055b4259")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/0428cd2d-ab79-4e92-92f4-64d15fb42a7a")
+		(sheetname "/")
+		(sheetfile "pulsephone_main_board.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "08f291b1-c4ce-4586-aad4-c4ab3b7969b4")
+		)
+		(fp_line
+			(start -0.14058 0.51)
+			(end 0.14058 0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "883894c5-ed65-48a9-aeac-22b652b37d46")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a60deef1-741f-4f1f-8b94-673cd37076c7")
+		)
+		(fp_line
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f56d8276-06e8-4fa4-9933-6aef9c9d5d70")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1a31e20f-e70e-4f57-b1a7-47f160d51a8a")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b058bcf1-edfc-40ee-8e60-c15b9cc26a4d")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fc4b83f3-7370-4b40-a157-720a893a24f9")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4c8a92b5-b254-4188-88e2-6a79b9bb079d")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "144e06ce-d4d5-415f-8fb7-82a63a075385")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a07c4d61-56b1-41bc-848e-d38946fb1764")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b40f781a-1a57-49b0-a04b-3fa603070069")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.775 0)
+			(size 0.9 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 3 "GND")
+			(pintype "passive")
+			(uuid "3aa91727-45bf-4e66-b168-fbc2961dffc3")
+		)
+		(pad "2" smd roundrect
+			(at 0.775 0)
+			(size 0.9 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 222 "Net-(U5-CE)")
+			(pintype "passive")
+			(uuid "5edb20e1-16f9-4b19-ac79-1f4d18d6bcb0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0603_1608Metric"
+		(layer "F.Cu")
 		(uuid "c1dc898a-b868-492e-afff-e2b44db500c7")
 		(at 134 140)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -20049,6 +20261,1179 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0603_1608Metric"
+		(layer "F.Cu")
+		(uuid "c5b5bec0-b8de-4250-b231-43f4cc10d8c5")
+		(at 127.725 147.5)
+		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor")
+		(property "Reference" "C13"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "3e8fef0a-e4e0-45d6-956d-ef5afc357665")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "1a502522-50b0-48d4-b3ec-28f986ac76cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc7df22e-7d2c-4a28-8080-7aeeb983b0d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb38a853-a035-4986-a9c4-8e9188ce625a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/4d2e6b7e-ac37-47ad-ac75-042b5693af6d")
+		(sheetname "/")
+		(sheetfile "pulsephone_main_board.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b844ec46-c6e2-4233-b7df-37a85933e209")
+		)
+		(fp_line
+			(start -0.14058 0.51)
+			(end 0.14058 0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3512ebf0-1970-4ac8-b113-5f451b7ddbf6")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e6808d84-d9df-438e-a967-04cfb89f6f5f")
+		)
+		(fp_line
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1ff7ded9-b834-4796-9515-469dab22e493")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4a0e501f-7d59-4a21-83e8-842fc01f549f")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6840af28-5a66-473d-9e96-688668d208cb")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d6e71ce0-06d5-4da3-a899-880c8a80cf68")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fea2eac9-ca9b-492f-9923-ce2eb677d48e")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1000c9de-8875-4d3b-8e78-4611b99ed309")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "028dbf19-c2fe-4954-9ce4-d0ef4d7f9311")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7a932c41-5307-40f1-8d40-d395aaf79115")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.775 0)
+			(size 0.9 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 3 "GND")
+			(pintype "passive")
+			(uuid "ac480330-de75-4906-91ab-5dea231948b5")
+		)
+		(pad "2" smd roundrect
+			(at 0.775 0)
+			(size 0.9 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 5 "+3.7VBAT")
+			(pintype "passive")
+			(uuid "e7e76789-7c59-417b-9344-67ae23f681b1")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A"
+		(layer "F.Cu")
+		(uuid "e5ebae7c-1212-47de-be7b-e6f9a2336041")
+		(at 138.4 150.11)
+		(descr "USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A")
+		(tags "USB C Type-C Receptacle Hybrid")
+		(property "Reference" "J1"
+			(at 18.1 -4.32 0)
+			(layer "F.SilkS")
+			(uuid "ddec8345-4084-4e3f-9665-c30018264302")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(at 0 6.14 0)
+			(layer "F.Fab")
+			(uuid "22bdce30-8ac5-46eb-b000-a802dedd5e29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50c7f458-03ac-487a-b9fd-e7fe99045f0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "348875f0-5855-4fe4-8771-3f2ba94fae1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "USB*C*Receptacle*")
+		(path "/d4cde6b5-95d2-4fbe-8f43-67cc01bbc2bf")
+		(sheetname "/")
+		(sheetfile "pulsephone_main_board.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -4.75 -5.37)
+			(end -4.75 1.89)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "36019c30-38e0-49dd-995b-0b65df65b144")
+		)
+		(fp_line
+			(start -4.75 -5.37)
+			(end -3.25 -5.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "271c7adf-2ad7-4777-8f7c-aea203851b0f")
+		)
+		(fp_line
+			(start 3.25 -5.37)
+			(end 4.75 -5.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9165238b-1c1e-4ba5-82c0-11c4f507c928")
+		)
+		(fp_line
+			(start 4.75 -5.37)
+			(end 4.75 1.89)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5217d761-130b-45d0-98ae-901cb745d937")
+		)
+		(fp_line
+			(start -5.39 -5.87)
+			(end 5.39 -5.87)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "88e55651-0854-4ca6-9781-446e58c57936")
+		)
+		(fp_line
+			(start -5.39 5.73)
+			(end -5.39 -5.87)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a89ff320-5826-4e2a-9fa6-fc597ce5cf86")
+		)
+		(fp_line
+			(start 5.39 -5.87)
+			(end 5.39 5.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "861a018e-f439-4cd9-bf69-abd749307256")
+		)
+		(fp_line
+			(start 5.39 5.73)
+			(end -5.39 5.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5b4c9b36-a60c-4570-9bf4-2a3804e6a3e8")
+		)
+		(fp_line
+			(start -4.6 -5.22)
+			(end 4.6 -5.22)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9a915ec3-3818-42d7-b2a3-01a4e5a1e258")
+		)
+		(fp_line
+			(start -4.6 5.23)
+			(end -4.6 -5.22)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "de3c6787-83e3-468c-a13e-232c8d0c27c4")
+		)
+		(fp_line
+			(start -4.6 5.23)
+			(end 4.6 5.23)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3e7eefa6-4523-44c9-8bb8-09586f1f4f0b")
+		)
+		(fp_line
+			(start 4.6 5.23)
+			(end 4.6 -5.22)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "19586265-909a-49f8-af62-914b12d46dfa")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0214be32-d503-474e-b073-d9cf9757df15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -3.6 -4.36)
+			(size 0.65 0.65)
+			(drill 0.65)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cd2a137d-f990-4ec6-8d7a-2f9ea36d3a0a")
+		)
+		(pad "" np_thru_hole oval
+			(at 3.6 -4.36)
+			(size 0.95 0.65)
+			(drill oval 0.95 0.65)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5e7f1bef-b374-4235-8fed-6a56ccd61a04")
+		)
+		(pad "A1" smd rect
+			(at -2.75 -5.02)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 3 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "96233cf8-8c7b-4384-83e6-5586bd371139")
+		)
+		(pad "A2" smd rect
+			(at -2.25 -5.02)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "3f4d508f-2fd1-44d7-a99d-b55a774b45a2")
+		)
+		(pad "A3" smd rect
+			(at -1.75 -5.02)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "659ffc22-a4b6-4ed2-99b3-02ebe9349e68")
+		)
+		(pad "A4" smd rect
+			(at -1.25 -5.02)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 222 "Net-(U5-CE)")
+			(pinfunction "VBUS")
+			(pintype "passive")
+			(uuid "e8228a63-c0f2-4e21-b91c-2fb720cbe40e")
+		)
+		(pad "A5" smd rect
+			(at -0.75 -5.02)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 228 "unconnected-(J1-CC1-PadA5)")
+			(pinfunction "CC1")
+			(pintype "bidirectional")
+			(uuid "bcd99a71-9715-41dd-8520-11a0257e7baa")
+		)
+		(pad "A6" smd rect
+			(at -0.25 -5.02)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 229 "unconnected-(J1-D+-PadA6)")
+			(pinfunction "D+")
+			(pintype "bidirectional")
+			(uuid "cc2d05a0-f5b0-4b09-9c77-7ded673f5969")
+		)
+		(pad "A7" smd rect
+			(at 0.25 -5.02)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 224 "unconnected-(J1-D--PadA7)")
+			(pinfunction "D-")
+			(pintype "bidirectional")
+			(uuid "5f61b462-99e2-4189-8db9-67d8a97ec9d1")
+		)
+		(pad "A8" smd rect
+			(at 0.75 -5.02)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "6ffe06b8-ce29-4d35-8c93-cc572bb0ddf6")
+		)
+		(pad "A9" smd rect
+			(at 1.25 -5.02)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 222 "Net-(U5-CE)")
+			(pinfunction "VBUS")
+			(pintype "passive")
+			(uuid "4a4574d3-b74a-4126-ab66-2a808c155018")
+		)
+		(pad "A10" smd rect
+			(at 1.75 -5.02)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "093f3dc5-a680-4de0-b56f-2ac2ccf0df3f")
+		)
+		(pad "A11" smd rect
+			(at 2.25 -5.02)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "dc3072da-8a6e-457f-95df-17c49c6b6517")
+		)
+		(pad "A12" smd rect
+			(at 2.75 -5.02)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 3 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "677808db-e6a4-451b-92fd-e48b0df86095")
+		)
+		(pad "B1" thru_hole circle
+			(at 2.8 -3.71)
+			(size 0.65 0.65)
+			(drill 0.4)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "64546854-62fd-4bf6-9a6e-8843fe0adab4")
+		)
+		(pad "B2" thru_hole circle
+			(at 2.4 -3.01)
+			(size 0.65 0.65)
+			(drill 0.4)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "bcf6e059-872c-4ef5-8dba-0194e65cdce5")
+		)
+		(pad "B3" thru_hole circle
+			(at 1.6 -3.01)
+			(size 0.65 0.65)
+			(drill 0.4)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "74e9a1df-f029-4db9-bea6-24104f7dbe86")
+		)
+		(pad "B4" thru_hole circle
+			(at 1.2 -3.71)
+			(size 0.65 0.65)
+			(drill 0.4)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 222 "Net-(U5-CE)")
+			(pinfunction "VBUS")
+			(pintype "passive")
+			(uuid "9b664685-0ee8-44c9-a3bc-20b8a2502fd4")
+		)
+		(pad "B5" thru_hole circle
+			(at 0.8 -3.01)
+			(size 0.65 0.65)
+			(drill 0.4)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 227 "unconnected-(J1-CC2-PadB5)")
+			(pinfunction "CC2")
+			(pintype "bidirectional")
+			(uuid "a925672e-4ee6-4b53-9d8d-b73b39c57757")
+		)
+		(pad "B6" thru_hole circle
+			(at 0.4 -3.71)
+			(size 0.65 0.65)
+			(drill 0.4)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 226 "unconnected-(J1-D+-PadB6)")
+			(pinfunction "D+")
+			(pintype "bidirectional")
+			(uuid "7a98f44d-d098-42fa-9877-a80dce0ec1dd")
+		)
+		(pad "B7" thru_hole circle
+			(at -0.4 -3.71)
+			(size 0.65 0.65)
+			(drill 0.4)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 225 "unconnected-(J1-D--PadB7)")
+			(pinfunction "D-")
+			(pintype "bidirectional")
+			(uuid "653434d3-fd5b-4a85-b3de-b3dc5b79365a")
+		)
+		(pad "B8" thru_hole circle
+			(at -0.8 -3.01)
+			(size 0.65 0.65)
+			(drill 0.4)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "b1dbf604-fbb2-49a5-aac5-884577af8c8f")
+		)
+		(pad "B9" thru_hole circle
+			(at -1.2 -3.71)
+			(size 0.65 0.65)
+			(drill 0.4)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 222 "Net-(U5-CE)")
+			(pinfunction "VBUS")
+			(pintype "passive")
+			(uuid "313a949c-acb2-413e-b193-2a9b8355ec17")
+		)
+		(pad "B10" thru_hole circle
+			(at -1.6 -3.01)
+			(size 0.65 0.65)
+			(drill 0.4)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "37ad0fd9-d64b-4dbe-94af-2d9c69cb134c")
+		)
+		(pad "B11" thru_hole circle
+			(at -2.4 -3.01)
+			(size 0.65 0.65)
+			(drill 0.4)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "631b67f0-1cb6-4911-aa57-9d0f32afe633")
+		)
+		(pad "B12" thru_hole circle
+			(at -2.8 -3.71)
+			(size 0.65 0.65)
+			(drill 0.4)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "5ab6ad60-b8e2-4057-a3fb-365ffa4ab82e")
+		)
+		(pad "S1" thru_hole oval
+			(at -4.49 2.84)
+			(size 0.8 1.4)
+			(drill oval 0.5 1.1)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 223 "unconnected-(J1-SHIELD-PadS1)")
+			(pinfunction "SHIELD")
+			(pintype "passive")
+			(uuid "13550022-3bea-40f2-9dd7-3e78fedf5a90")
+		)
+		(pad "S1" thru_hole oval
+			(at -4.13 -3.11)
+			(size 0.8 1.4)
+			(drill oval 0.5 1.1)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 223 "unconnected-(J1-SHIELD-PadS1)")
+			(pinfunction "SHIELD")
+			(pintype "passive")
+			(uuid "c9bdcba7-6f9e-4297-9505-1453b471e6ab")
+		)
+		(pad "S1" thru_hole oval
+			(at 4.13 -3.11)
+			(size 0.8 1.4)
+			(drill oval 0.5 1.1)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 223 "unconnected-(J1-SHIELD-PadS1)")
+			(pinfunction "SHIELD")
+			(pintype "passive")
+			(uuid "115036bb-0679-4bc3-8a8d-b1e078167eea")
+		)
+		(pad "S1" thru_hole oval
+			(at 4.49 2.84)
+			(size 0.8 1.4)
+			(drill oval 0.5 1.1)
+			(property pad_prop_heatsink)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 223 "unconnected-(J1-SHIELD-PadS1)")
+			(pinfunction "SHIELD")
+			(pintype "passive")
+			(uuid "eebaacf5-f594-4115-b192-dc3e664aa723")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Amphenol_12401548E4-2A.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
+		(layer "F.Cu")
+		(uuid "eee2904c-49a8-4300-8d6c-fa92ccb77a7a")
+		(at 121.495 147.095)
+		(descr "SOIC, 8 Pin (http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx#page=8), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(tags "SOIC SO")
+		(property "Reference" "U5"
+			(at 0 -3.4 0)
+			(layer "F.SilkS")
+			(uuid "6890fb2c-e214-41ab-a760-f7c155aded91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP4056-42-ESOP8"
+			(at 0 3.4 0)
+			(layer "F.Fab")
+			(uuid "91a058e3-033c-492a-98ec-016cb90b6a47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7924a892-c543-4294-8ee7-fc37efddb263")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "831196e0-0f1d-42b9-b0a2-8bf185351938")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*SO*3.9x4.*P1.27mm*EP2.4*x3.3*mm*")
+		(path "/6a731fa1-fad4-4f6c-ae9e-a213945452aa")
+		(sheetname "/")
+		(sheetfile "pulsephone_main_board.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.06 -2.56)
+			(end 2.06 -2.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "499c12ce-5826-4c04-a62e-761838236246")
+		)
+		(fp_line
+			(start -2.06 -2.465)
+			(end -2.06 -2.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d2a6bcc7-34e6-4150-ac65-4f1e1e5db91d")
+		)
+		(fp_line
+			(start -2.06 2.56)
+			(end -2.06 2.465)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3aece2ac-77c5-49e3-9b05-f1f351ec51e4")
+		)
+		(fp_line
+			(start 2.06 -2.56)
+			(end 2.06 -2.465)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "816db03e-1d97-4a65-a1d6-0aa62cc17ec3")
+		)
+		(fp_line
+			(start 2.06 2.465)
+			(end 2.06 2.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b963fb99-c92a-4866-9a37-77f480e12ec8")
+		)
+		(fp_line
+			(start 2.06 2.56)
+			(end -2.06 2.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "04f24d27-e9ec-435f-bac8-4ded6dda9bae")
+		)
+		(fp_poly
+			(pts
+				(xy -2.6 -2.47) (xy -2.84 -2.8) (xy -2.36 -2.8)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "c4860652-d4ac-41bd-a013-b67b42632fc5")
+		)
+		(fp_line
+			(start -3.7 -2.46)
+			(end -2.2 -2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "02612c58-92e3-40c3-9da9-52fd7bc5c405")
+		)
+		(fp_line
+			(start -3.7 2.46)
+			(end -3.7 -2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ae05e5f1-e6bf-451d-baac-b59333659262")
+		)
+		(fp_line
+			(start -2.2 -2.7)
+			(end 2.2 -2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6c2255a4-4e6c-4a8f-b0bb-5e3550e56b6d")
+		)
+		(fp_line
+			(start -2.2 -2.46)
+			(end -2.2 -2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "802a9fc4-273f-4d87-88a7-03eb31f55298")
+		)
+		(fp_line
+			(start -2.2 2.46)
+			(end -3.7 2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4e6bbbf7-25b1-40a3-bf0f-093e0ec80e08")
+		)
+		(fp_line
+			(start -2.2 2.7)
+			(end -2.2 2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f68d9b41-25ca-4409-ba72-f210b3589f1d")
+		)
+		(fp_line
+			(start 2.2 -2.7)
+			(end 2.2 -2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1d263be7-3c30-49cf-a198-396c848b9e2c")
+		)
+		(fp_line
+			(start 2.2 -2.46)
+			(end 3.7 -2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "54dfa4e4-4cce-4b37-815a-48a27191c6fb")
+		)
+		(fp_line
+			(start 2.2 2.46)
+			(end 2.2 2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "754ec8fe-9d6b-4f22-a404-2a9c7a776008")
+		)
+		(fp_line
+			(start 2.2 2.7)
+			(end -2.2 2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a760a4d1-0585-4da1-84dd-e70d9c0c0fe1")
+		)
+		(fp_line
+			(start 3.7 -2.46)
+			(end 3.7 2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ca0859dd-730b-4068-988b-5ba903801809")
+		)
+		(fp_line
+			(start 3.7 2.46)
+			(end 2.2 2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7d09e9cb-13ac-49c4-ae08-1b269e2275b9")
+		)
+		(fp_poly
+			(pts
+				(xy -1.95 -1.475) (xy -1.95 2.45) (xy 1.95 2.45) (xy 1.95 -2.45) (xy -0.975 -2.45)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "65746020-94f6-4846-af91-8968e1e5661d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "64cdc655-8af8-4581-ad2b-0319fbe89ad9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.6 -0.825)
+			(size 1.01 1.38)
+			(layers "F.Paste")
+			(roundrect_rratio 0.247525)
+			(uuid "3af8d838-31c1-4623-bfc1-7eb81a684ebe")
+		)
+		(pad "" smd roundrect
+			(at -0.6 0.825)
+			(size 1.01 1.38)
+			(layers "F.Paste")
+			(roundrect_rratio 0.247525)
+			(uuid "7f246aa6-004d-46a2-9a92-cfe7b4e16d7b")
+		)
+		(pad "" smd roundrect
+			(at 0.6 -0.825)
+			(size 1.01 1.38)
+			(layers "F.Paste")
+			(roundrect_rratio 0.247525)
+			(uuid "0e9e7b61-12f5-4789-b68a-e9e94db997f1")
+		)
+		(pad "" smd roundrect
+			(at 0.6 0.825)
+			(size 1.01 1.38)
+			(layers "F.Paste")
+			(roundrect_rratio 0.247525)
+			(uuid "7d737818-4673-4192-8978-a4e41aa6d2bd")
+		)
+		(pad "1" smd roundrect
+			(at -2.475 -1.905)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 3 "GND")
+			(pinfunction "TEMP")
+			(pintype "input")
+			(uuid "fbd1e524-7270-490e-935c-f1bf05363870")
+		)
+		(pad "2" smd roundrect
+			(at -2.475 -0.635)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 231 "unconnected-(U5-PROG-Pad2)")
+			(pinfunction "PROG")
+			(pintype "passive")
+			(uuid "7d2bae4a-9bcb-4119-add6-c3f3c0577caa")
+		)
+		(pad "3" smd roundrect
+			(at -2.475 0.635)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 3 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "1f425a1a-fdf5-493c-8e31-cc271b18a916")
+		)
+		(pad "4" smd roundrect
+			(at -2.475 1.905)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 222 "Net-(U5-CE)")
+			(pinfunction "V_{CC}")
+			(pintype "power_in")
+			(uuid "a2703fc1-ff5e-4aaa-a7c4-6c945c8ba480")
+		)
+		(pad "5" smd roundrect
+			(at 2.475 1.905)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 5 "+3.7VBAT")
+			(pinfunction "BAT")
+			(pintype "power_out")
+			(uuid "ebb18825-ec4a-4158-8708-7ad47b6bfad4")
+		)
+		(pad "6" smd roundrect
+			(at 2.475 0.635)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 3 "GND")
+			(pinfunction "~{STDBY}")
+			(pintype "open_collector")
+			(uuid "dbf241a8-bdf7-44e8-80e7-cb3d37ea02f9")
+		)
+		(pad "7" smd roundrect
+			(at 2.475 -0.635)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 3 "GND")
+			(pinfunction "~{CHRG}")
+			(pintype "open_collector")
+			(uuid "4bffe988-9a54-4c64-b4f3-31cc1b9748c3")
+		)
+		(pad "8" smd roundrect
+			(at 2.475 -1.905)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 222 "Net-(U5-CE)")
+			(pinfunction "CE")
+			(pintype "input")
+			(uuid "26c2df80-c3dd-41cc-aa45-1cac7153cf10")
+		)
+		(pad "9" thru_hole circle
+			(at -0.7 -1.2)
+			(size 0.5 0.5)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 230 "unconnected-(U5-EPAD-Pad9)")
+			(pinfunction "EPAD")
+			(pintype "passive")
+			(uuid "ac31d819-7fc4-4d11-a902-09bbf020a93a")
+		)
+		(pad "9" thru_hole circle
+			(at -0.7 0)
+			(size 0.5 0.5)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 230 "unconnected-(U5-EPAD-Pad9)")
+			(pinfunction "EPAD")
+			(pintype "passive")
+			(uuid "1ac1e7a7-dd7f-4b4c-9fe5-12781e6bc656")
+		)
+		(pad "9" thru_hole circle
+			(at -0.7 1.2)
+			(size 0.5 0.5)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 230 "unconnected-(U5-EPAD-Pad9)")
+			(pinfunction "EPAD")
+			(pintype "passive")
+			(uuid "95953f5d-11a8-46e4-bcb3-411e95321618")
+		)
+		(pad "9" smd rect
+			(at 0 0)
+			(size 1.9 2.9)
+			(property pad_prop_heatsink)
+			(layers "B.Cu")
+			(net 230 "unconnected-(U5-EPAD-Pad9)")
+			(pinfunction "EPAD")
+			(pintype "passive")
+			(zone_connect 2)
+			(uuid "25588f52-efd4-4796-a4d9-0d9bb3dd261e")
+		)
+		(pad "9" smd rect
+			(at 0 0)
+			(size 2.41 3.3)
+			(property pad_prop_heatsink)
+			(layers "F.Cu" "F.Mask")
+			(net 230 "unconnected-(U5-EPAD-Pad9)")
+			(pinfunction "EPAD")
+			(pintype "passive")
+			(zone_connect 2)
+			(uuid "ad1972bc-7175-49da-9c57-7a009102deee")
+		)
+		(pad "9" thru_hole circle
+			(at 0.7 -1.2)
+			(size 0.5 0.5)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 230 "unconnected-(U5-EPAD-Pad9)")
+			(pinfunction "EPAD")
+			(pintype "passive")
+			(uuid "508df9b7-e963-4126-b798-524f0a58c0a7")
+		)
+		(pad "9" thru_hole circle
+			(at 0.7 0)
+			(size 0.5 0.5)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 230 "unconnected-(U5-EPAD-Pad9)")
+			(pinfunction "EPAD")
+			(pintype "passive")
+			(uuid "e34ceac0-748d-4ed6-b606-eb260b44507a")
+		)
+		(pad "9" thru_hole circle
+			(at 0.7 1.2)
+			(size 0.5 0.5)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 230 "unconnected-(U5-EPAD-Pad9)")
+			(pinfunction "EPAD")
+			(pintype "passive")
+			(uuid "9ee69d18-5672-4737-bc00-8c7de7d424c2")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20857,8 +22242,8 @@
 		)
 	)
 	(gr_rect
-		(start 120 118.5)
-		(end 137.5 130.5)
+		(start 125.37 115.275)
+		(end 142.87 127.275)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -21006,7 +22391,7 @@
 		)
 	)
 	(gr_text "Audio\n"
-		(at 124 118 0)
+		(at 129.37 114.775 0)
 		(layer "F.SilkS")
 		(uuid "816b14fa-6a23-4647-87dc-77a73ffa146f")
 		(effects
@@ -21042,7 +22427,7 @@
 		)
 	)
 	(gr_text "Audio\n"
-		(at 140 147 0)
+		(at 159 146.5 0)
 		(layer "F.SilkS")
 		(uuid "f5afda39-07a8-4d75-97e1-7766efdfda8e")
 		(effects
