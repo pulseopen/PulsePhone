@@ -8,8 +8,7 @@
       "GND",
       "+3.7VBAT",
       "+5V",
-      "+3.3V",
-      "GNDREF"
+      "+3.3V"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
