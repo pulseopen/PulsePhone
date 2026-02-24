@@ -29,20 +29,19 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 ### Main Board
 > Second Revision/V2!
 > Revamping design.
-> Made decision to use I2C multiplexers on V3/Next **Prototype** for increased I2C interfaces which allows for more
-addition to the modules.
+> PCB Design DONE!
 
 ### Wi-Fi / Bluetooth Module
 > Not here yet.
 
 ### Display Module
-> Design TBD
+> Starting development
 
 ### Camera Module
 > Design TBD
 
 ### Audio Module
-> Inclusion TBD
+> Design TBD
 
 ---
 
