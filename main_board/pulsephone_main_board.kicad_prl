@@ -1,12 +1,10 @@
 {
   "board": {
-    "active_layer": 5,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "GND",
-      "+3.7VBAT",
       "+5V",
       "+3.3V"
     ],
@@ -48,14 +46,13 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
-      "zones",
       "drc_warnings",
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_05555555_575554a7",
+    "visible_layers": "00000000_00000000_05555555_575556a7",
     "zone_display_mode": 0
   },
   "git": {
@@ -93,16 +90,16 @@
       9
     ],
     "col_widths": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
