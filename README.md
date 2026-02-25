@@ -27,17 +27,21 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 ## 🛠 Development Notes 
 
 ### Main Board
-> Second Revision!
+> Second Revision/V2!
 > Revamping design.
+> PCB Design DONE!
 
 ### Wi-Fi / Bluetooth Module
 > Not here yet.
 
 ### Display Module
-> Very VERY early stages of work.
+> Starting development
+
+### Camera Module
+> Design TBD
 
 ### Audio Module
-> Not here yet
+> Design TBD
 
 ---
 
