@@ -67,6 +67,5 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 ---
 ## Current Project Status
 
-- Slow pace since school is a **priorty**!
 - Not ready to boot anything
-- Working on power distribution solutions
+- Working on design for main board.
