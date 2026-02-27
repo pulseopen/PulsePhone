@@ -35,7 +35,8 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 > Not here yet.
 
 ### Display Module
-> Starting development
+> PCB Design DONE!
+> This module acts like an adapter, so PulsePhone can have a wide range of MIPI-DSI displays to be compatible with.
 
 ### Camera Module
 > Design TBD
