@@ -28,7 +28,7 @@ Don't back-feed any rail. BAT is raw battery voltage — treat it accordingly.
 Constraints:
 - All pins operate at **3.3V logic**
 - All pins default to **high-impedance** until configured
-- Any differential pair must be routed with impedance control
+- Any differential pair must be routed with impedance control, Include GND pins between EVERY differential pair.
 - Anything externally accessible needs handheld-grade ESD protection
 
 **Documentation is required.** For every pin you use, you must provide a clear description of its assignment, the reasoning behind it, any relevant electrical characteristics (pull-ups, drive strength, impedance, etc.), and how it interacts with the rest of the module. Undocumented pin usage is not acceptable.
