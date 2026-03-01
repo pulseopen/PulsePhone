@@ -9087,6 +9087,12 @@
 		(uuid "99bd4ed7-dfc3-475f-ad8a-a5105268ded3")
 	)
 	(junction
+		(at 449.58 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9f45119-2d9e-4e76-b2f4-65df2d35f9d1")
+	)
+	(junction
 		(at 661.67 386.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11434,7 +11440,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 214.63) (xy 449.58 322.58)
+			(xy 449.58 214.63) (xy 449.58 264.16)
 		)
 		(stroke
 			(width 0)
@@ -11491,6 +11497,16 @@
 			(type default)
 		)
 		(uuid "ef4c8c89-9a21-4e16-a669-5b26e5217ee8")
+	)
+	(wire
+		(pts
+			(xy 449.58 264.16) (xy 449.58 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb19307-23c9-4dc5-9187-4b8445b7f01d")
 	)
 	(wire
 		(pts
@@ -21729,8 +21745,8 @@
 	)
 	(symbol
 		(lib_id "mcm-imx93:MCM93_MOD")
-		(at 373.38 251.46 0)
-		(mirror y)
+		(at 373.38 251.46 90)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21738,7 +21754,7 @@
 		(dnp no)
 		(uuid "d21cd4dc-9183-49b2-bb1b-42a0bc1ef43b")
 		(property "Reference" "MCM93_MOD1"
-			(at 370.84 248.92 0)
+			(at 370.84 254 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -21747,7 +21763,7 @@
 			)
 		)
 		(property "Value" "MCM93_MOD"
-			(at 373.38 345.44 0)
+			(at 467.36 251.46 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -21784,7 +21800,7 @@
 			)
 		)
 		(property "Part Reference" ""
-			(at 373.38 332.74 0)
+			(at 454.66 251.46 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -21793,7 +21809,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 373.38 332.74 0)
+			(at 454.66 251.46 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
