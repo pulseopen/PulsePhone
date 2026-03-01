@@ -4741,180 +4741,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DPST_x2"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DPST_x2"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DPST_x2_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPST_x2_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_DPST_x2_2_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "mcm-imx93:MCM93_MOD"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10098,6 +9924,16 @@
 	)
 	(wire
 		(pts
+			(xy 706.12 344.17) (xy 706.12 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad3a9c9-9078-4822-ba35-fb084a6e2912")
+	)
+	(wire
+		(pts
 			(xy 511.81 407.67) (xy 521.97 407.67)
 		)
 		(stroke
@@ -10235,16 +10071,6 @@
 			(type default)
 		)
 		(uuid "748bf88e-3f0f-4e4e-97aa-69ce2462fc02")
-	)
-	(wire
-		(pts
-			(xy 706.12 344.17) (xy 706.12 350.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7553265c-41aa-4573-885f-2c46df4c5d2d")
 	)
 	(wire
 		(pts
@@ -10605,16 +10431,6 @@
 			(type default)
 		)
 		(uuid "97638369-535a-4f50-a7f3-69df0670c2c9")
-	)
-	(wire
-		(pts
-			(xy 706.12 360.68) (xy 706.12 365.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9776835e-8d87-41ec-83ba-0ab69818ad4e")
 	)
 	(wire
 		(pts
@@ -15404,82 +15220,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DPST_x2")
-		(at 706.12 355.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3cc3c57b-3faa-4580-a775-0f103ee0a83a")
-		(property "Reference" "SW1"
-			(at 708.66 354.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_DPST_x2"
-			(at 708.66 356.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
-			(at 706.12 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 706.12 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 706.12 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "f27c87af-2c9c-4736-8fef-4e5d9a335d18")
-		)
-		(pin "1"
-			(uuid "bf63be5c-2e0f-45de-8ee0-7ffc123414d0")
-		)
-		(pin "2"
-			(uuid "8ee38494-97ed-48af-8d4d-3e2ef325b3f0")
-		)
-		(pin "3"
-			(uuid "eaa01d03-4e7b-41f9-8a45-278fca96441f")
-		)
-		(instances
-			(project ""
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
