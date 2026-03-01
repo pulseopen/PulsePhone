@@ -1996,7 +1996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8-16_W7.62mm"
 			(at 149.86 105.41 0)
 			(effects
 				(font
@@ -2406,7 +2406,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Hirose_DF40:Hirose_DF40C-34DP-0.4V_2x17-1MP_P0.4mm"
 			(at 86.36 96.52 0)
 			(effects
 				(font
