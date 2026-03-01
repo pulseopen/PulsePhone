@@ -7,6 +7,8 @@
       "Default"
     ],
     "hidden_nets": [
+      "",
+      "GND",
       "+5V",
       "+3.3V",
       "+3.7VBAT",

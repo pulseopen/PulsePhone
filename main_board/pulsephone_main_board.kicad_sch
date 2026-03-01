@@ -9087,12 +9087,6 @@
 		(uuid "99bd4ed7-dfc3-475f-ad8a-a5105268ded3")
 	)
 	(junction
-		(at 449.58 264.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9f45119-2d9e-4e76-b2f4-65df2d35f9d1")
-	)
-	(junction
 		(at 661.67 386.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9157,12 +9151,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbeebc9b-e4db-4c2b-b008-f17d9bfba3e1")
-	)
-	(junction
-		(at 577.85 364.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd59eabb-17eb-4dee-b258-f489f0ad169f")
 	)
 	(junction
 		(at 635 405.13)
@@ -9260,7 +9248,7 @@
 	)
 	(wire
 		(pts
-			(xy 665.48 405.13) (xy 665.48 414.02)
+			(xy 661.67 405.13) (xy 661.67 414.02)
 		)
 		(stroke
 			(width 0)
@@ -9710,6 +9698,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 217.17) (xy 320.04 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30406432-d928-4a79-9829-951dec94dfa1")
+	)
+	(wire
+		(pts
 			(xy 429.26 403.86) (xy 429.26 406.4)
 		)
 		(stroke
@@ -9827,16 +9825,6 @@
 			(type default)
 		)
 		(uuid "43415150-9c24-4809-9369-64213db0fd71")
-	)
-	(wire
-		(pts
-			(xy 577.85 364.49) (xy 579.12 364.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "434eb007-2b0a-444e-a211-2db5883b2cfe")
 	)
 	(polyline
 		(pts
@@ -10220,7 +10208,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 311.15) (xy 317.5 223.52)
+			(xy 317.5 223.52) (xy 317.5 311.15)
 		)
 		(stroke
 			(width 0)
@@ -10367,16 +10355,6 @@
 			(type default)
 		)
 		(uuid "7d761b35-c359-4f43-9d35-832b9be26404")
-	)
-	(wire
-		(pts
-			(xy 661.67 405.13) (xy 665.48 405.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fa30490-e211-4060-8405-499ade2a78b5")
 	)
 	(wire
 		(pts
@@ -10677,6 +10655,16 @@
 			(type default)
 		)
 		(uuid "9e528aff-bc54-4955-8614-543309ada36e")
+	)
+	(wire
+		(pts
+			(xy 661.67 421.64) (xy 665.48 421.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4cc8c9-5664-4c18-8f2c-ffffaa77db84")
 	)
 	(wire
 		(pts
@@ -11007,16 +10995,6 @@
 			(type default)
 		)
 		(uuid "bf589799-a62f-4319-ab9f-2c06f5b0f17d")
-	)
-	(wire
-		(pts
-			(xy 320.04 241.3) (xy 320.04 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c03fbd76-6d6b-43ec-b466-3f81c72660d9")
 	)
 	(wire
 		(pts
@@ -11440,7 +11418,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 214.63) (xy 449.58 264.16)
+			(xy 449.58 214.63) (xy 449.58 322.58)
 		)
 		(stroke
 			(width 0)
@@ -11497,16 +11475,6 @@
 			(type default)
 		)
 		(uuid "ef4c8c89-9a21-4e16-a669-5b26e5217ee8")
-	)
-	(wire
-		(pts
-			(xy 449.58 264.16) (xy 449.58 322.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efb19307-23c9-4dc5-9187-4b8445b7f01d")
 	)
 	(wire
 		(pts
@@ -16121,6 +16089,72 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 665.48 421.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d5d5ba3-86b8-45b5-96b1-d966ccf87b02")
+		(property "Reference" "#PWR072"
+			(at 665.48 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 665.48 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 665.48 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 665.48 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 665.48 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5789f00-3d03-41c1-a919-f973cd2d1c6e")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 660.4 198.12 0)
 		(unit 1)
@@ -19224,6 +19258,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 661.67 417.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a079efdc-d2b8-442e-a580-59bf45b14675")
+		(property "Reference" "R4"
+			(at 664.21 416.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2 kΩ"
+			(at 656.844 423.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 659.892 417.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 661.67 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 661.67 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e99701e8-6429-4d28-9a4e-5993c930362a")
+		)
+		(pin "1"
+			(uuid "578d194c-08af-4119-b712-eaf59694fb0b")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 510.54 359.41 90)
 		(unit 1)
@@ -21745,8 +21848,8 @@
 	)
 	(symbol
 		(lib_id "mcm-imx93:MCM93_MOD")
-		(at 373.38 251.46 90)
-		(mirror x)
+		(at 373.38 251.46 0)
+		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21754,7 +21857,7 @@
 		(dnp no)
 		(uuid "d21cd4dc-9183-49b2-bb1b-42a0bc1ef43b")
 		(property "Reference" "MCM93_MOD1"
-			(at 370.84 254 0)
+			(at 370.84 248.92 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -21763,7 +21866,7 @@
 			)
 		)
 		(property "Value" "MCM93_MOD"
-			(at 467.36 251.46 0)
+			(at 373.38 345.44 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -21800,7 +21903,7 @@
 			)
 		)
 		(property "Part Reference" ""
-			(at 454.66 251.46 0)
+			(at 373.38 332.74 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -21809,7 +21912,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 454.66 251.46 0)
+			(at 373.38 332.74 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
