@@ -2,29 +2,37 @@
 
 # PulsePhone — Pulse Modular Phone (MCM-iMX93 SoM)
 
-An experimental modular smartphone platform built around the **MCM-iMX93 System-on-Module (SoM)**.  
-Designed for *repairability, upgradability, and hardware freedom*. All external subsystems connect through **Hirose DF40 board-to-board connectors**, allowing isolated module development and easy swapping.
+> A modular, open-source smartphone built for repairability, upgradability, and hardware freedom.
+
+Built around the **MCM-iMX93 System-on-Module**, PulsePhone uses **Hirose DF40** board-to-board connectors across all subsystems — keeping modules isolated, swappable, and independently developable.
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
-| Component | Module Type | Connector | Function |
-|-----------|-------------|-----------|----------|
-| **Main Board** | Core System | DF40 | Hosts MCM-iMX93 SoM, onboard DAC, and routes all signals |
-| **Display Module** | Peripheral | DF40 | MIPI/LVDS (TBD) + Touch Interface |
-| **Wi-Fi / Bluetooth Module** | Wireless | DF40 | SDIO/UART-based wireless radio |
-| **Audio Module** | Peripheral | DF40 | Analog-only amplifier + speaker/headphone/mic interface |
+The **Main Board** is the hub of the system, hosting the MCM-iMX93 SoM, an onboard DAC, and all signal routing. Every peripheral connects to it via DF40 connectors.
 
----
+| Module          | Interface         | Role                                        |
+|-----------------|-------------------|---------------------------------------------|
+| Main Board      | DF40 (host)       | MCM-iMX93 SoM, DAC, signal routing          |
+| Display Module  | MIPI/LVDS + Touch | Adapter for wide MIPI-DSI display compat.   |
+| Wi-Fi / BT      | SDIO / UART       | Wireless radio                              |
+| Audio Module    | Analog            | Amp, speaker, headphone, mic interface      |
 
-## 🔌 DF40 Connector Interface (Signal Groups)
-
->[Moved to MBI-Lite Specification](MBI-LITE.md)
+Full connector pinout in [MBI-Lite Specification](MBI-LITE.md).
 
 ---
 
-## 🛠 Development Notes 
+## Project Goals
+
+- One connector standard (DF40) across every module
+- Analog audio path — simpler layout, better signal integrity
+- Linux (Debian + Phosh), Android, and Ubuntu Touch compatible
+- Fully open: KiCad source + mechanical files under GNU GPL-V3.0
+
+---
+
+## Development Notes
 
 ### Main Board
 > Second Revision/V2!
@@ -35,7 +43,8 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 > Not here yet.
 
 ### Display Module
-> Starting development
+> PCB Design DONE!
+> This module acts like an adapter, so PulsePhone can have a wide range of MIPI-DSI displays to be compatible with.
 
 ### Camera Module
 > Design TBD
@@ -45,19 +54,13 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 
 ---
 
-## 🧩 Project Goals
+## Current Project Status
 
-- **One standardized module connector (DF40) across all subsystems**
-- **Analog audio to simplify signal integrity & layout**
-- **Linux (Debian + Phosh) / Android / Ubuntu Touch compatibility**
-- **Full KiCad + mechanical release under open license**
+- Not ready to boot anything
+- Working on design for main board.
 
 ---
-## License
 
-- **GNU GPL-V3.0** for hardware
-
----
 ## Documentation
 
 - [MBI-Lite Module Connector Specification](MBI-LITE.md)
@@ -65,7 +68,7 @@ Designed for *repairability, upgradability, and hardware freedom*. All external 
 - [License](LICENSE)
 
 ---
-## Current Project Status
 
-- Not ready to boot anything
-- Working on design for main board.
+## License
+
+Hardware released under **GNU GPL-V3.0**.

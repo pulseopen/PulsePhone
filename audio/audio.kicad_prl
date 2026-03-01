@@ -1,58 +1,10 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
-    "hidden_netclasses": [
-      "Default"
-    ],
-    "hidden_nets": [
-      "",
-      "GND",
-      "+5V",
-      "+3.3V",
-      "+3.7VBAT",
-      "unconnected-(J1-Pin_25-Pad25)",
-      "DSI-CLK-P",
-      "DSI-3-P",
-      "unconnected-(J1-Pin_26-Pad26)",
-      "DSI-1-N",
-      "unconnected-(J1-Pin_3-Pad3)",
-      "DSI-1-P",
-      "DSI-3-N",
-      "DSI-2-N",
-      "unconnected-(J1-Pin_23-Pad23)",
-      "Net-(J1-Pin_4)",
-      "DSI-0-P",
-      "unconnected-(J1-Pin_5-Pad5)",
-      "DSI-0-N",
-      "DSI-2-P",
-      "DSI-CLK-N",
-      "unconnected-(J1-Pin_1-Pad1)",
-      "RST",
-      "unconnected-(J2-Pin_6-Pad6)",
-      "I2C3-SCL",
-      "I2C3-SDA",
-      "unconnected-(J2-Pin_2-Pad2)",
-      "unconnected-(J4-Pin_33-Pad33)",
-      "unconnected-(J4-Pin_35-Pad35)",
-      "unconnected-(J4-Pin_24-Pad24)",
-      "unconnected-(J4-Pin_19-Pad19)",
-      "unconnected-(J4-Pin_22-Pad22)",
-      "unconnected-(J4-Pin_34-Pad34)",
-      "unconnected-(J4-Pin_21-Pad21)",
-      "unconnected-(J4-Pin_20-Pad20)",
-      "unconnected-(J4-Pin_28-Pad28)",
-      "unconnected-(J4-Pin_27-Pad27)",
-      "unconnected-(J4-Pin_30-Pad30)",
-      "unconnected-(J4-Pin_32-Pad32)",
-      "unconnected-(J4-Pin_31-Pad31)",
-      "unconnected-(J4-Pin_23-Pad23)",
-      "unconnected-(J4-Pin_29-Pad29)",
-      "unconnected-(J4-Pin_26-Pad26)",
-      "unconnected-(J4-Pin_25-Pad25)",
-      "unconnected-(J4-Pin_18-Pad18)"
-    ],
+    "hidden_netclasses": [],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -98,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_dfffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -107,13 +59,11 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "display_module.kicad_prl",
+    "filename": "audio.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
       false,
       false,
       false,
@@ -135,23 +85,19 @@
       6,
       7,
       8,
-      9,
-      10,
-      11
+      9
     ],
     "col_widths": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
