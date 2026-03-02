@@ -1,7 +1,7 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
 BT1,PinHeader_1x02_P1.00mm_Horizontal,1,Battery,
 "C1, C7",0603,2,20uF,
-"C10, C11, C14, C15, C16, C17, C8, C9",0603,8,22uF,
+"C10, C11, C14, C15, C16, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32, C8, C9",0603,23,22uF,
 "C12, C13, C2, C3, C6",0603,5,10uF,
 "C4, C5",0603,2,2.2uF,
 D1,0201,1,D_Schottky,

@@ -4116,7 +4116,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U3"
 				(at 39.37 25.4 0)
 				(effects
 					(font
@@ -4125,15 +4125,16 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 0.762 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "MIC2877-5.0YFT-TR:VREG_MIC2877-AYFT-TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4300,7 +4301,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4318,7 +4319,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10037,6 +10038,16 @@
 	)
 	(wire
 		(pts
+			(xy 725.17 379.73) (xy 723.9 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5e2fdb-360f-4a6f-9e24-feb66022a0a2")
+	)
+	(wire
+		(pts
 			(xy 714.1948 416.56) (xy 739.14 416.56)
 		)
 		(stroke
@@ -10094,6 +10105,16 @@
 			(type default)
 		)
 		(uuid "2094e411-4193-4675-bd9d-92285a4bb57b")
+	)
+	(wire
+		(pts
+			(xy 716.28 379.73) (xy 715.01 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c4f4c8-7ea0-4ac5-ab8e-5bf634989742")
 	)
 	(wire
 		(pts
@@ -11484,6 +11505,16 @@
 			(type default)
 		)
 		(uuid "adc5703f-71b2-4371-b39f-a20c589c4515")
+	)
+	(wire
+		(pts
+			(xy 707.39 379.73) (xy 706.12 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9473a9-6c33-4570-82ee-5ee696645991")
 	)
 	(wire
 		(pts
@@ -14094,7 +14125,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "7"
 			(uuid "5aa61b00-e30f-490b-ac42-9bfad9baa108")
 		)
 		(pin "2"
@@ -14115,7 +14146,7 @@
 		(pin "6"
 			(uuid "d03441ff-4479-44cc-b46a-66385bebbd68")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "b4ce5e3f-2c20-433d-b09b-c8baa7a4a37d")
 		)
 		(instances
@@ -14370,7 +14401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20uF"
+		(property "Value" "22uF"
 			(at 604.52 443.4839 0)
 			(effects
 				(font
@@ -17487,6 +17518,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 720.09 379.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3837d210-bfbb-4bcb-87c9-2e6a9ac825f1")
+		(property "Reference" "R7"
+			(at 720.344 385.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 720.09 382.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 720.09 377.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 720.09 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 720.09 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed87c83d-9bea-44c9-a856-1d6160058e20")
+		)
+		(pin "1"
+			(uuid "22e6685b-3e2c-4e16-93a8-ce7f90510f8b")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 737.87 185.42 0)
 		(unit 1)
@@ -18047,7 +18145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 565.15 441.96 0)
 			(effects
 				(font
@@ -21429,7 +21527,7 @@
 			)
 		)
 		(property "Value" "+3.7VBAT"
-			(at 710.692 374.65 90)
+			(at 708.914 374.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21751,7 +21849,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 709.93 379.73 180)
+		(at 728.98 379.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21759,7 +21857,7 @@
 		(dnp no)
 		(uuid "97db44a7-b802-444c-ba65-5e0d35e77b41")
 		(property "Reference" "D2"
-			(at 711.2 382.524 0)
+			(at 730.25 382.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21767,7 +21865,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 711.2 384.81 0)
+			(at 730.25 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21775,7 +21873,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 709.93 379.73 0)
+			(at 728.98 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21784,7 +21882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 709.93 379.73 0)
+			(at 728.98 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21793,7 +21891,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 709.93 379.73 0)
+			(at 728.98 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21802,7 +21900,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 709.93 379.73 0)
+			(at 728.98 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23525,7 +23623,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 713.74 379.73 90)
+		(at 732.79 379.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23534,7 +23632,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7126e19-68ac-491d-8990-a0bb4b2e9963")
 		(property "Reference" "#PWR042"
-			(at 720.09 379.73 0)
+			(at 739.14 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23543,7 +23641,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 717.55 379.7299 90)
+			(at 736.6 379.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23552,7 +23650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 713.74 379.73 0)
+			(at 732.79 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23561,7 +23659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 713.74 379.73 0)
+			(at 732.79 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23570,7 +23668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 713.74 379.73 0)
+			(at 732.79 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24506,7 +24604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-LQSH-4020"
 			(at 538.48 486.41 0)
 			(effects
 				(font
@@ -25463,7 +25561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20uF"
+		(property "Value" "22uF"
 			(at 525.78 443.4839 0)
 			(effects
 				(font
@@ -27088,7 +27186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_APV_APH0650"
 			(at 581.66 438.15 0)
 			(effects
 				(font
@@ -27125,6 +27223,74 @@
 			(project ""
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 711.2 379.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f44ab732-6e30-44e3-8402-cfc50ebce353")
+		(property "Reference" "D3"
+			(at 711.5175 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 711.5175 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 711.2 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 711.2 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 711.2 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "257ee2e4-bb74-4e5e-a61c-b31143616228")
+		)
+		(pin "2"
+			(uuid "b2ebd1fe-bf71-4305-8746-4f2cd484dc51")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "D3")
 					(unit 1)
 				)
 			)
