@@ -26,12 +26,12 @@ Don't back-feed any rail. BAT is raw battery voltage — treat it accordingly.
 18 pins, fully open. Assign them however your module needs — GPIO, UART, SPI, I²S, USB, ADC, PWM, whatever fits. No mandated mapping.
 
 Constraints:
-- All pins operate at **3.3V logic**
+- All pins operate at **3.3V (or lower) logic**
 - All pins default to **high-impedance** until configured
-- Any differential pair must be routed with impedance control, Include GND pins between EVERY differential pair.
+- Any differential pair must be routed with impedance control, Include GND pins between EVERY pair of differentials.
 - Anything externally accessible needs handheld-grade ESD protection
 
-**Documentation is required.** For every pin you use, you must provide a clear description of its assignment, the reasoning behind it, any relevant electrical characteristics (pull-ups, drive strength, impedance, etc.), and how it interacts with the rest of the module. Undocumented pin usage is not acceptable.
+**Documentation is required.** For every pin you use, you must provide a clear description of its assignment, the reasoning behind it, any relevant electrical characteristics (pull-ups, drive strength, impedance, etc.), and how it interacts with the rest of the module. Undocumented pin usage is not up to standard with our requirements.
 
 ---
 
