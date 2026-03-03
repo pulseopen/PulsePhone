@@ -15,7 +15,7 @@ The **Main Board** is the hub of the system, hosting the MCM-iMX93 SoM, an onboa
 | Module          | Interface         | Role                                        |
 |-----------------|-------------------|---------------------------------------------|
 | Main Board      | DF40 (host)       | MCM-iMX93 SoM, DAC, signal routing          |
-| Display Module  | MIPI/LVDS + Touch | Adapter for wide MIPI-DSI display compat.   |
+| Display Module  | MIPI/LVDS + Touch | Adapter for wide MIPI-DSI display compatability.   |
 | Wi-Fi / BT      | SDIO / UART       | Wireless radio                              |
 | Audio Module    | Analog            | Amp, speaker, headphone, mic interface      |
 
