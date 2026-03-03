@@ -11465,11 +11465,11 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD:L_APV_APH0650"
+	(footprint "Inductor_SMD:L_APV_APH0630"
 		(layer "F.Cu")
 		(uuid "6c3e5160-2854-47b6-8e57-dbbe8c456727")
 		(at 107.625 52.2)
-		(descr "Inductor, APV, APH0650, 6.8x6.6x4.8mm, (http://en.apvind.com/public/upload/20240408/996aafa961154ed753e4983e7eb80fa7.pdf), generated with kicad-footprint-generator gen_inductor.py")
+		(descr "Inductor, APV, APH0630, 6.8x6.6x2.8mm, (http://en.apvind.com/public/upload/20240408/996aafa961154ed753e4983e7eb80fa7.pdf), generated with kicad-footprint-generator gen_inductor.py")
 		(tags "molded power shielded")
 		(property "Reference" "L1"
 			(at 0 -4.25 0)
@@ -11493,7 +11493,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11505,7 +11505,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11530,7 +11530,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "00cfe8e5-9f1d-4c17-8254-580e9c5b0779")
+			(uuid "b5a6d86a-fde2-4a42-b77d-a9da00bdcff0")
 		)
 		(fp_line
 			(start -3.51 -2.01)
@@ -11540,7 +11540,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "60ba9328-8ea1-488b-ace0-560bb5e4bd94")
+			(uuid "a77b5da3-38c4-448c-a8e5-289f28d43f0c")
 		)
 		(fp_line
 			(start -3.51 3.41)
@@ -11550,7 +11550,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8296deca-7924-41a3-b736-420d865a3a30")
+			(uuid "53d851a2-6dbe-42a6-9acc-975db5470737")
 		)
 		(fp_line
 			(start 3.51 -3.41)
@@ -11560,7 +11560,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "675de3a6-4cbb-4c50-8c57-430b4a79eb31")
+			(uuid "c699c5a9-6ab0-4078-85d7-bd0678667b30")
 		)
 		(fp_line
 			(start 3.51 2.01)
@@ -11570,7 +11570,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "adb5d558-456d-4ebf-ba30-c34bd6a389c6")
+			(uuid "43bd73c8-2860-4514-a05f-81d9727d2321")
 		)
 		(fp_line
 			(start 3.51 3.41)
@@ -11580,7 +11580,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "964a620c-068b-43d4-8db9-38245b5e9d1a")
+			(uuid "55d795b6-e3f8-41f1-b6e0-5300c3f38f6f")
 		)
 		(fp_line
 			(start -4.45 -2)
@@ -11590,7 +11590,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bb2929a5-019b-4dcb-8c1a-0a21292801ca")
+			(uuid "ca955af7-dd52-4f14-b2ca-a35b47912483")
 		)
 		(fp_line
 			(start -4.45 2)
@@ -11600,7 +11600,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "60082d6e-4315-477c-96ac-8e34c7dfc34a")
+			(uuid "f8b7a122-254d-437c-b50c-39700d87ce89")
 		)
 		(fp_line
 			(start -3.65 -3.55)
@@ -11610,7 +11610,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a76df3ec-5aa6-41e2-889b-d9753e9a2484")
+			(uuid "33cad006-79d0-4001-a92a-3a50f6445f36")
 		)
 		(fp_line
 			(start -3.65 -2)
@@ -11620,7 +11620,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6ea0c793-ebbd-4d57-bbc3-3a16aff2128f")
+			(uuid "f7f329cf-6d2c-4a1d-a219-89baafbf75c4")
 		)
 		(fp_line
 			(start -3.65 2)
@@ -11630,7 +11630,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b8cb81d1-8da8-4d25-8346-84ca7bbce40a")
+			(uuid "75862595-61ba-4895-b029-68ae93918d5c")
 		)
 		(fp_line
 			(start -3.65 3.55)
@@ -11640,7 +11640,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "28082169-6588-481e-82d7-90a6f600e2cf")
+			(uuid "7d104ccc-0dbb-4f7e-b474-10cb2a5b8990")
 		)
 		(fp_line
 			(start 3.65 -3.55)
@@ -11650,7 +11650,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d47cc91d-6878-41fb-87be-3d7f3fcbca84")
+			(uuid "7835cedf-a6db-4320-bba5-b0dab1c0d806")
 		)
 		(fp_line
 			(start 3.65 -2)
@@ -11660,7 +11660,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "42e809b0-3d19-4364-861d-62f206c89664")
+			(uuid "dc22a34e-2ae6-44b4-bbc9-29a963c808e5")
 		)
 		(fp_line
 			(start 3.65 2)
@@ -11670,7 +11670,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a9a9c435-9880-4e81-b614-379131a9bc57")
+			(uuid "f7087c16-1479-4a9d-9972-40bdc836d3a2")
 		)
 		(fp_line
 			(start 3.65 3.55)
@@ -11680,7 +11680,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "37d944a1-aea7-4b32-8b21-5873ca27aab0")
+			(uuid "9371669a-1d9f-4c22-bb9b-d63e81e6f60b")
 		)
 		(fp_line
 			(start 4.45 -2)
@@ -11690,7 +11690,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7457e737-5a15-4719-b834-8de3d019fc1e")
+			(uuid "90c9576d-09bc-4e5b-9c53-110886160be0")
 		)
 		(fp_line
 			(start 4.45 2)
@@ -11700,7 +11700,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "02bf53d7-0395-47fe-867d-efd838beec4c")
+			(uuid "e338b174-212a-4174-8c3d-9c086fc60287")
 		)
 		(fp_rect
 			(start -3.4 -3.3)
@@ -11711,7 +11711,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "790c626b-ef8f-456c-a4db-3f125ec866dc")
+			(uuid "638f8009-9723-437b-96a8-e7cbe0ea6694")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -11745,7 +11745,7 @@
 			(uuid "e35340b0-2d03-4024-941e-c069583c45ea")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_APV_APH0650.step"
+		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_APV_APH0630.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14181,7 +14181,7 @@
 		(property "Reference" "C23"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "93d3fe19-cc45-42a8-93a3-0c95ee779946")
+			(uuid "3d218360-fd11-41e2-84d1-61369865927a")
 			(effects
 				(font
 					(size 1 1)
@@ -14192,7 +14192,7 @@
 		(property "Value" "22uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "5510dd4b-52a0-4bc4-bbff-02ada9c7ed5e")
+			(uuid "1c26b766-4318-419a-8be2-ad6584b65866")
 			(effects
 				(font
 					(size 1 1)
@@ -14204,7 +14204,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d693fe1-d4cd-405c-8ecd-65759ad74d02")
+			(uuid "4df09730-1ad3-4452-81fd-52c916561e44")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14216,7 +14216,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb11f619-d381-4948-9a24-91632caf847b")
+			(uuid "6255607d-f403-49bb-87bd-23601b8e6692")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16363,7 +16363,7 @@
 		(property "Reference" "C21"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
-			(uuid "be8f79e3-badf-4f75-8344-288e8f612dc9")
+			(uuid "593a9dcc-c524-4551-89c5-6736b615f073")
 			(effects
 				(font
 					(size 1 1)
@@ -16374,7 +16374,7 @@
 		(property "Value" "22uF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "a119da42-5ebe-455a-933a-255d894c4d02")
+			(uuid "20cde39c-cc5d-47c0-9b8f-470aad41e6a0")
 			(effects
 				(font
 					(size 1 1)
@@ -16386,7 +16386,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6201b719-b732-459f-9341-09565d30dd51")
+			(uuid "bcfd1524-db1f-40e5-8429-1b0747d093d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16398,7 +16398,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e224ce0-3c8f-46ad-9432-6adaba1d081f")
+			(uuid "07aa3edb-33f5-479c-b4c4-9bf575391e03")
 			(effects
 				(font
 					(size 1.27 1.27)
