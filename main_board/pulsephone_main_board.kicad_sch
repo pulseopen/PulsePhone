@@ -4116,7 +4116,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U3"
 				(at 39.37 25.4 0)
 				(effects
 					(font
@@ -4125,15 +4125,16 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 0.762 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "MIC2877-5.0YFT-TR:VREG_MIC2877-AYFT-TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4300,7 +4301,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4318,7 +4319,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9308,6 +9309,18 @@
 		(uuid "120c739e-0999-44b4-9785-cebdd7b4cd29")
 	)
 	(junction
+		(at 505.46 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "121853e4-1aa7-4682-9ac1-87b133bbfec5")
+	)
+	(junction
+		(at 680.72 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13873296-a477-451c-a201-b7c46c01ba9f")
+	)
+	(junction
 		(at 723.9 419.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9380,10 +9393,22 @@
 		(uuid "53ae84b3-61b8-4acd-898a-730a4e34b68b")
 	)
 	(junction
+		(at 444.5 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54b573a2-f08d-4df6-bae2-cd4e6aa66be5")
+	)
+	(junction
 		(at 429.26 363.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55cf7fe3-8873-4350-9b24-7aa50a7ce5cf")
+	)
+	(junction
+		(at 534.67 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ae792a7-4534-4cbb-ade6-7007807fc33d")
 	)
 	(junction
 		(at 518.16 161.29)
@@ -9414,6 +9439,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "629ef986-a2d7-43b5-bbdf-51b84e4e21ee")
+	)
+	(junction
+		(at 665.48 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6456c173-f802-4c22-a42a-7c8f9d1b37ea")
 	)
 	(junction
 		(at 521.97 448.31)
@@ -9476,6 +9507,12 @@
 		(uuid "857517fa-6713-4ba3-b3b4-b2f2dce0c152")
 	)
 	(junction
+		(at 651.51 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85849378-8631-4556-b5b4-8b0a83b67283")
+	)
+	(junction
 		(at 504.19 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9494,6 +9531,12 @@
 		(uuid "8c6fda07-bddf-4cbe-81ae-397cdb57ec00")
 	)
 	(junction
+		(at 473.71 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e8f9c6c-1e3a-4b5a-9a46-ad2a990a2bd9")
+	)
+	(junction
 		(at 641.35 406.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9510,6 +9553,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fa35913-c80c-41b9-b753-357acbc942a8")
+	)
+	(junction
+		(at 490.22 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af31acd1-8bcd-4e09-85c1-0f4db719b4a4")
+	)
+	(junction
+		(at 712.47 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1bd967f-521c-4027-8e7e-d6d7f79c2801")
 	)
 	(junction
 		(at 661.67 394.97)
@@ -9554,6 +9609,12 @@
 		(uuid "c7aba8e9-7847-44e0-a198-cbbfde80cc5c")
 	)
 	(junction
+		(at 458.47 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cce96779-703e-407f-a846-1c1ebbb975c9")
+	)
+	(junction
 		(at 458.47 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9578,6 +9639,12 @@
 		(uuid "dbeebc9b-e4db-4c2b-b008-f17d9bfba3e1")
 	)
 	(junction
+		(at 697.23 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dca7b3a8-ef6e-4c15-9043-b1b8773647f5")
+	)
+	(junction
 		(at 635 414.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9588,6 +9655,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e968c1ec-2aa8-478b-a45a-40fb825c9a16")
+	)
+	(junction
+		(at 726.44 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb78a6c5-a91c-4e3e-8039-faa6750d7da2")
+	)
+	(junction
+		(at 741.68 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee9cc0d1-2964-49c8-8c8c-daa2e8b1ad28")
 	)
 	(junction
 		(at 429.26 388.62)
@@ -9630,6 +9709,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa73024d-2395-49e4-be6f-e2b21e543e6c")
+	)
+	(junction
+		(at 519.43 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc4816e6-a96d-48ed-a3c5-4e90733a566f")
 	)
 	(wire
 		(pts
@@ -9720,6 +9805,16 @@
 			(type default)
 		)
 		(uuid "0946e4e9-15bd-4b6c-84e8-e3cd838c9e3b")
+	)
+	(wire
+		(pts
+			(xy 712.47 104.14) (xy 726.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0996b3da-1d6c-4489-82b7-10db29ed45c3")
 	)
 	(wire
 		(pts
@@ -9943,6 +10038,16 @@
 	)
 	(wire
 		(pts
+			(xy 725.17 379.73) (xy 723.9 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5e2fdb-360f-4a6f-9e24-feb66022a0a2")
+	)
+	(wire
+		(pts
 			(xy 714.1948 416.56) (xy 739.14 416.56)
 		)
 		(stroke
@@ -10000,6 +10105,16 @@
 			(type default)
 		)
 		(uuid "2094e411-4193-4675-bd9d-92285a4bb57b")
+	)
+	(wire
+		(pts
+			(xy 716.28 379.73) (xy 715.01 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c4f4c8-7ea0-4ac5-ab8e-5bf634989742")
 	)
 	(wire
 		(pts
@@ -10143,6 +10258,16 @@
 	)
 	(wire
 		(pts
+			(xy 444.5 132.08) (xy 458.47 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be798a8-4de7-4bc0-9769-31bf463bf4be")
+	)
+	(wire
+		(pts
 			(xy 454.66 196.85) (xy 458.47 196.85)
 		)
 		(stroke
@@ -10260,6 +10385,16 @@
 			(type default)
 		)
 		(uuid "3db29a7e-c062-4a47-85c9-3ebc23d12c2f")
+	)
+	(wire
+		(pts
+			(xy 458.47 132.08) (xy 473.71 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f455071-136d-4bfe-8820-24176307fe4c")
 	)
 	(wire
 		(pts
@@ -10393,6 +10528,16 @@
 	)
 	(wire
 		(pts
+			(xy 505.46 132.08) (xy 519.43 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d1dd10-7b17-4979-a3b6-0e06873906e9")
+	)
+	(wire
+		(pts
 			(xy 565.15 448.31) (xy 600.71 448.31)
 		)
 		(stroke
@@ -10443,6 +10588,16 @@
 	)
 	(wire
 		(pts
+			(xy 651.51 104.14) (xy 665.48 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f9972e-5774-45a4-a59e-dd7e54d62e7d")
+	)
+	(wire
+		(pts
 			(xy 567.69 491.49) (xy 580.39 491.49)
 		)
 		(stroke
@@ -10460,6 +10615,16 @@
 			(type default)
 		)
 		(uuid "585291bf-8132-4738-a6f9-ae8b7e6dbc31")
+	)
+	(wire
+		(pts
+			(xy 680.72 104.14) (xy 697.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589d3f0b-e359-4699-9ca9-251a2ff85cf7")
 	)
 	(wire
 		(pts
@@ -10603,7 +10768,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 132.08) (xy 436.88 132.08)
+			(xy 429.26 132.08) (xy 444.5 132.08)
 		)
 		(stroke
 			(width 0)
@@ -10733,6 +10898,16 @@
 	)
 	(wire
 		(pts
+			(xy 473.71 132.08) (xy 490.22 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77975c6a-8619-4569-a921-3990de1ec676")
+	)
+	(wire
+		(pts
 			(xy 494.03 227.33) (xy 496.57 227.33)
 		)
 		(stroke
@@ -10833,6 +11008,16 @@
 	)
 	(wire
 		(pts
+			(xy 490.22 132.08) (xy 505.46 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f819863-40ef-4f27-b77f-df95be8b6605")
+	)
+	(wire
+		(pts
 			(xy 590.55 499.11) (xy 596.9 499.11)
 		)
 		(stroke
@@ -10860,6 +11045,16 @@
 			(type default)
 		)
 		(uuid "80f27090-52b9-41bd-8e59-0ef823171333")
+	)
+	(wire
+		(pts
+			(xy 636.27 104.14) (xy 651.51 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "812213f4-4626-4fb1-819e-9e02b7ce18fa")
 	)
 	(wire
 		(pts
@@ -10920,6 +11115,16 @@
 			(type default)
 		)
 		(uuid "84f08055-86d4-4fdb-966e-91642a510e1a")
+	)
+	(wire
+		(pts
+			(xy 726.44 104.14) (xy 741.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85333e1c-a72d-4ba0-97fb-0afbdcfbb8c1")
 	)
 	(wire
 		(pts
@@ -11123,6 +11328,16 @@
 	)
 	(wire
 		(pts
+			(xy 665.48 104.14) (xy 680.72 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98215221-5ef8-4159-80e2-2aca2019afda")
+	)
+	(wire
+		(pts
 			(xy 600.71 438.15) (xy 585.47 438.15)
 		)
 		(stroke
@@ -11293,6 +11508,16 @@
 	)
 	(wire
 		(pts
+			(xy 707.39 379.73) (xy 706.12 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9473a9-6c33-4570-82ee-5ee696645991")
+	)
+	(wire
+		(pts
 			(xy 538.48 166.37) (xy 538.48 167.64)
 		)
 		(stroke
@@ -11330,6 +11555,16 @@
 			(type default)
 		)
 		(uuid "b062cd0f-7731-4fd0-b54b-9d4fbd3fbf78")
+	)
+	(wire
+		(pts
+			(xy 519.43 132.08) (xy 534.67 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b160955f-c262-4012-b586-ec5ce5d1ba03")
 	)
 	(wire
 		(pts
@@ -11640,6 +11875,16 @@
 			(type default)
 		)
 		(uuid "ca30f637-590d-413f-97dd-9de5b575dc99")
+	)
+	(wire
+		(pts
+			(xy 741.68 104.14) (xy 755.65 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca608873-2413-4d39-a930-8c2549fba9bf")
 	)
 	(wire
 		(pts
@@ -12043,6 +12288,16 @@
 	)
 	(wire
 		(pts
+			(xy 697.23 104.14) (xy 712.47 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44fc3d7-c13e-4741-a89a-b52f86acbeb4")
+	)
+	(wire
+		(pts
 			(xy 661.67 411.48) (xy 670.56 411.48)
 		)
 		(stroke
@@ -12070,6 +12325,16 @@
 			(type default)
 		)
 		(uuid "f97c3202-2e47-4472-946c-8d08422a5a57")
+	)
+	(wire
+		(pts
+			(xy 534.67 132.08) (xy 538.48 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9dbdba9-988e-40cc-b4e1-028321926369")
 	)
 	(wire
 		(pts
@@ -13262,6 +13527,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_US")
+		(at 458.47 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "019f987a-0008-4d7c-ad64-5f9a6568adf4")
+		(property "Reference" "C19"
+			(at 454.66 129.2861 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 454.66 126.7461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 458.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 458.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "352513b5-d1e6-4039-8f86-669db903c481")
+		)
+		(pin "1"
+			(uuid "a48363d9-082b-4e35-bcea-c3b0c6b5b543")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 299.72 228.6 90)
 		(unit 1)
@@ -13461,6 +13796,74 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 473.71 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0389f6a8-354d-45c2-a45e-74a25a87ae19")
+		(property "Reference" "#PWR080"
+			(at 473.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 471.17 123.1901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 473.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 473.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 473.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfee9503-9750-405a-a28c-22ae8a3c2ee9")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -13722,7 +14125,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "7"
 			(uuid "5aa61b00-e30f-490b-ac42-9bfad9baa108")
 		)
 		(pin "2"
@@ -13743,13 +14146,151 @@
 		(pin "6"
 			(uuid "d03441ff-4479-44cc-b46a-66385bebbd68")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "b4ce5e3f-2c20-433d-b09b-c8baa7a4a37d")
 		)
 		(instances
 			(project ""
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 680.72 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07aaeae3-3e51-4ed6-9c6e-83d4fec0b995")
+		(property "Reference" "#PWR088"
+			(at 680.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 678.18 95.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 680.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 680.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 680.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "949a01ff-7b50-4f2d-b043-7e1e99da0980")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 505.46 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a3c018e-38fb-496c-862a-39a025b49acf")
+		(property "Reference" "C22"
+			(at 501.65 129.2861 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 501.65 126.7461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 505.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 505.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 505.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12cb600e-4555-4bad-bf26-a420baf9b4bf")
+		)
+		(pin "1"
+			(uuid "c23f1861-6883-43a9-af61-3426c6390376")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -13860,7 +14401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20uF"
+		(property "Value" "22uF"
 			(at 604.52 443.4839 0)
 			(effects
 				(font
@@ -13982,6 +14523,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_US")
+		(at 712.47 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13269e04-6ef5-4e2f-99de-a1533d03e86b")
+		(property "Reference" "C30"
+			(at 708.66 101.3461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 708.66 98.8061 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 712.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 712.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 712.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b697fcf0-9587-495e-b817-c37042057f03")
+		)
+		(pin "1"
+			(uuid "4b35bec6-8866-4f75-9611-4357ec69ffdd")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 651.51 295.91 0)
 		(unit 1)
@@ -14043,6 +14654,74 @@
 			(project ""
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 505.46 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15272585-29a3-4712-bbbc-6e4d724e9f88")
+		(property "Reference" "#PWR082"
+			(at 505.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 502.92 123.1901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 505.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 505.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 505.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56245a8c-0ed2-4b6d-9aea-0b1011c96df3")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -14839,6 +15518,74 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 651.51 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18e23ebb-a7ee-421d-bfd8-9e828fd77b8d")
+		(property "Reference" "#PWR086"
+			(at 651.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 648.97 95.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 651.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 651.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 651.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca4233b7-da45-47c8-b38a-caa7fc53ccc1")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 580.39 477.52 0)
 		(unit 1)
@@ -14899,6 +15646,74 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 697.23 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ff0a05a-a2a8-4287-8697-38d21859eb81")
+		(property "Reference" "#PWR089"
+			(at 697.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 694.69 95.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 697.23 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 697.23 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 697.23 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e95ef98-58a6-4d95-8f38-eff9ea4ea8ab")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -15832,6 +16647,74 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 534.67 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27c1e3b7-0830-4e7e-8444-f854748bcd57")
+		(property "Reference" "#PWR084"
+			(at 534.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 532.13 123.1901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 534.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 534.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 534.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7750267e-d1ac-45fb-917a-7c181d34a354")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 287.02 210.82 270)
 		(unit 1)
@@ -15893,6 +16776,74 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 458.47 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28fc1a4d-f72e-4c2a-8a4e-ca29c3f25cc3")
+		(property "Reference" "#PWR079"
+			(at 458.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 455.93 123.1901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 458.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0c5723e-5bdd-4f45-9371-0de51cb86cf7")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -16567,6 +17518,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 720.09 379.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3837d210-bfbb-4bcb-87c9-2e6a9ac825f1")
+		(property "Reference" "R7"
+			(at 720.344 385.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 720.09 382.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 720.09 377.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 720.09 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 720.09 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed87c83d-9bea-44c9-a856-1d6160058e20")
+		)
+		(pin "1"
+			(uuid "22e6685b-3e2c-4e16-93a8-ce7f90510f8b")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 737.87 185.42 0)
 		(unit 1)
@@ -17032,6 +18050,74 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 726.44 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47e2965e-18e5-4e9f-b11d-6d9ab390774b")
+		(property "Reference" "#PWR091"
+			(at 726.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 723.9 95.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 726.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 726.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 726.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aadd24f-3fed-4f9f-b5b1-d77343b2db36")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 565.15 441.96 270)
 		(unit 1)
@@ -17059,7 +18145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 565.15 441.96 0)
 			(effects
 				(font
@@ -17367,6 +18453,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_US")
+		(at 534.67 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53912d4d-627b-4864-98df-ef855763184c")
+		(property "Reference" "C24"
+			(at 530.86 129.2861 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 530.86 126.7461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 534.67 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 534.67 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 534.67 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98f89d5a-580c-4c84-af75-ab91272aab10")
+		)
+		(pin "1"
+			(uuid "54bff315-0e85-4b4f-80b2-951c11168d65")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 665.48 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53d2bce2-0bec-47f6-a373-6437dc70d805")
+		(property "Reference" "#PWR087"
+			(at 665.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 662.94 95.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 665.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 665.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 665.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f08dfd52-3c99-4373-ab32-6857febfe295")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 455.93 241.3 0)
 		(unit 1)
@@ -17637,7 +18861,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 436.88 132.08 270)
+		(at 538.48 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17646,7 +18870,7 @@
 		(fields_autoplaced yes)
 		(uuid "60cd27f1-7094-4166-bcbb-82f05661cf13")
 		(property "Reference" "#PWR033"
-			(at 433.07 132.08 0)
+			(at 534.67 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17655,7 +18879,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 440.69 132.0799 90)
+			(at 542.29 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17664,7 +18888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 436.88 132.08 0)
+			(at 538.48 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17673,7 +18897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 436.88 132.08 0)
+			(at 538.48 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17682,7 +18906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 436.88 132.08 0)
+			(at 538.48 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17697,6 +18921,74 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 636.27 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6465d752-11d3-4b57-b686-37fe7ae76b35")
+		(property "Reference" "#PWR085"
+			(at 636.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 633.73 95.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 636.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 636.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 636.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "275cbfd2-98c6-4c25-8068-501d8b762544")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -17838,6 +19130,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_US")
+		(at 726.44 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "698ed80c-0b63-401d-9252-e39c1f9052bb")
+		(property "Reference" "C31"
+			(at 722.63 101.3461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 722.63 98.8061 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 726.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 726.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 726.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30589708-bd23-47cd-b7e1-4dae6fdf8cb2")
+		)
+		(pin "1"
+			(uuid "c52e0fbc-12aa-4e5a-8c48-eccb2ee27e85")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Battery_Management:TP4056-42-ESOP8")
 		(at 651.51 411.48 0)
 		(unit 1)
@@ -17929,6 +19291,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_US")
+		(at 741.68 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ad35830-4fee-44cb-8dae-bc66a83fbbd6")
+		(property "Reference" "C32"
+			(at 737.87 101.3461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 737.87 98.8061 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 741.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 741.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 741.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "724c062b-2b27-4331-929a-472afbf50b85")
+		)
+		(pin "1"
+			(uuid "e90d8ae7-1916-433d-9c8f-3f6b9a7d7c17")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 287.02 220.98 270)
 		(unit 1)
@@ -17990,6 +19422,74 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 490.22 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f8a3f93-3527-4c18-a9d6-f36b17f55f55")
+		(property "Reference" "#PWR081"
+			(at 490.22 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 487.68 123.1901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 490.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 490.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 490.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62bb2d34-44ef-486e-99da-b581a5d8441b")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -18196,6 +19696,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_US")
+		(at 473.71 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "776f0eed-fc07-4426-9f37-eec468a4b692")
+		(property "Reference" "C20"
+			(at 469.9 129.2861 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 469.9 126.7461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 473.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 473.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 473.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1bcfd1fb-1292-40fd-9cd4-1a6e0865a4fe")
+		)
+		(pin "1"
+			(uuid "a618f28c-e707-4003-a99d-311be47adc55")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 299.72 200.66 90)
 		(unit 1)
@@ -18394,6 +19964,76 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 651.51 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e331b03-e678-412c-ad66-59ee1b10cc0d")
+		(property "Reference" "C26"
+			(at 647.7 101.3461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 647.7 98.8061 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 651.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 651.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 651.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa74d8a4-9474-464e-985d-4e8ad1e3ab2f")
+		)
+		(pin "1"
+			(uuid "821f2f53-d8ff-485e-99fe-1dd93212fe88")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -19191,6 +20831,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_US")
+		(at 665.48 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "892e179b-60da-4f78-97eb-9625ac387712")
+		(property "Reference" "C27"
+			(at 661.67 101.3461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 661.67 98.8061 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 665.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 665.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 665.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4993020a-2bd2-4215-98f4-87623049697d")
+		)
+		(pin "1"
+			(uuid "e4783910-873e-4b91-80a9-0360c169b956")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 662.94 167.64 0)
 		(mirror y)
@@ -19321,6 +21031,76 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 636.27 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c62879d-e49a-4d9f-b686-705dbd569490")
+		(property "Reference" "C25"
+			(at 632.46 101.3461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 632.46 98.8061 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 636.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 636.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 636.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9b31b59-7b95-46c4-b0d5-4d4e92e764e7")
+		)
+		(pin "1"
+			(uuid "efb7bc2d-70d5-4da0-9caf-fdf5b149da30")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -19662,6 +21442,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 755.65 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "935fb3b6-06ec-4b96-8200-bc0d5292fbb9")
+		(property "Reference" "#PWR093"
+			(at 751.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 759.46 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 755.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 755.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 755.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46f9d1af-d53a-404c-995f-4752cdb8cd59")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 706.12 374.65 270)
 		(unit 1)
@@ -19680,7 +21527,7 @@
 			)
 		)
 		(property "Value" "+3.7VBAT"
-			(at 710.692 374.65 90)
+			(at 708.914 374.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19931,8 +21778,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_US")
+		(at 444.5 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "966640a0-e53e-417c-8622-673b3303061b")
+		(property "Reference" "C18"
+			(at 440.69 129.2861 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 440.69 126.7461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 444.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 444.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 444.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34f052cc-e14e-43a0-8835-1257d9cd0938")
+		)
+		(pin "1"
+			(uuid "deaa9c1f-5b27-4d1c-8274-e05d3cdb25e1")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
-		(at 709.93 379.73 180)
+		(at 728.98 379.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19940,7 +21857,7 @@
 		(dnp no)
 		(uuid "97db44a7-b802-444c-ba65-5e0d35e77b41")
 		(property "Reference" "D2"
-			(at 711.2 382.524 0)
+			(at 730.25 382.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19948,7 +21865,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 711.2 384.81 0)
+			(at 730.25 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19956,7 +21873,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 709.93 379.73 0)
+			(at 728.98 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19965,7 +21882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 709.93 379.73 0)
+			(at 728.98 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19974,7 +21891,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 709.93 379.73 0)
+			(at 728.98 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19983,7 +21900,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 709.93 379.73 0)
+			(at 728.98 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21568,6 +23485,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_US")
+		(at 490.22 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a619bfbf-c25e-4f14-b56b-f106bee13d81")
+		(property "Reference" "C21"
+			(at 486.41 129.2861 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 486.41 126.7461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 490.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 490.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 490.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa56347f-6315-4c7f-8085-f7476f4dd0fe")
+		)
+		(pin "1"
+			(uuid "e30ffd42-2ba7-4ef6-a2fc-3ea8bad20b34")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 651.51 295.91 0)
 		(unit 1)
@@ -21636,7 +23623,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 713.74 379.73 90)
+		(at 732.79 379.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21645,7 +23632,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7126e19-68ac-491d-8990-a0bb4b2e9963")
 		(property "Reference" "#PWR042"
-			(at 720.09 379.73 0)
+			(at 739.14 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21654,7 +23641,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 717.55 379.7299 90)
+			(at 736.6 379.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21663,7 +23650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 713.74 379.73 0)
+			(at 732.79 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21672,7 +23659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 713.74 379.73 0)
+			(at 732.79 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21681,7 +23668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 713.74 379.73 0)
+			(at 732.79 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21696,6 +23683,74 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 519.43 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa6b40b5-3047-474f-ab4c-72b16c8eaa6a")
+		(property "Reference" "#PWR083"
+			(at 519.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 516.89 123.1901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 519.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 519.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 519.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bed7ff2-e4b5-4acf-b130-702717572bff")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -22549,7 +24604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-LQSH-4020"
 			(at 538.48 486.41 0)
 			(effects
 				(font
@@ -22586,6 +24641,74 @@
 			(project ""
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 741.68 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bee29cd5-904d-4fd1-b7cf-5243fcc79464")
+		(property "Reference" "#PWR092"
+			(at 741.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 739.14 95.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 741.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 741.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 741.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "587a9a3e-a21f-41b6-8467-ac314c3a5c7b")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -23219,6 +25342,74 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 712.47 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0b4ecd2-b67f-4bd3-8cec-8f60d22d465f")
+		(property "Reference" "#PWR090"
+			(at 712.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 709.93 95.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 712.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 712.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 712.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c2264a2-7542-4446-b4f7-db7493a3b6d7")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 299.72 226.06 270)
 		(unit 1)
@@ -23370,7 +25561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20uF"
+		(property "Value" "22uF"
 			(at 525.78 443.4839 0)
 			(effects
 				(font
@@ -24004,6 +26195,76 @@
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "MCM93_MOD1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 519.43 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d282a507-e6fe-4b92-8993-1cc3a3f84268")
+		(property "Reference" "C23"
+			(at 515.62 129.2861 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 515.62 126.7461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 519.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 519.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 519.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76f5f60c-8433-4d60-ba96-886ceb104307")
+		)
+		(pin "1"
+			(uuid "afed380f-d110-481c-9462-5b793fc77088")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C23")
+					(unit 1)
 				)
 			)
 		)
@@ -24830,6 +27091,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_US")
+		(at 680.72 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef888db6-9fbd-40cc-b9b1-f266cfd640fe")
+		(property "Reference" "C28"
+			(at 676.91 101.3461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 676.91 98.8061 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 680.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 680.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 680.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a3b8d8f-a2b6-47e6-af45-f85ccef555aa")
+		)
+		(pin "1"
+			(uuid "a9599273-6fe5-42d5-ba66-1cb2bf426bf1")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 581.66 438.15 90)
 		(unit 1)
@@ -24855,7 +27186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_APV_APH0630"
 			(at 581.66 438.15 0)
 			(effects
 				(font
@@ -24892,6 +27223,142 @@
 			(project ""
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 711.2 379.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f44ab732-6e30-44e3-8402-cfc50ebce353")
+		(property "Reference" "D3"
+			(at 711.5175 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 711.5175 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 711.2 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 711.2 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 711.2 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "257ee2e4-bb74-4e5e-a61c-b31143616228")
+		)
+		(pin "2"
+			(uuid "b2ebd1fe-bf71-4305-8746-4f2cd484dc51")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 444.5 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f45063e4-40ac-4ffb-ba81-c61441e72e28")
+		(property "Reference" "#PWR078"
+			(at 444.5 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 441.96 123.1901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 444.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 444.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 444.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5cbf865-a168-44c0-8667-346b98288051")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -24959,6 +27426,76 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 697.23 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f82789fd-6b51-4860-80a9-5643ca7a0f27")
+		(property "Reference" "C29"
+			(at 693.42 101.3461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 693.42 98.8061 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 697.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 697.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 697.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e489ef16-c8b2-40e1-90c0-0bf063213072")
+		)
+		(pin "1"
+			(uuid "8eae43d2-bace-404d-b05c-af1d3e762f04")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "C29")
 					(unit 1)
 				)
 			)

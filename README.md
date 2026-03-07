@@ -15,9 +15,9 @@ The **Main Board** is the hub of the system, hosting the MCM-iMX93 SoM, an onboa
 | Module          | Interface         | Role                                        |
 |-----------------|-------------------|---------------------------------------------|
 | Main Board      | DF40 (host)       | MCM-iMX93 SoM, DAC, signal routing          |
-| Display Module  | MIPI/LVDS + Touch | Adapter for wide MIPI-DSI display compat.   |
-| Wi-Fi / BT      | SDIO / UART       | Wireless radio                              |
-| Audio Module    | Analog            | Amp, speaker, headphone, mic interface      |
+| Display Module  | MIPI/LVDS + Touch | Adapter for wide MIPI-DSI display compatability.   |
+| Camera Module  | MIPI CSI-2 | Adapter for wide MIPI-CSI camera compatability.   |
+| Audio Module    | Analog            | Amp, speaker, headphone, mic      |
 
 Full connector pinout in [MBI-Lite Specification](MBI-LITE.md).
 
@@ -26,7 +26,6 @@ Full connector pinout in [MBI-Lite Specification](MBI-LITE.md).
 ## Project Goals
 
 - One connector standard (DF40) across every module
-- Analog audio path — simpler layout, better signal integrity
 - Linux (Debian + Phosh), Android, and Ubuntu Touch compatible
 - Fully open: KiCad source + mechanical files under GNU GPL-V3.0
 
@@ -35,9 +34,9 @@ Full connector pinout in [MBI-Lite Specification](MBI-LITE.md).
 ## Development Notes
 
 ### Main Board
-> Second Revision/V2!
+> First prototype!
 > Revamping design.
-> PCB Design DONE!
+> PCB Design in final polishing and bug fix stages!
 
 ### Wi-Fi / Bluetooth Module
 > Not here yet.
@@ -50,14 +49,17 @@ Full connector pinout in [MBI-Lite Specification](MBI-LITE.md).
 > Design TBD
 
 ### Audio Module
-> Design TBD
+> Design Started
+
+### Radio Module
+> **NOT** included in first prototype due to radio ciruitry complexity slowing down progress of getting to a first boot.
 
 ---
 
 ## Current Project Status
 
-- Not ready to boot anything
-- Working on design for main board.
+- Almost ready to boot something.
+- Working on wrapping up design for main board.
 
 ---
 
