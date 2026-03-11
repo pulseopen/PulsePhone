@@ -3,9 +3,7 @@
     "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
-    "hidden_netclasses": [
-      "Default"
-    ],
+    "hidden_netclasses": [],
     "hidden_nets": [
       "",
       "Net-(U2-CAPM)",
