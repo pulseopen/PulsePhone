@@ -65,6 +65,7 @@ Full connector pinout in [MBI-Lite Specification](MBI-LITE.md).
 
 ## Documentation
 
+- Check out the [Wiki](https://github.com/pulseopen/PulsePhone/wiki)
 - [MBI-Lite Module Connector Specification](MBI-LITE.md)
 - [Contributing](CONTRIBUTING.md)
 - [License](LICENSE)
