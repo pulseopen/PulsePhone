@@ -52,7 +52,20 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "net_conflict|116800000|146540000|c9b8a3fc-f1e9-42c8-bbc3-70bfa06d4e75|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|145540000|40100000|201ef715-6eb8-4a53-80af-38760607a9a8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|155600000|146540000|5ca3537e-9bff-4ed5-a340-3c84eea6bee0|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -112,7 +125,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "ignore",
-        "via_dangling": "ignore",
+        "via_dangling": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -665,6 +678,30 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Texas_Instruments-Purchase-URL",
+          "name": "Texas_Instruments-Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey-Purchase-URL",
+          "name": "DigiKey-Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser-Purchase-URL",
+          "name": "Mouser-Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
           "show": false
         }
       ],
