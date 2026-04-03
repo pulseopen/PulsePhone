@@ -4546,7 +4546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11007_1x07-1MP_P0.5mm_Horizontal"
+		(property "Footprint" "Connector_FFC-FPC:FPC_7"
 			(at 110.49 163.83 0)
 			(effects
 				(font
@@ -4555,7 +4555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 110.49 163.83 0)
 			(effects
 				(font
@@ -4564,7 +4564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 110.49 163.83 0)
 			(effects
 				(font
@@ -5827,7 +5827,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2a1d00a-eb27-4bd8-a741-26151be67aa5")
 		(property "Reference" "J4"
@@ -5846,7 +5846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Hirose_DF40:Hirose_DF40C(2.0)-70DS-0.4V_2x35_P0.4mm"
+		(property "Footprint" "Connector_Hirose_DF40:Hirose_DF40C-34DS-0.4V_2x17_P0.4mm"
 			(at 87.63 91.44 0)
 			(effects
 				(font
@@ -6137,7 +6137,7 @@
 				)
 			)
 		)
-		(property "Value" "DISPLAY FPC"
+		(property "Value" "THD THD0515-29CL-SN"
 			(at 237.49 67.31 0)
 			(effects
 				(font
@@ -6145,7 +6145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32R-1A7x1-11029_1x29-1MP_P0.5mm_Horizontal"
+		(property "Footprint" "Connector_FFC-FPC:FPC-29-P0.5"
 			(at 236.22 88.9 0)
 			(effects
 				(font
@@ -6154,7 +6154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 236.22 88.9 0)
 			(effects
 				(font
@@ -6163,7 +6163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 236.22 88.9 0)
 			(effects
 				(font

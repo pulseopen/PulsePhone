@@ -1,4 +1,11 @@
-27242953750083317
+27257147995788646
+3024
+BAT_3024
+
+
+0
+3
+3
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -11241,6 +11248,20 @@ F32J
 0
 62
 61
+Connector_FFC-FPC
+FPC-29-P0.5
+
+
+0
+31
+30
+Connector_FFC-FPC
+FPC_7
+
+
+0
+9
+8
 Connector_FFC-FPC
 Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal
 Hirose FH12, FFC/FPC connector, FH12-6S-0.5SH, 6 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
@@ -62194,6 +62215,20 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+FPC-0.5-29P
+CONN_XF3M-2915-1B_OMR
+
+XF3M-2915-1B 
+0
+31
+31
+FPC-P0.5-7p
+CONN_XF3M-0715-1B_OMR
+
+XF3M-0715-1B 
+0
+9
+9
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -98657,6 +98692,20 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SSSS810701
+SSSS810701
+
+
+0
+7
+7
+STM32WB55CEU6
+QFN50P700X700X60-49N
+
+
+0
+49
+49
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -107904,3 +107953,10 @@ Varistor VF
 0
 2
 2
+footprints
+fpc_edge
+FPC gold finger edge connector 4pin 0.5mm pitch
+
+0
+4
+4
