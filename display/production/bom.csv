@@ -1,6 +1,6 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
 "C1, C2, C3, C4, C5, C6, C7, C8, C9",1206,9,20uF,
-J1,Amphenol_F32R-1A7x1-11029_1x29-1MP_P0.5mm_Horizontal,1,DISPLAY FPC,
-J2,Amphenol_F32Q-1A7x1-11007_1x07-1MP_P0.5mm_Horizontal,1,FPC LOGIC,
-J4,Hirose_DF40C(2.0)-70DS-0.4V_2x35_P0.4mm,1,DF40,
+J1,FPC-29-P0.5,1,THD THD0515-29CL-SN,
+J2,FPC_7,1,FPC LOGIC,
+J4,Hirose_DF40C-34DS-0.4V_2x17_P0.4mm,1,DF40,
 R1,1206,1,100 OHM,

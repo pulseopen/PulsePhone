@@ -5107,6 +5107,231 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SSSS810701:SSSS810701"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "B"
+				(at -2.5421 3.8132 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SSSS810701"
+				(at -2.5435 -1.9076 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SSSS810701:SSSS810701"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "ALPS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Slide Switch • Rating (max.): 0.3 A 5 VDC • Poles: 1 • Positions: 2 • Travel : 1.5 mm • Operating direction: Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SSSS810701/ALPS/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "SSSS810701"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SSSS810701/ALPS/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SSSS810701_0_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -0.127 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.3048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.3048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 2.54 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -9839,6 +10064,12 @@
 		(uuid "3041c5ab-3f63-42ad-9e99-4b66aabdd5f6")
 	)
 	(junction
+		(at 521.97 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32c6e5ae-f3b8-4637-bd2e-723ba5528e32")
+	)
+	(junction
 		(at 320.04 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10025,6 +10256,12 @@
 		(uuid "7f2dd68f-0beb-4dce-9a6c-77da3f0d1c52")
 	)
 	(junction
+		(at 523.24 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "821d93df-7ee5-4756-a4ab-99adfe175f90")
+	)
+	(junction
 		(at 429.26 383.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10107,6 +10344,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1bd967f-521c-4027-8e7e-d6d7f79c2801")
+	)
+	(junction
+		(at 317.5 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3fffb90-ab57-4614-bb7e-063a1e78c85c")
 	)
 	(junction
 		(at 680.72 411.48)
@@ -10197,6 +10440,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dca7b3a8-ef6e-4c15-9043-b1b8773647f5")
+	)
+	(junction
+		(at 276.86 262.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e306bac0-b2f7-4bf3-a846-4c4545f6e2ac")
 	)
 	(junction
 		(at 654.05 430.53)
@@ -10756,16 +11005,6 @@
 	)
 	(wire
 		(pts
-			(xy 742.95 185.42) (xy 748.03 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fd031bf-7de2-46d9-9552-07339b4e86f5")
-	)
-	(wire
-		(pts
 			(xy 287.02 207.01) (xy 287.02 208.28)
 		)
 		(stroke
@@ -10773,6 +11012,16 @@
 			(type default)
 		)
 		(uuid "2094e411-4193-4675-bd9d-92285a4bb57b")
+	)
+	(wire
+		(pts
+			(xy 287.02 262.89) (xy 276.86 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213ae908-41d5-4cb3-b959-3991335633b7")
 	)
 	(wire
 		(pts
@@ -11416,6 +11665,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 264.16) (xy 317.5 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d868539-8dbe-49fc-8c7b-5aa6247aaf76")
+	)
+	(wire
+		(pts
 			(xy 812.8 364.49) (xy 811.53 364.49)
 		)
 		(stroke
@@ -11626,16 +11885,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 223.52) (xy 317.5 311.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "732ea1ec-ce9f-4be3-8be8-b18c993e244d")
-	)
-	(wire
-		(pts
 			(xy 565.15 438.15) (xy 553.72 438.15)
 		)
 		(stroke
@@ -11716,6 +11965,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 264.16) (xy 317.5 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b49a7fb-35a9-4ed2-8c8d-a5722efffec0")
+	)
+	(wire
+		(pts
 			(xy 360.68 276.86) (xy 276.86 276.86)
 		)
 		(stroke
@@ -11733,6 +11992,16 @@
 			(type default)
 		)
 		(uuid "7bf2d933-63aa-4079-9d19-56f9d00a999d")
+	)
+	(wire
+		(pts
+			(xy 276.86 262.89) (xy 276.86 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c895f8e-35c2-468e-b3ce-02ce1abe1530")
 	)
 	(wire
 		(pts
@@ -11763,6 +12032,16 @@
 			(type default)
 		)
 		(uuid "7cd73c8d-0448-4121-90bd-fd45155d4474")
+	)
+	(wire
+		(pts
+			(xy 735.33 185.42) (xy 748.03 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cdf0d29-dae0-4697-b58e-9d5f58cf8c67")
 	)
 	(wire
 		(pts
@@ -12356,6 +12635,16 @@
 	)
 	(wire
 		(pts
+			(xy 521.97 219.71) (xy 541.02 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3a8559-7696-48f6-aa7e-cfd55c013089")
+	)
+	(wire
+		(pts
 			(xy 538.48 166.37) (xy 538.48 167.64)
 		)
 		(stroke
@@ -12506,13 +12795,23 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 276.86) (xy 276.86 223.52)
+			(xy 276.86 223.52) (xy 276.86 262.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b89fe196-4cbc-4101-975c-65fed1a67b1c")
+	)
+	(wire
+		(pts
+			(xy 560.07 222.25) (xy 560.07 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba455535-f746-4192-9a9d-55feb0e0e474")
 	)
 	(wire
 		(pts
@@ -12553,6 +12852,16 @@
 			(type default)
 		)
 		(uuid "bd76b488-d93a-4853-b7d9-456efc7f0ecb")
+	)
+	(wire
+		(pts
+			(xy 317.5 223.52) (xy 317.5 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbf3002-c50b-4c53-b793-d553c18b4285")
 	)
 	(wire
 		(pts
@@ -13273,6 +13582,16 @@
 			(type default)
 		)
 		(uuid "f823cff2-82ad-4932-9606-12dac8b74808")
+	)
+	(wire
+		(pts
+			(xy 523.24 222.25) (xy 560.07 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94e8353-2fe8-47a6-964b-a1b8c5c7d01f")
 	)
 	(wire
 		(pts
@@ -15649,10 +15968,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0f7fc71f-f63f-4971-90dc-7e22540f8039")
 		(property "Reference" "D3-N1"
-			(at 306.07 212.5979 0)
+			(at 307.848 215.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15661,7 +15979,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 306.07 215.1379 0)
+			(at 306.324 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15669,7 +15987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 308.61 217.17 0)
 			(effects
 				(font
@@ -16016,7 +16334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 656.59 295.91 0)
 			(effects
 				(font
@@ -17279,7 +17597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 325.12 213.36 0)
 			(effects
 				(font
@@ -17326,9 +17644,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2275fc99-8849-437e-b513-ee67dc9ced84")
-		(property "Reference" "SW1"
+		(property "Reference" "RESET1"
 			(at 647.7 177.8 0)
 			(effects
 				(font
@@ -17344,7 +17661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG"
 			(at 647.7 180.34 0)
 			(effects
 				(font
@@ -17353,7 +17670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 647.7 180.34 0)
 			(effects
 				(font
@@ -17362,7 +17679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 647.7 185.42 0)
 			(effects
 				(font
@@ -17380,7 +17697,7 @@
 		(instances
 			(project ""
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "SW1")
+					(reference "RESET1")
 					(unit 1)
 				)
 			)
@@ -18205,7 +18522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 322.58 218.44 0)
 			(effects
 				(font
@@ -18586,6 +18903,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 668.02 440.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29079a25-d0c3-4d83-8fb6-603e4e583ace")
+		(property "Reference" "#PWR0101"
+			(at 668.02 447.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 668.02 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 668.02 440.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 668.02 440.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 668.02 440.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "772c1686-f61d-468c-b863-630bf1e2f795")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 566.42 158.75 270)
 		(unit 1)
@@ -18780,6 +19164,73 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 541.02 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d5fe67f-7570-459d-b757-bc780ea89472")
+		(property "Reference" "AUD-L1"
+			(at 543.56 215.1379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 543.56 217.6779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 546.1 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 546.1 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 541.02 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57316f0f-f869-48cd-893d-d02bf5f9472b")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "AUD-L1")
 					(unit 1)
 				)
 			)
@@ -19013,7 +19464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 311.15 212.09 0)
 			(effects
 				(font
@@ -19321,33 +19772,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 737.87 185.42 0)
+		(lib_id "SSSS810701:SSSS810701")
+		(at 732.79 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3acaa001-c44e-407b-8a29-261888a62efd")
-		(property "Reference" "SW2"
-			(at 737.87 177.8 0)
+		(property "Reference" "ON/OFF1"
+			(at 731.012 180.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 737.87 180.34 0)
+			(at 731.774 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
-			(at 737.87 180.34 0)
+		(property "Footprint" "SSSS810701:SSSS810701"
+			(at 732.79 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 732.79 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19355,8 +19818,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 737.87 180.34 0)
+		(property "Description" ""
+			(at 732.79 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19364,12 +19827,83 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 737.87 185.42 0)
+		(property "MF" "ALPS"
+			(at 732.79 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Slide Switch • Rating (max.): 0.3 A 5 VDC • Poles: 1 • Positions: 2 • Travel : 1.5 mm • Operating direction: Horizontal"
+			(at 732.79 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 732.79 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 732.79 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SSSS810701/ALPS/view-part/?ref=snap"
+			(at 732.79 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SSSS810701"
+			(at 732.79 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 732.79 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SSSS810701/ALPS/view-part/?ref=eda"
+			(at 732.79 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -19379,10 +19913,13 @@
 		(pin "2"
 			(uuid "3eed31fd-1660-40b4-ab7c-2b0b5579ee04")
 		)
+		(pin "3"
+			(uuid "ca6fed5d-b557-45e7-86b6-16e82e1fe834")
+		)
 		(instances
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "SW2")
+					(reference "ON/OFF1")
 					(unit 1)
 				)
 			)
@@ -19451,6 +19988,73 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 574.04 388.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e5a01ab-6d04-42f4-b01e-5d3d14eae881")
+		(property "Reference" "#PWR0100"
+			(at 580.39 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 575.3099 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 574.04 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 574.04 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 574.04 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8a8c345-0db2-4780-b5cf-c421c1ddb5a1")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -20087,7 +20691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 328.93 203.2 0)
 			(effects
 				(font
@@ -20257,6 +20861,73 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 560.07 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d3c98c3-1651-400d-9ef1-607d3bd73d4f")
+		(property "Reference" "AUD-R1"
+			(at 562.61 215.1379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 562.61 217.6779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 565.15 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 565.15 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 560.07 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "862ff764-3706-4ede-8395-5521c775552f")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "AUD-R1")
 					(unit 1)
 				)
 			)
@@ -20623,7 +21294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 313.69 207.01 0)
 			(effects
 				(font
@@ -21637,71 +22308,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 709.93 459.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73c620d9-b3b0-4351-a1d5-a3969dd7766d")
-		(property "Reference" "#PWR040"
-			(at 709.93 466.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDCHASSIS"
-			(at 706.374 464.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 709.93 459.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 709.93 459.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 709.93 459.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95abec7c-0feb-4c19-9183-262e60d3c356")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_US")
 		(at 792.48 370.84 0)
 		(unit 1)
@@ -21835,6 +22441,73 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 300.99 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "760dba5c-84cd-4c59-8dac-43243e527d30")
+		(property "Reference" "I2C3-SDA1"
+			(at 303.53 259.5879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 303.53 262.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 306.07 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 300.99 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e15ae726-a030-419f-9a98-4002409f0e11")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "I2C3-SDA1")
 					(unit 1)
 				)
 			)
@@ -22939,7 +23612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 692.15 295.91 0)
 			(effects
 				(font
@@ -23006,7 +23679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 709.93 295.91 0)
 			(effects
 				(font
@@ -23482,7 +24155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 328.93 198.12 0)
 			(effects
 				(font
@@ -27315,7 +27988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 314.96 201.93 0)
 			(effects
 				(font
@@ -28045,6 +28718,140 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 287.02 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd4a4a46-98f9-4184-b58e-e9431efa9f7d")
+		(property "Reference" "I2C3-SCL1"
+			(at 289.56 258.3179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 289.56 260.8579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 292.1 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 287.02 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "379ac3c1-635f-4814-8a31-7a7f2f2b04da")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "I2C3-SCL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 709.93 459.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cda6ad5e-bdc2-4cba-a342-3186fb1290dd")
+		(property "Reference" "#PWR040"
+			(at 709.93 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 708.152 464.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 709.93 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 709.93 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 709.93 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77ca67fa-3059-4f38-95ad-663a107f40fa")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -29141,7 +29948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 721.36 436.88 0)
 			(effects
 				(font
@@ -29150,7 +29957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" ""
 			(at 721.36 436.88 0)
 			(effects
 				(font
@@ -29159,7 +29966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+		(property "Description" ""
 			(at 717.55 436.88 0)
 			(effects
 				(font
@@ -29250,7 +30057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 327.66 208.28 0)
 			(effects
 				(font
@@ -30521,7 +31328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 675.64 295.91 0)
 			(effects
 				(font
@@ -30658,7 +31465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 314.96 196.85 0)
 			(effects
 				(font
