@@ -10,14 +10,14 @@ Built around the **MCM-iMX93 System-on-Module**, PulsePhone uses **Hirose DF40**
 
 ## System Architecture
 
-The **Main Board** is the hub of the system, hosting the MCM-iMX93 SoM, an onboard DAC, and all signal routing. Every peripheral connects to it via DF40 connectors.
+The **Main Board** is the hub of the system, hosting the MCM-iMX93 SoM, power management, WiFi/BT, onboard DAC, and all signal routing. Every peripheral connects via DF40 connectors following the MBI-Lite standard.
 
-| Module          | Interface         | Role                                        |
-|-----------------|-------------------|---------------------------------------------|
-| Main Board      | DF40 (host)       | MCM-iMX93 SoM, DAC, signal routing          |
-| Display Module  | MIPI/LVDS + Touch | Adapter for wide MIPI-DSI display compatability.   |
-| Camera Module  | MIPI CSI-2 | Adapter for wide MIPI-CSI camera compatability.   |
-| Audio Module    | Analog            | Amp, speaker, headphone, mic      |
+| Module         | Interface          | Role                                               |
+|----------------|--------------------|----------------------------------------------------|
+| Main Board     | DF40 (host)        | MCM-iMX93 SoM, WiFi/BT, DAC, power management     |
+| Display Module | MIPI-DSI + Touch   | Adapter for wide MIPI-DSI display compatibility    |
+| Camera Module  | MIPI CSI-2         | Adapter for wide MIPI-CSI camera compatibility     |
+| Audio Module   | Analog             | Amp, speaker, headphone, mic                       |
 
 Full connector pinout in [MBI-Lite Specification](MBI-LITE.md).
 
@@ -26,40 +26,57 @@ Full connector pinout in [MBI-Lite Specification](MBI-LITE.md).
 ## Project Goals
 
 - One connector standard (DF40) across every module
-- Linux (Debian + Phosh), Android, and Ubuntu Touch compatible
+- Yocto Linux (meta-imx BSP) as primary OS target
+- Kit-oriented design — bring your own display and case
 - Fully open: KiCad source + mechanical files under GNU GPL-V3.0
 
 ---
 
-## Development Notes
+## Hardware Status
 
-### Main Board
-> First prototype!
-> Revamping design.
-> PCB Design in final polishing and bug fix stages!
+### Main Board — Rev 2
+- MCM-iMX93 LGA-140 SoM (NXP iMX93, dual A55 + M33)
+- LBEE5KL1YN-814 WiFi/BT module with U.FL antenna connector
+- PCM5102A audio DAC routed to SAI port
+- TPS63020 buck-boost regulator, AP2112K-3.3 LDO
+- TP4056 battery charger, MIC2877 5V boost
+- On-board CP2102 USB-UART bridge (1.8V logic, resolves Rev 1 bringup issue)
+- MAX17048 fuel gauge on I2C
+- TVS/ESD protection on USB-C
+- JTAG header
+- Schematic complete, PCB routed, pre-order review in progress
 
-### Wi-Fi / Bluetooth Module
-> Not here yet.
+### Rev 1 — Lessons Learned
+- XL1509 EN pin active-low behavior caused 3.3V rail failure (fixed in Rev 2 with AP2112K)
+- 1.8V UART logic level mismatch with external CP2102 (fixed with on-board bridge)
+- Test pad size too small for reliable probing (all pads 2mm minimum in Rev 2)
+- SoM partial boot activity observed but UART output not confirmed
 
 ### Display Module
-> PCB Design DONE!
-> This module acts like an adapter, so PulsePhone can have a wide range of MIPI-DSI displays to be compatible with.
+PCB design complete. Functions as a passive MIPI-DSI adapter for broad display compatibility.
 
 ### Camera Module
-> Design TBD
+Design TBD.
 
 ### Audio Module
-> Design Started
+Design in progress.
 
 ### Radio Module
-> **NOT** included in first prototype due to radio ciruitry complexity slowing down progress of getting to a first boot.
+Not included in Rev 2. Deferred due to RF complexity.
 
 ---
 
-## Current Project Status
+## Software Target
 
-- Almost ready to boot something.
-- Working on wrapping up design for main board.
+- **OS:** Yocto Linux with NXP `meta-imx` BSP layer
+- **Target:** First Linux boot on A55 cores via SD card
+- **Planned:** Custom Yocto distro layer for UI and system configuration
+
+---
+
+## Current Status
+
+Rev 2 schematic and PCB complete. Pre-order review week in progress before board order. Targeting first Linux boot on Rev 2 hardware.
 
 ---
 
