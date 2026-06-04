@@ -1,4 +1,4 @@
-27248276166203828
+27260700002595726
 3024
 BAT_3024
 
@@ -11248,6 +11248,20 @@ F32J
 0
 62
 61
+Connector_FFC-FPC
+FPC-29-P0.5
+
+
+0
+31
+30
+Connector_FFC-FPC
+FPC_7
+
+
+0
+9
+8
 Connector_FFC-FPC
 Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal
 Hirose FH12, FFC/FPC connector, FH12-6S-0.5SH, 6 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
@@ -62201,6 +62215,27 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+FPC-0.5-29P
+CONN_XF3M-2915-1B_OMR
+
+XF3M-2915-1B 
+0
+31
+31
+FPC-0.5-29P
+XCVR_LBEE5KL1YN-814
+
+
+0
+46
+46
+FPC-P0.5-7p
+CONN_XF3M-0715-1B_OMR
+
+XF3M-0715-1B 
+0
+9
+9
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -107925,3 +107960,17 @@ Varistor VF
 0
 2
 2
+footprints
+CONN_XF3M-2915-1B_OMR
+
+XF3M-2915-1B 
+0
+31
+31
+footprints
+XCVR_LBEE5KL1YN-814
+
+
+0
+46
+46
