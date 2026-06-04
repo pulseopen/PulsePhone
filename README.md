@@ -38,8 +38,8 @@ Full connector pinout in [MBI-Lite Specification](MBI-LITE.md).
 > Revamping design.
 > PCB Design in final polishing and bug fix stages!
 
-### Wi-Fi / Bluetooth Module
-> Not here yet.
+### Wi-Fi / Bluetooth (Former Module)
+> Deffered to embedded inclusion on main board.
 
 ### Display Module
 > PCB Design DONE!
@@ -51,8 +51,8 @@ Full connector pinout in [MBI-Lite Specification](MBI-LITE.md).
 ### Audio Module
 > Design Started
 
-### Radio Module
-> **NOT** included in first prototype due to radio ciruitry complexity slowing down progress of getting to a first boot.
+### Mod Extension
+> Planned inclusion. This extension will include an additional DF40 on the main board for community mods to the phone, like additional features.
 
 ---
 
