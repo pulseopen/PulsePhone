@@ -11932,12 +11932,6 @@
 		(uuid "32c6e5ae-f3b8-4637-bd2e-723ba5528e32")
 	)
 	(junction
-		(at 320.04 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "387c3984-cd1d-4415-a066-5ce8b90b53e2")
-	)
-	(junction
 		(at 45.72 447.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11954,12 +11948,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "447be60a-4f54-430b-b8c4-b4f5179a94dc")
-	)
-	(junction
-		(at 323.85 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "538384e0-e230-4b3f-904f-5ca9f05fbf97")
 	)
 	(junction
 		(at 412.75 132.08)
@@ -11986,12 +11974,6 @@
 		(uuid "56dbdfba-e4e3-458b-a179-3edc932b1274")
 	)
 	(junction
-		(at 317.5 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58b6f132-d980-4d7d-aba0-3e228da72ce0")
-	)
-	(junction
 		(at 534.67 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12002,12 +11984,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b7792e2-31c1-4c2d-bd8e-44de09fbeef3")
-	)
-	(junction
-		(at 323.85 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ecdfa21-d7b3-47e3-bc30-e02565c35ae2")
 	)
 	(junction
 		(at 429.26 393.7)
@@ -12026,12 +12002,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6456c173-f802-4c22-a42a-7c8f9d1b37ea")
-	)
-	(junction
-		(at 306.07 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "678590a0-5a3e-4d90-88ed-e526bfc5e9e8")
 	)
 	(junction
 		(at 383.54 132.08)
@@ -12088,12 +12058,6 @@
 		(uuid "76c1acac-90a0-43dc-9740-20d04d17f20d")
 	)
 	(junction
-		(at 322.58 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7980fade-6f57-46a7-a1e7-5b3450408b7e")
-	)
-	(junction
 		(at 736.6 377.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12142,12 +12106,6 @@
 		(uuid "8643c3da-f665-486f-abfa-c6027a9729fb")
 	)
 	(junction
-		(at 309.88 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8960ece0-cd54-43ab-9524-da478eb70ee3")
-	)
-	(junction
 		(at 429.26 396.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12170,18 +12128,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fa35913-c80c-41b9-b753-357acbc942a8")
-	)
-	(junction
-		(at 309.88 196.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a72dbf87-000f-454e-abde-ee51535d567f")
-	)
-	(junction
-		(at 303.53 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac2a9d1b-0e32-404f-be61-7e97229e0de0")
 	)
 	(junction
 		(at 490.22 132.08)
@@ -12399,12 +12345,6 @@
 		(color 0 0 0 0)
 		(uuid "fc4816e6-a96d-48ed-a3c5-4e90733a566f")
 	)
-	(junction
-		(at 308.61 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd658cf8-2f8b-4c44-b3f7-c58d176a7f6f")
-	)
 	(wire
 		(pts
 			(xy 740.41 387.35) (xy 745.49 387.35)
@@ -12577,7 +12517,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 208.28) (xy 323.85 208.28)
+			(xy 299.72 208.28) (xy 323.85 208.28)
 		)
 		(stroke
 			(width 0)
@@ -12787,16 +12727,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 218.44) (xy 318.77 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ce24fd0-a811-4d70-bfbd-dab6a51c022d")
-	)
-	(wire
-		(pts
 			(xy 733.2448 433.07) (xy 758.19 433.07)
 		)
 		(stroke
@@ -12834,26 +12764,6 @@
 			(type default)
 		)
 		(uuid "1dbffd46-8ec8-4958-9aca-4cab280a890b")
-	)
-	(wire
-		(pts
-			(xy 325.12 207.01) (xy 308.61 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f1cebc9-130f-49fd-bedf-80e500cb3bf1")
-	)
-	(wire
-		(pts
-			(xy 322.58 212.09) (xy 306.07 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fb0d223-1156-44df-bd83-564b13859734")
 	)
 	(wire
 		(pts
@@ -13327,16 +13237,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 208.28) (xy 322.58 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aabf6b1-a65f-49f7-9998-927f61121ae5")
-	)
-	(wire
-		(pts
 			(xy 167.64 419.1) (xy 167.64 416.56)
 		)
 		(stroke
@@ -13467,7 +13367,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 217.17) (xy 287.02 217.17)
+			(xy 287.02 217.17) (xy 320.04 217.17)
 		)
 		(stroke
 			(width 0)
@@ -13507,7 +13407,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 203.2) (xy 299.72 203.2)
+			(xy 299.72 203.2) (xy 326.39 203.2)
 		)
 		(stroke
 			(width 0)
@@ -13607,7 +13507,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 198.12) (xy 299.72 198.12)
+			(xy 299.72 198.12) (xy 328.93 198.12)
 		)
 		(stroke
 			(width 0)
@@ -13624,16 +13524,6 @@
 			(type default)
 		)
 		(uuid "66e760c6-662e-4fd6-91f5-2b04547408bf")
-	)
-	(wire
-		(pts
-			(xy 326.39 203.2) (xy 323.85 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68a01141-0521-4112-ad0b-6adb0608dbba")
 	)
 	(wire
 		(pts
@@ -13807,7 +13697,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 212.09) (xy 287.02 212.09)
+			(xy 287.02 212.09) (xy 322.58 212.09)
 		)
 		(stroke
 			(width 0)
@@ -13917,7 +13807,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 218.44) (xy 317.5 218.44)
+			(xy 299.72 218.44) (xy 318.77 218.44)
 		)
 		(stroke
 			(width 0)
@@ -14217,7 +14107,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 207.01) (xy 287.02 207.01)
+			(xy 287.02 207.01) (xy 325.12 207.01)
 		)
 		(stroke
 			(width 0)
@@ -14607,7 +14497,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 201.93) (xy 309.88 201.93)
+			(xy 287.02 201.93) (xy 327.66 201.93)
 		)
 		(stroke
 			(width 0)
@@ -14684,16 +14574,6 @@
 			(type default)
 		)
 		(uuid "b779e018-d34a-4a42-b250-6e51cd1041c8")
-	)
-	(wire
-		(pts
-			(xy 299.72 213.36) (xy 320.04 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7f6ff9c-37b7-4ea0-bd77-ed9903261d43")
 	)
 	(wire
 		(pts
@@ -14877,7 +14757,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 196.85) (xy 309.88 196.85)
+			(xy 287.02 196.85) (xy 330.2 196.85)
 		)
 		(stroke
 			(width 0)
@@ -14904,16 +14784,6 @@
 			(type default)
 		)
 		(uuid "c6996adc-85ad-4f2b-989b-b9d84a0421dd")
-	)
-	(wire
-		(pts
-			(xy 320.04 217.17) (xy 303.53 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c707ee14-a94a-4d50-b255-4859532a017c")
 	)
 	(wire
 		(pts
@@ -15215,16 +15085,6 @@
 		)
 		(uuid "dd2b512e-0ea5-4716-a873-08dcf87e8a92")
 	)
-	(wire
-		(pts
-			(xy 309.88 196.85) (xy 287.02 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddd1c369-af1c-4425-945e-91e802d0d552")
-	)
 	(polyline
 		(pts
 			(xy 374.65 243.84) (xy 387.35 243.84)
@@ -15337,7 +15197,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 213.36) (xy 321.31 213.36)
+			(xy 299.72 213.36) (xy 321.31 213.36)
 		)
 		(stroke
 			(width 0)
@@ -15394,16 +15254,6 @@
 			(type default)
 		)
 		(uuid "ef48f728-05dd-478d-a170-7050329badde")
-	)
-	(wire
-		(pts
-			(xy 328.93 198.12) (xy 323.85 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef4c8c89-9a21-4e16-a669-5b26e5217ee8")
 	)
 	(wire
 		(pts
@@ -15564,16 +15414,6 @@
 			(type default)
 		)
 		(uuid "fc6626da-ec42-4f9b-9869-5c9daa543eaf")
-	)
-	(wire
-		(pts
-			(xy 309.88 201.93) (xy 287.02 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd3a2a4a-a25c-4e14-b1fe-4909518105e5")
 	)
 	(wire
 		(pts
@@ -19073,84 +18913,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 303.53 217.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0f7fc71f-f63f-4971-90dc-7e22540f8039")
-		(property "Reference" "D3-N1"
-			(at 307.848 215.392 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 306.324 217.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 308.61 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 303.53 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c71206e-1209-40b8-8ca3-8688c45c2573")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "D3-N1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_US")
 		(at 792.48 363.22 0)
 		(unit 1)
@@ -20965,85 +20727,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 320.04 213.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21154b7e-7826-402f-8a25-a858e6001649")
-		(property "Reference" "D2-P1"
-			(at 322.58 208.7879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 322.58 211.3279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 325.12 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 320.04 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5850cd55-f9b5-4227-bd55-dab4eb82dac9")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "D2-P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 647.7 185.42 0)
 		(unit 1)
@@ -22040,85 +21723,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 317.5 218.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26e67380-9358-4e3a-8eb4-13fc9a8b6c65")
-		(property "Reference" "D3-P1"
-			(at 320.04 213.8679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 320.04 216.4079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 322.58 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 317.5 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63bf9d03-4c00-4b34-9253-dc587b99513a")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "D3-P1")
 					(unit 1)
 				)
 			)
@@ -23615,85 +23219,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 306.07 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34877e71-381f-44cc-b72d-13f7b82f34da")
-		(property "Reference" "D2-N1"
-			(at 308.61 207.5179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 308.61 210.0579 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 311.15 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 306.07 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "79f9ab30-7bbf-4372-89e3-cebd4ef1fbfc")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "D2-N1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 287.02 215.9 270)
 		(unit 1)
@@ -24980,85 +24505,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 323.85 203.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a6ac9d8-3eb5-4422-95f7-b47afc7fe0af")
-		(property "Reference" "D0-P1"
-			(at 326.39 198.6279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 326.39 201.1679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 328.93 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 323.85 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b971bdb-a43b-49ed-a262-a8318cd97dd6")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "D0-P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 439.42 383.54 90)
@@ -25845,85 +25291,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 308.61 207.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b3df5a4-1630-4779-ac6b-e30dbaddfe1e")
-		(property "Reference" "D1-N1"
-			(at 311.15 202.4379 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 311.15 204.9779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 313.69 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 308.61 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43742df1-fa7c-4df2-ad90-d8173d15b6ee")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "D1-N1")
 					(unit 1)
 				)
 			)
@@ -29279,85 +28646,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 323.85 198.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f9cfdb5-b699-4eeb-8401-f0f29b653639")
-		(property "Reference" "CLK-P1"
-			(at 326.39 193.5479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 326.39 196.0879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 328.93 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 323.85 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "05077e2b-977f-49be-8f83-d380b1e2dad7")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "CLK-P1")
 					(unit 1)
 				)
 			)
@@ -33899,85 +33187,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 309.88 201.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc8fc435-34bb-4385-8544-0306840c6f00")
-		(property "Reference" "D0-N1"
-			(at 312.42 197.3579 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 312.42 199.8979 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 314.96 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 309.88 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65c296bf-0e52-452a-8cea-c69b9d5ffc1d")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "D0-N1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 538.48 486.41 90)
 		(unit 1)
@@ -36392,85 +35601,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 322.58 208.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6dcc8c5-2b50-4207-bf2d-f72e48db3874")
-		(property "Reference" "D1-P1"
-			(at 325.12 203.7079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 325.12 206.2479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 327.66 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 322.58 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b660397-a94e-40d6-b053-c03c047cc762")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "D1-P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 654.05 435.61 0)
@@ -38195,85 +37325,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 309.88 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f96f95ed-cd43-462c-b863-f5a652ff6ab2")
-		(property "Reference" "CLK-N1"
-			(at 312.42 192.2779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 312.42 194.8179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 314.96 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 309.88 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d50501ba-6f3d-420a-ac12-dc187bac9b93")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "CLK-N1")
 					(unit 1)
 				)
 			)
