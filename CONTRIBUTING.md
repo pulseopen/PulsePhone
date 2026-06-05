@@ -22,7 +22,7 @@ For major changes or design proposals, open a GitHub Issue before you start work
 
 PulsePhone is led by **Pedro Porcelli — Founder, Designer, and Maintainer**.
 
-Pedro has final say on KiCad design decisions, hardware revisions, module architecture, electrical and mechanical standards, and all merges into `main`. This isn't bureaucracy — it's just the reality of hardware: one bad merge can corrupt the design files for everyone.
+Pedro has final say on KiCad design decisions, hardware revisions, module architecture, electrical and mechanical standards, and all merges into `main`.
 
 The process is simple: propose via Issues or PRs, get feedback, land in `dev`, ship to `main` after validation.
 
