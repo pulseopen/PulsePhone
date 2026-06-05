@@ -43,7 +43,7 @@ Full connector pinout in [MBI-Lite Specification](MBI-LITE.md).
 - Schematic complete, PCB routed, pre-order review in progress
 
 ### Rev 1 — Lessons Learned
-- XL1509 EN pin active-low behavior caused 3.3V rail failure (fixed in Rev 2 with 3-pin voltage regulator)
+- XL1509 EN pin active-low behavior caused 3.3V rail failure (fixed in Rev 2 by switching to AP2112K LDO)
 - Test pad size too small for reliable probing (all pads 2mm minimum in Rev 2)
 - SoM partial boot activity observed but UART output not confirmed **More on this below*
 
