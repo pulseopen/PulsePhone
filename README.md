@@ -40,17 +40,12 @@ Full connector pinout in [MBI-Lite Specification](MBI-LITE.md).
 - PCM5102A audio DAC routed to SAI port
 - TPS63020 buck-boost regulator, AP2112K-3.3 LDO
 - TP4056 battery charger, MIC2877 5V boost
-- On-board CP2102 USB-UART bridge (1.8V logic, resolves Rev 1 bringup issue)
-- MAX17048 fuel gauge on I2C
-- TVS/ESD protection on USB-C
-- JTAG header
 - Schematic complete, PCB routed, pre-order review in progress
 
 ### Rev 1 — Lessons Learned
-- XL1509 EN pin active-low behavior caused 3.3V rail failure (fixed in Rev 2 with AP2112K)
-- 1.8V UART logic level mismatch with external CP2102 (fixed with on-board bridge)
+- XL1509 EN pin active-low behavior caused 3.3V rail failure (fixed in Rev 2 with 3-pin voltage regulator)
 - Test pad size too small for reliable probing (all pads 2mm minimum in Rev 2)
-- SoM partial boot activity observed but UART output not confirmed
+- SoM partial boot activity observed but UART output not confirmed **More on this below*
 
 ### Display Module
 PCB design complete. Functions as a passive MIPI-DSI adapter for broad display compatibility.
@@ -61,8 +56,8 @@ Design TBD.
 ### Audio Module
 Design in progress.
 
-### Radio Module
-Not included in Rev 2. Deferred due to RF complexity.
+### Wifi/BT (Prior Module)
+Deffered to an embedded system within the main board. (LBEE5KL1YN-814 WiFi/BT)
 
 ---
 
@@ -71,6 +66,14 @@ Not included in Rev 2. Deferred due to RF complexity.
 - **OS:** Yocto Linux with NXP `meta-imx` BSP layer
 - **Target:** First Linux boot on A55 cores via SD card
 - **Planned:** Custom Yocto distro layer for UI and system configuration
+
+---
+
+## First Bringup Summary (Rev 1) *Failed :(*
+
+- First bringup was not a success as boot only got upto flashing light on the SoM.
+- Soldering is to be improved upon with planned access to a Uni FabLab.
+- I presume the main cause for failure of Rev 1 was poor soldering quality and electrical faults that were not caught before ordering boards.
 
 ---
 
