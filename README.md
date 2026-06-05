@@ -59,6 +59,9 @@ Design in progress.
 ### Wifi/BT (Prior Module)
 Deffered to an embedded system within the main board. (LBEE5KL1YN-814 WiFi/BT)
 
+### Mod Port (NEW DF40 MODULE!)
+New connector that allows tinkerers to make their own custom pulsephone modules (ex. custom rfid modules, ir remote module, etc...)! Connector's pinout is stocked with loads of GPIO, UART, and I2C.
+
 ---
 
 ## Software Target
