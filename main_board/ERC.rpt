@@ -1,0 +1,471 @@
+ERC report (2026-06-04T20:11:56, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(9150 mils, 17850 mils): Symbol J7 Pin 4 [VDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(9150 mils, 18050 mils): Symbol J7 Pin 6 [VSS, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11300 mils, 5650 mils): Symbol J3 Pin 21 [Pin_21, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11300 mils, 5750 mils): Symbol J3 Pin 23 [Pin_23, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11300 mils, 5850 mils): Symbol J3 Pin 25 [Pin_25, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11300 mils, 5950 mils): Symbol J3 Pin 27 [Pin_27, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11300 mils, 6050 mils): Symbol J3 Pin 29 [Pin_29, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11300 mils, 6150 mils): Symbol J3 Pin 31 [Pin_31, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11300 mils, 6250 mils): Symbol J3 Pin 33 [Pin_33, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11300 mils, 6350 mils): Symbol J3 Pin 35 [Pin_35, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11300 mils, 9200 mils): Symbol J4 Pin 29 [Pin_29, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11300 mils, 9300 mils): Symbol J4 Pin 31 [Pin_31, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11300 mils, 9400 mils): Symbol J4 Pin 33 [Pin_33, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11300 mils, 9500 mils): Symbol J4 Pin 35 [Pin_35, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11800 mils, 5550 mils): Symbol J3 Pin 20 [Pin_20, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11800 mils, 5650 mils): Symbol J3 Pin 22 [Pin_22, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11800 mils, 5750 mils): Symbol J3 Pin 24 [Pin_24, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11800 mils, 5850 mils): Symbol J3 Pin 26 [Pin_26, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11800 mils, 5950 mils): Symbol J3 Pin 28 [Pin_28, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11800 mils, 6050 mils): Symbol J3 Pin 30 [Pin_30, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11800 mils, 6150 mils): Symbol J3 Pin 32 [Pin_32, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11800 mils, 6250 mils): Symbol J3 Pin 34 [Pin_34, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11800 mils, 9100 mils): Symbol J4 Pin 28 [Pin_28, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11800 mils, 9200 mils): Symbol J4 Pin 30 [Pin_30, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11800 mils, 9300 mils): Symbol J4 Pin 32 [Pin_32, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(11800 mils, 9400 mils): Symbol J4 Pin 34 [Pin_34, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 6400 mils): Symbol MCM93_MOD1 Pin 1 [1, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 6500 mils): Symbol MCM93_MOD1 Pin 2 [2, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 6800 mils): Symbol MCM93_MOD1 Pin 5 [5, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 7000 mils): Symbol MCM93_MOD1 Pin 7 [7, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 7100 mils): Symbol MCM93_MOD1 Pin 8 [8, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 7200 mils): Symbol MCM93_MOD1 Pin 9 [9, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 7300 mils): Symbol MCM93_MOD1 Pin 10 [10, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 7500 mils): Symbol MCM93_MOD1 Pin 12 [12, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 7600 mils): Symbol MCM93_MOD1 Pin 13 [13, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 7900 mils): Symbol MCM93_MOD1 Pin 16 [16, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 8000 mils): Symbol MCM93_MOD1 Pin 17 [17, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 9700 mils): Symbol MCM93_MOD1 Pin 34 [34, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 9800 mils): Symbol MCM93_MOD1 Pin 35 [35, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 10000 mils): Symbol MCM93_MOD1 Pin 36 [1, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 10100 mils): Symbol MCM93_MOD1 Pin 37 [2, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 10200 mils): Symbol MCM93_MOD1 Pin 38 [3, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 10300 mils): Symbol MCM93_MOD1 Pin 39 [4, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 10400 mils): Symbol MCM93_MOD1 Pin 40 [5, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 10500 mils): Symbol MCM93_MOD1 Pin 41 [6, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 10600 mils): Symbol MCM93_MOD1 Pin 42 [7, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 10700 mils): Symbol MCM93_MOD1 Pin 43 [8, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 10800 mils): Symbol MCM93_MOD1 Pin 44 [9, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 11000 mils): Symbol MCM93_MOD1 Pin 46 [11, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 11100 mils): Symbol MCM93_MOD1 Pin 47 [12, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 11300 mils): Symbol MCM93_MOD1 Pin 49 [14, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 11400 mils): Symbol MCM93_MOD1 Pin 50 [15, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 11600 mils): Symbol MCM93_MOD1 Pin 52 [17, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 11700 mils): Symbol MCM93_MOD1 Pin 53 [18, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 11900 mils): Symbol MCM93_MOD1 Pin 55 [20, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 12100 mils): Symbol MCM93_MOD1 Pin 57 [22, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 12300 mils): Symbol MCM93_MOD1 Pin 59 [24, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 12400 mils): Symbol MCM93_MOD1 Pin 60 [25, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 12500 mils): Symbol MCM93_MOD1 Pin 61 [26, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14200 mils, 12600 mils): Symbol MCM93_MOD1 Pin 62 [27, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 6400 mils): Symbol MCM93_MOD1 Pin 71 [1, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 6800 mils): Symbol MCM93_MOD1 Pin 75 [5, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 7000 mils): Symbol MCM93_MOD1 Pin 77 [7, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 7100 mils): Symbol MCM93_MOD1 Pin 78 [8, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 7200 mils): Symbol MCM93_MOD1 Pin 79 [9, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 7300 mils): Symbol MCM93_MOD1 Pin 80 [10, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 7400 mils): Symbol MCM93_MOD1 Pin 81 [11, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 7500 mils): Symbol MCM93_MOD1 Pin 82 [12, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 7600 mils): Symbol MCM93_MOD1 Pin 83 [13, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 7700 mils): Symbol MCM93_MOD1 Pin 84 [14, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 7900 mils): Symbol MCM93_MOD1 Pin 86 [16, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 8000 mils): Symbol MCM93_MOD1 Pin 87 [17, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 8100 mils): Symbol MCM93_MOD1 Pin 88 [18, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 8200 mils): Symbol MCM93_MOD1 Pin 89 [19, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 8300 mils): Symbol MCM93_MOD1 Pin 90 [20, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 8400 mils): Symbol MCM93_MOD1 Pin 91 [21, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 8500 mils): Symbol MCM93_MOD1 Pin 92 [22, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 12900 mils): Symbol MCM93_MOD1 Pin 135 [30, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 13000 mils): Symbol MCM93_MOD1 Pin 136 [31, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 13100 mils): Symbol MCM93_MOD1 Pin 137 [32, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(16900 mils, 13200 mils): Symbol MCM93_MOD1 Pin 138 [33, Passive, Inverted]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 6450 mils): Symbol J5 Pin 5 [Pin_5, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 6550 mils): Symbol J5 Pin 7 [Pin_7, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 6750 mils): Symbol J5 Pin 11 [Pin_11, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 6850 mils): Symbol J5 Pin 13 [Pin_13, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 6950 mils): Symbol J5 Pin 15 [Pin_15, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 7050 mils): Symbol J5 Pin 17 [Pin_17, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 7150 mils): Symbol J5 Pin 19 [Pin_19, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 7250 mils): Symbol J5 Pin 21 [Pin_21, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 7350 mils): Symbol J5 Pin 23 [Pin_23, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 7450 mils): Symbol J5 Pin 25 [Pin_25, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 7550 mils): Symbol J5 Pin 27 [Pin_27, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 7650 mils): Symbol J5 Pin 29 [Pin_29, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 7750 mils): Symbol J5 Pin 31 [Pin_31, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 7850 mils): Symbol J5 Pin 33 [Pin_33, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20700 mils, 7950 mils): Symbol J5 Pin 35 [Pin_35, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21200 mils, 6450 mils): Symbol J5 Pin 6 [Pin_6, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21200 mils, 6650 mils): Symbol J5 Pin 10 [Pin_10, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21200 mils, 6750 mils): Symbol J5 Pin 12 [Pin_12, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21200 mils, 6850 mils): Symbol J5 Pin 14 [Pin_14, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21200 mils, 6950 mils): Symbol J5 Pin 16 [Pin_16, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21200 mils, 7050 mils): Symbol J5 Pin 18 [Pin_18, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21200 mils, 7150 mils): Symbol J5 Pin 20 [Pin_20, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21200 mils, 7250 mils): Symbol J5 Pin 22 [Pin_22, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21200 mils, 7350 mils): Symbol J5 Pin 24 [Pin_24, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21200 mils, 7450 mils): Symbol J5 Pin 26 [Pin_26, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21200 mils, 7550 mils): Symbol J5 Pin 28 [Pin_28, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21200 mils, 7650 mils): Symbol J5 Pin 30 [Pin_30, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21200 mils, 7750 mils): Symbol J5 Pin 32 [Pin_32, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21200 mils, 7850 mils): Symbol J5 Pin 34 [Pin_34, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21400 mils, 14700 mils): Symbol J8 Pin 25 [Pin_25, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21400 mils, 14800 mils): Symbol J8 Pin 27 [Pin_27, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21400 mils, 14900 mils): Symbol J8 Pin 29 [Pin_29, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21400 mils, 15200 mils): Symbol J8 Pin 35 [Pin_35, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21900 mils, 14600 mils): Symbol J8 Pin 24 [Pin_24, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21900 mils, 14700 mils): Symbol J8 Pin 26 [Pin_26, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21900 mils, 14800 mils): Symbol J8 Pin 28 [Pin_28, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(21900 mils, 14900 mils): Symbol J8 Pin 30 [Pin_30, Passive, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(24700 mils, 18100 mils): Symbol U1 Pin 1 [VIN, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(27200 mils, 14550 mils): Symbol U5 Pin 4 [V_{CC}, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(28950 mils, 7200 mils): Symbol ON/OFF1 Pin 2 [Bidirectional, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(30050 mils, 18350 mils): Symbol U3 Pin 1 [Vin, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(30050 mils, 18500 mils): Symbol U3 Pin 2 [AGND, Input, Line]
+[pin_to_pin]: Pins of type Output and Output are connected
+    ; error
+    @(30950 mils, 18650 mils): Symbol U3 Pin 5 [Vout, Output, Line]
+    @(30950 mils, 18800 mils): Symbol U3 Pin 7 [Vouts, Output, Line]
+[pin_to_pin]: Pins of type Output and Output are connected
+    ; error
+    @(31550 mils, 12950 mils): Symbol U4 Pin 4 [VOUT_4, Output, Line]
+    @(31550 mils, 13050 mils): Symbol U4 Pin 5 [VOUT_5, Output, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'footprints'
+    ; warning
+    @(4500 mils, 17500 mils): Symbol U6 [LBEE5KL1YN-814]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'LBEE5KL1YN-814'
+    ; warning
+    @(4500 mils, 17500 mils): Symbol U6 [LBEE5KL1YN-814]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5700 mils, 17500 mils): Global Label 'HOST_WAKE'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5700 mils, 17600 mils): Global Label 'DEV_WAKE'
+[multiple_net_names]: Both GND and GND(SR_PVSS) are attached to the same items; GND will be used in the netlist
+    ; warning
+    @(16900 mils, 4900 mils): Symbol #PWR048 Hidden pin 1 [GND, Power input, Line]
+    @(5700 mils, 18600 mils): Symbol U6 Hidden pin 33 [GND(SR_PVSS), Power input, Line]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(6600 mils, 16800 mils): Vertical Wire, length 50 mils
+[lib_symbol_mismatch]: Symbol 'Micro_SD_Card_Det1' doesn't match copy in library 'Connector'
+    ; warning
+    @(10050 mils, 17950 mils): Symbol J7 [Micro_SD_Card_Det1]
+[lib_symbol_mismatch]: Symbol 'Conn_2Rows-35Pins_MountingPin' doesn't match copy in library 'Connector_Generic_MountingPin'
+    ; warning
+    @(11500 mils, 5450 mils): Symbol J3 [Conn_2Rows-35Pins_MountingPin]
+[lib_symbol_mismatch]: Symbol 'Conn_2Rows-35Pins_MountingPin' doesn't match copy in library 'Connector_Generic_MountingPin'
+    ; warning
+    @(11500 mils, 8600 mils): Symbol J4 [Conn_2Rows-35Pins_MountingPin]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(14200 mils, 12900 mils): Global Label 'SD2_RST_B'
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mcm-imx93'
+    ; warning
+    @(14700 mils, 6300 mils): Symbol MCM93_MOD1 [MCM93_MOD]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mcm-imx93'
+    ; warning
+    @(14700 mils, 9900 mils): Symbol MCM93_MOD1 [MCM93_MOD]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mcm-imx93'
+    ; warning
+    @(15900 mils, 13500 mils): Symbol MCM93_MOD1 [MCM93_MOD]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mcm-imx93'
+    ; warning
+    @(16400 mils, 6300 mils): Symbol MCM93_MOD1 [MCM93_MOD]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mcm-imx93'
+    ; warning
+    @(16400 mils, 9900 mils): Symbol MCM93_MOD1 [MCM93_MOD]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'PCM5102APWR'
+    ; warning
+    @(18750 mils, 8750 mils): Symbol U2 [PCM5102APWR]
+[lib_symbol_mismatch]: Symbol 'Conn_2Rows-35Pins_MountingPin' doesn't match copy in library 'Connector_Generic_MountingPin'
+    ; warning
+    @(20900 mils, 7050 mils): Symbol J5 [Conn_2Rows-35Pins_MountingPin]
+[lib_symbol_mismatch]: Symbol 'Conn_2Rows-35Pins_MountingPin' doesn't match copy in library 'Connector_Generic_MountingPin'
+    ; warning
+    @(21600 mils, 14300 mils): Symbol J8 [Conn_2Rows-35Pins_MountingPin]
+[lib_symbol_mismatch]: Symbol 'Battery' doesn't match copy in library 'Device'
+    ; warning
+    @(28700 mils, 13000 mils): Symbol BT1 [Battery]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SSSS810701'
+    ; warning
+    @(28850 mils, 7300 mils): Symbol ON/OFF1 [SSSS810701]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SSSS810701'
+    ; warning
+    @(28850 mils, 7300 mils): Symbol ON/OFF1 [SSSS810701]
+[lib_symbol_mismatch]: Symbol 'USB_C_Receptacle_USB2.0_14P' doesn't match copy in library 'Connector'
+    ; warning
+    @(29050 mils, 15400 mils): Symbol J1 [USB_C_Receptacle_USB2.0_14P]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(29668 mils, 15100 mils): Horizontal Wire, length 18 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(29668 mils, 15250 mils): Horizontal Wire, length 982 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(29668 mils, 15250 mils): Vertical Wire, length 150 mils
+[lib_symbol_mismatch]: Symbol 'MIC2877-5.0YFT-TR' doesn't match copy in library 'New_Library'
+    ; warning
+    @(30500 mils, 18500 mils): Symbol U3 [MIC2877-5.0YFT-TR]
+[lib_symbol_mismatch]: Symbol 'TPS63020DSJR' doesn't match copy in library 'TPS63020DSJR'
+    ; warning
+    @(30850 mils, 13550 mils): Symbol U4 [TPS63020DSJR]
+
+ ** ERC messages: 152  Errors 125  Warnings 27
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

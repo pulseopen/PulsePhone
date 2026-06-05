@@ -44,14 +44,13 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
-      "zones",
       "drc_warnings",
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_05d555d5_5755feaf",
+    "visible_layers": "00000000_00000000_05d555d5_5755feff",
     "zone_display_mode": 0
   },
   "git": {
