@@ -14439,7 +14439,7 @@
 		(uuid "7aa4a9f6-f63d-4bbb-8b15-2a52b59f47c8")
 		(at 169.8 63.6 90)
 		(property "Reference" "ON/OFF1"
-			(at -0.2 -4.5 90)
+			(at -0.2 -4.5 270)
 			(layer "F.SilkS")
 			(uuid "4f996eb3-caa5-4f27-bc39-884ec54b2a91")
 			(effects
@@ -17182,7 +17182,7 @@
 		(descr "CK components KMR2 tactile switch with ground pin http://www.ckswitches.com/media/1479/kmr2.pdf")
 		(tags "tactile switch kmr2")
 		(property "Reference" "RESET1"
-			(at 0 -2.45 90)
+			(at 0 -3.15 270)
 			(layer "F.SilkS")
 			(uuid "c278e296-eab6-4c2c-81da-f1e4c291299d")
 			(effects
