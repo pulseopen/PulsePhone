@@ -12007,6 +12007,12 @@
 		(uuid "08ba28b6-70ca-4d37-b226-dc15a08c3c82")
 	)
 	(junction
+		(at 674.37 384.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0adc48fd-02bf-4b6a-add8-4860c3067656")
+	)
+	(junction
 		(at 356.87 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12433,12 +12439,6 @@
 		(uuid "e306bac0-b2f7-4bf3-a846-4c4545f6e2ac")
 	)
 	(junction
-		(at 674.37 384.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e877e9d4-1c82-4c8f-a90a-2101f96d4fa2")
-	)
-	(junction
 		(at 429.26 378.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12531,6 +12531,16 @@
 			(type default)
 		)
 		(uuid "00db9da3-6718-4db1-a316-3a03e139b251")
+	)
+	(wire
+		(pts
+			(xy 651.51 454.66) (xy 648.97 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0116561a-70a7-4141-a749-ea1099e495a1")
 	)
 	(wire
 		(pts
@@ -12694,16 +12704,6 @@
 	)
 	(wire
 		(pts
-			(xy 690.88 394.97) (xy 690.88 397.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b8d1071-a8a6-41f1-84b4-9cbdc3a1d4f5")
-	)
-	(wire
-		(pts
 			(xy 299.72 208.28) (xy 323.85 208.28)
 		)
 		(stroke
@@ -12824,16 +12824,6 @@
 	)
 	(wire
 		(pts
-			(xy 728.98 337.82) (xy 728.98 335.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17252ad0-f6ed-4127-86fd-8e7139bb2cfa")
-	)
-	(wire
-		(pts
 			(xy 412.75 132.08) (xy 429.26 132.08)
 		)
 		(stroke
@@ -12871,16 +12861,6 @@
 			(type default)
 		)
 		(uuid "184a3962-2ab7-4805-961e-aa1233c9c678")
-	)
-	(wire
-		(pts
-			(xy 824.23 318.77) (xy 822.96 318.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18e804f3-d843-47e2-8a4e-0a1a54504445")
 	)
 	(wire
 		(pts
@@ -13274,6 +13254,16 @@
 	)
 	(wire
 		(pts
+			(xy 692.15 394.97) (xy 690.88 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364594d1-96e2-4706-812d-c02fd95927ae")
+	)
+	(wire
+		(pts
 			(xy 60.96 454.66) (xy 83.82 454.66)
 		)
 		(stroke
@@ -13331,6 +13321,16 @@
 			(type default)
 		)
 		(uuid "3db29a7e-c062-4a47-85c9-3ebc23d12c2f")
+	)
+	(wire
+		(pts
+			(xy 687.07 394.97) (xy 688.34 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee29bb7-73b5-4441-a7cc-7f3d5e72cd0e")
 	)
 	(wire
 		(pts
@@ -13411,16 +13411,6 @@
 			(type default)
 		)
 		(uuid "46665cb4-65b3-449b-82fd-8fd89c7f579d")
-	)
-	(wire
-		(pts
-			(xy 671.83 377.19) (xy 673.1 377.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4778eb98-9676-4691-b268-fdbaa3262f5a")
 	)
 	(wire
 		(pts
@@ -13714,16 +13704,6 @@
 	)
 	(wire
 		(pts
-			(xy 833.12 318.77) (xy 831.85 318.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ea6de8a-c109-44c7-ae0b-e568bcdd04d8")
-	)
-	(wire
-		(pts
 			(xy 412.75 328.93) (xy 412.75 219.71)
 		)
 		(stroke
@@ -13761,6 +13741,16 @@
 			(type default)
 		)
 		(uuid "66e760c6-662e-4fd6-91f5-2b04547408bf")
+	)
+	(wire
+		(pts
+			(xy 808.99 468.63) (xy 808.99 473.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6949072a-97c9-4cf2-a089-186e3707de6e")
 	)
 	(wire
 		(pts
@@ -14104,7 +14094,7 @@
 	)
 	(wire
 		(pts
-			(xy 709.93 382.27) (xy 709.93 393.7)
+			(xy 709.93 382.27) (xy 709.93 384.81)
 		)
 		(stroke
 			(width 0)
@@ -14414,6 +14404,16 @@
 	)
 	(wire
 		(pts
+			(xy 674.37 387.35) (xy 674.37 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94fcb1fe-7d4f-4e8b-acf4-c6994779ead0")
+	)
+	(wire
+		(pts
 			(xy 701.04 377.19) (xy 701.04 365.76)
 		)
 		(stroke
@@ -14504,6 +14504,16 @@
 	)
 	(wire
 		(pts
+			(xy 648.97 454.66) (xy 648.97 459.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c7725d-d6f1-4810-85a3-8ace818e98ba")
+	)
+	(wire
+		(pts
 			(xy 798.83 452.12) (xy 798.83 466.09)
 		)
 		(stroke
@@ -14531,16 +14541,6 @@
 			(type default)
 		)
 		(uuid "9e528aff-bc54-4955-8614-543309ada36e")
-	)
-	(wire
-		(pts
-			(xy 701.04 401.32) (xy 704.85 401.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f4cc8c9-5664-4c18-8f2c-ffffaa77db84")
 	)
 	(wire
 		(pts
@@ -14974,16 +14974,6 @@
 	)
 	(wire
 		(pts
-			(xy 674.37 384.81) (xy 674.37 389.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c35caf6f-960c-4058-a126-75f7d0c64d26")
-	)
-	(wire
-		(pts
 			(xy 287.02 196.85) (xy 330.2 196.85)
 		)
 		(stroke
@@ -15051,16 +15041,6 @@
 			(type default)
 		)
 		(uuid "c9f424f7-5e3c-43c9-9801-f5796824cb7a")
-	)
-	(wire
-		(pts
-			(xy 728.98 323.85) (xy 728.98 325.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca30f637-590d-413f-97dd-9de5b575dc99")
 	)
 	(wire
 		(pts
@@ -19938,7 +19918,7 @@
 		(dnp no)
 		(uuid "09bbcf71-92f8-46a5-b9c6-bc30bd9da8c2")
 		(property "Reference" "C33"
-			(at 749.3 329.1841 0)
+			(at 750.57 329.1841 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19949,7 +19929,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 749.3 326.898 0)
+			(at 750.57 326.898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20578,6 +20558,96 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 812.8 468.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "139f2644-3b92-4d3a-9d8a-010dd53ce1b9")
+		(property "Reference" "D8"
+			(at 813.816 463.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 813.816 465.328 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 812.8 468.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 812.8 468.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 812.8 468.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 812.8 468.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36a79ae9-114e-4c5e-a7a5-de4735f265a1")
+		)
+		(pin "2"
+			(uuid "650e1bf5-8472-464e-b12e-7503df1fb658")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -21896,6 +21966,86 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 674.37 454.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19874989-e33e-4a11-a45b-7abb1f98e070")
+		(property "Reference" "#PWR0122"
+			(at 680.72 454.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 678.18 454.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 674.37 454.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 674.37 454.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 674.37 454.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebe1945a-93ec-4f13-8b9b-3913154a5d86")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -23546,7 +23696,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 688.34 394.97 0)
+		(at 687.07 394.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23557,7 +23707,7 @@
 		(fields_autoplaced yes)
 		(uuid "29079a25-d0c3-4d83-8fb6-603e4e583ace")
 		(property "Reference" "#PWR0101"
-			(at 688.34 401.32 0)
+			(at 687.07 401.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23568,7 +23718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 688.34 400.05 0)
+			(at 687.07 400.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23578,7 +23728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 688.34 394.97 0)
+			(at 687.07 394.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23589,7 +23739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 688.34 394.97 0)
+			(at 687.07 394.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23600,7 +23750,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 688.34 394.97 0)
+			(at 687.07 394.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24177,7 +24327,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 709.93 393.7 0)
+		(at 709.93 384.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24188,7 +24338,7 @@
 		(fields_autoplaced yes)
 		(uuid "2feb68a1-d617-4d6c-b742-4196fcde741a")
 		(property "Reference" "#PWR038"
-			(at 709.93 400.05 0)
+			(at 709.93 391.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24199,7 +24349,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 709.93 398.78 0)
+			(at 709.93 389.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24209,7 +24359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 709.93 393.7 0)
+			(at 709.93 384.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24220,7 +24370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 709.93 393.7 0)
+			(at 709.93 384.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24231,7 +24381,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 709.93 393.7 0)
+			(at 709.93 384.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24628,6 +24778,96 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 670.56 454.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35f1e87b-3b69-44c7-905e-76e19ca51cde")
+		(property "Reference" "D7"
+			(at 671.576 449.072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 671.576 451.358 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 670.56 454.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 670.56 454.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 670.56 454.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 670.56 454.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "553a9e40-fd69-498e-b73d-bbcd94cb8300")
+		)
+		(pin "2"
+			(uuid "2df3be29-c5a1-401b-b43a-ae44e6b2e9c0")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -25762,7 +26002,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 840.74 318.77 90)
+		(at 838.2 318.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25773,7 +26013,7 @@
 		(fields_autoplaced yes)
 		(uuid "47b54833-d7e6-443a-b317-d6f7471774df")
 		(property "Reference" "#PWR094"
-			(at 847.09 318.77 0)
+			(at 844.55 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25784,7 +26024,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 844.55 318.7699 90)
+			(at 842.01 318.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25795,7 +26035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 840.74 318.77 0)
+			(at 838.2 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25806,7 +26046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 840.74 318.77 0)
+			(at 838.2 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25817,7 +26057,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 840.74 318.77 0)
+			(at 838.2 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26161,7 +26401,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 704.85 401.32 0)
+		(at 701.04 401.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26171,7 +26411,7 @@
 		(dnp no)
 		(uuid "4d5d5ba3-86b8-45b5-96b1-d966ccf87b02")
 		(property "Reference" "#PWR072"
-			(at 704.85 407.67 0)
+			(at 701.04 407.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26182,7 +26422,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 704.85 406.4 0)
+			(at 701.04 406.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26192,7 +26432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 704.85 401.32 0)
+			(at 701.04 401.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26203,7 +26443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 704.85 401.32 0)
+			(at 701.04 401.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26214,7 +26454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 704.85 401.32 0)
+			(at 701.04 401.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30382,6 +30622,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 655.32 454.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9089e3c1-2581-4b3b-89ee-1c0ed8e27c96")
+		(property "Reference" "D6"
+			(at 655.6375 448.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 655.6375 450.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 655.32 454.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 655.32 454.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 655.32 454.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c89afbb-1ca4-4224-a343-e0cdb2827ed7")
+		)
+		(pin "2"
+			(uuid "9d623669-63e4-4cde-8ff1-b729ef9db504")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 232.41 412.75 90)
 		(unit 1)
@@ -31022,7 +31342,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 728.98 330.2 0)
+		(at 723.9 323.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31033,7 +31353,7 @@
 		(fields_autoplaced yes)
 		(uuid "95f89fb4-cb3b-4cb2-a78b-e6ac33e465fe")
 		(property "Reference" "BT1"
-			(at 732.79 328.3584 0)
+			(at 725.7416 327.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31044,7 +31364,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 732.79 330.8984 0)
+			(at 723.2016 327.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31055,7 +31375,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 728.98 328.676 90)
+			(at 725.424 323.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31066,7 +31386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 728.98 328.676 90)
+			(at 725.424 323.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31077,7 +31397,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 728.98 330.2 0)
+			(at 723.9 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32460,7 +32780,7 @@
 			)
 		)
 		(property "Value" "1.2 kΩ"
-			(at 696.214 402.844 0)
+			(at 703.834 398.018 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33945,6 +34265,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 662.94 454.66 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1b204a0-6b47-4a3b-8964-9ac91d1b3232")
+		(property "Reference" "R13"
+			(at 662.94 451.612 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 662.686 449.072 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 662.94 452.882 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 662.94 454.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 662.94 454.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cb153fa6-bb0b-431f-8f25-ac43eb2d8d81")
+		)
+		(pin "1"
+			(uuid "bd7d8426-eecb-42d5-8166-1bddbcc62341")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 534.67 345.44 90)
 		(unit 1)
@@ -34024,7 +34423,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 728.98 337.82 0)
+		(at 718.82 323.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34035,7 +34434,7 @@
 		(fields_autoplaced yes)
 		(uuid "b267373a-e4b5-4d6c-b435-8528b44af6d7")
 		(property "Reference" "#PWR05"
-			(at 728.98 344.17 0)
+			(at 712.47 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34046,7 +34445,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 731.52 339.0899 0)
+			(at 717.5501 326.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34057,7 +34456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 728.98 337.82 0)
+			(at 718.82 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34068,7 +34467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 728.98 337.82 0)
+			(at 718.82 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34079,7 +34478,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 728.98 337.82 0)
+			(at 718.82 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34593,7 +34992,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 828.04 318.77 270)
+		(at 826.77 318.77 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34603,7 +35002,7 @@
 		(dnp no)
 		(uuid "b655ed86-4a61-41b1-8000-a9330ad8b865")
 		(property "Reference" "R8"
-			(at 828.294 324.104 90)
+			(at 827.024 324.104 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34613,7 +35012,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 828.04 321.564 90)
+			(at 826.77 321.564 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34623,7 +35022,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 828.04 316.992 90)
+			(at 826.77 316.992 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34634,7 +35033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 828.04 318.77 0)
+			(at 826.77 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34645,7 +35044,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 828.04 318.77 0)
+			(at 826.77 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34673,7 +35072,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 690.88 397.51 0)
+		(at 692.15 394.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34684,7 +35083,7 @@
 		(fields_autoplaced yes)
 		(uuid "b795a07f-2739-4a53-81d2-d63c22c1131c")
 		(property "Reference" "#PWR037"
-			(at 690.88 403.86 0)
+			(at 692.15 401.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34695,7 +35094,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 690.88 402.59 0)
+			(at 692.15 400.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34705,7 +35104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 690.88 397.51 0)
+			(at 692.15 394.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34716,7 +35115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 690.88 397.51 0)
+			(at 692.15 394.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34727,7 +35126,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 690.88 397.51 0)
+			(at 692.15 394.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35874,6 +36273,86 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 816.61 468.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5cc7f6d-54df-4ec3-8cb5-f0976aea90ba")
+		(property "Reference" "#PWR0123"
+			(at 822.96 468.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 820.42 468.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 816.61 468.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 816.61 468.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 816.61 468.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbbdd7cb-c0e0-4fd0-8939-2d3a6bac6e8d")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -37743,7 +38222,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 674.37 389.89 0)
+		(at 674.37 387.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37754,7 +38233,7 @@
 		(fields_autoplaced yes)
 		(uuid "d782aa6a-c357-40ce-b772-080ec8ec8c90")
 		(property "Reference" "#PWR036"
-			(at 674.37 396.24 0)
+			(at 674.37 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37765,7 +38244,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 674.37 394.97 0)
+			(at 674.37 392.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37775,7 +38254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 674.37 389.89 0)
+			(at 674.37 387.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37786,7 +38265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 674.37 389.89 0)
+			(at 674.37 387.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37797,7 +38276,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 674.37 389.89 0)
+			(at 674.37 387.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38500,7 +38979,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 836.93 318.77 180)
+		(at 834.39 318.77 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38510,7 +38989,7 @@
 		(dnp no)
 		(uuid "e601febc-9d0f-45b8-8b8d-58a5d891f032")
 		(property "Reference" "D5"
-			(at 838.2 321.564 0)
+			(at 835.66 321.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38520,7 +38999,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 838.2 323.85 0)
+			(at 835.66 323.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38530,7 +39009,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 836.93 318.77 0)
+			(at 834.39 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38541,7 +39020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 836.93 318.77 0)
+			(at 834.39 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38552,7 +39031,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 836.93 318.77 0)
+			(at 834.39 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38563,7 +39042,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 836.93 318.77 0)
+			(at 834.39 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38680,10 +39159,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e857886b-1426-4ec6-b16b-7133aba2c53f")
 		(property "Reference" "C34"
-			(at 749.3 321.5641 0)
+			(at 750.062 321.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38694,7 +39172,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 749.3 319.0241 0)
+			(at 750.062 319.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39709,7 +40187,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 673.1 377.19 270)
+		(at 671.83 377.19 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39720,7 +40198,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcf875f8-5f6d-4d7c-bbb2-1f464cd41083")
 		(property "Reference" "#PWR035"
-			(at 666.75 377.19 0)
+			(at 665.48 377.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39731,7 +40209,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 669.29 377.1899 90)
+			(at 668.02 377.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39742,7 +40220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 673.1 377.19 0)
+			(at 671.83 377.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39753,7 +40231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 673.1 377.19 0)
+			(at 671.83 377.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39764,7 +40242,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 673.1 377.19 0)
+			(at 671.83 377.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
