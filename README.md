@@ -8,6 +8,12 @@ Built around the **MCM-iMX93 System-on-Module**, PulsePhone uses **Hirose DF40**
 
 ---
 
+## Sponsorship
+PulsePhone is proudly sponsored by [PCBWay](https://www.pcbway.com), 
+through their project sponsorship program.
+
+---
+
 ## System Architecture
 
 The **Main Board** is the hub of the system, hosting the MCM-iMX93 SoM, power management, WiFi/BT, onboard DAC, and all signal routing. Every peripheral connects via DF40 connectors following the MBI-Lite standard.
