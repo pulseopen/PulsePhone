@@ -1,0 +1,94 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+164.5,-41.0,0.0,top,3.3V1,,,TestPoint_Pad_D2.5mm,TestPoint,tht
+169.0,-41.0,0.0,top,5V1,,,TestPoint_Pad_D2.5mm,TestPoint,tht
+165.25,-140.75,0.0,top,AUD-L1,,,TestPoint_Pad_1.0x1.0mm,TestPoint,tht
+165.25,-142.85,0.0,top,AUD-R1,,,TestPoint_Pad_1.0x1.0mm,TestPoint,tht
+166.815,-71.925,0.0,top,BT1,,,PinHeader_1x02_P2.54mm_Horizontal,Battery,tht
+165.0562,-88.941847,180.0,top,C1,,,C_0603_1608Metric,1uF,smt
+162.2762,-46.025831,0.0,top,C10,,,C_0805_2012Metric,22uF,smt
+166.2762,-46.025831,0.0,top,C11,,,C_0805_2012Metric,22uF,smt
+140.8062,-127.344191,90.0,top,C12,,,C_0603_1608Metric,10uF,smt
+156.8062,-105.760206,-90.0,top,C13,,,C_0603_1608Metric,10uF,smt
+147.5562,-56.3488,90.0,top,C14,,,C_0805_2012Metric,100nF,smt
+147.5562,-52.333175,90.0,top,C15,,,C_0805_2012Metric,100nF,smt
+153.2762,-55.060988,0.0,top,C16,,,C_0805_2012Metric,100nF,smt
+154.2762,-62.590284,0.0,top,C17,,,C_0805_2012Metric,100nF,smt
+145.0562,-56.3488,90.0,top,C18,,,C_0805_2012Metric,100nF,smt
+150.0562,-55.344894,90.0,top,C19,,,C_0805_2012Metric,100nF,smt
+135.0562,-139.639113,0.0,top,C2,,,C_0603_1608Metric,10uF,smt
+145.0562,-52.333175,90.0,top,C20,,,C_0805_2012Metric,22uF,smt
+153.2762,-57.570753,0.0,top,C21,,,C_0805_2012Metric,22uF,smt
+150.0562,-51.329269,90.0,top,C22,,,C_0805_2012Metric,22uF,smt
+154.2762,-60.080519,0.0,top,C23,,,C_0805_2012Metric,22uF,smt
+142.5562,-56.3488,90.0,top,C24,,,C_0805_2012Metric,22uF,smt
+161.5562,-85.964034,90.0,top,C25,,,C_0805_2012Metric,22uF,smt
+147.2762,-105.758253,180.0,top,C26,,,C_0805_2012Metric,22uF,smt
+150.5562,-101.524581,90.0,top,C27,,,C_0805_2012Metric,22uF,smt
+148.0562,-102.528488,90.0,top,C28,,,C_0805_2012Metric,22uF,smt
+153.0562,-99.014816,90.0,top,C29,,,C_0805_2012Metric,22uF,smt
+153.8062,-142.402784,90.0,top,C3,,,C_0603_1608Metric,10uF,smt
+144.7762,-103.248488,180.0,top,C30,,,C_0805_2012Metric,22uF,smt
+153.7762,-102.244581,0.0,top,C31,,,C_0805_2012Metric,22uF,smt
+148.0562,-98.512863,90.0,top,C32,,,C_0805_2012Metric,22uF,smt
+156.8062,-102.246534,90.0,top,C33,,,C_0603_1608Metric,10uF,smt
+159.5562,-101.992628,180.0,top,C34,,,C_0603_1608Metric,10uF,smt
+135.2762,-105.758253,180.0,top,C35,,,C_0805_2012Metric,22uF,smt
+151.5562,-119.092941,90.0,top,C36,,,C_0805_2012Metric,22uF,smt
+139.2762,-105.758253,180.0,top,C37,,,C_0805_2012Metric,22uF,smt
+108.0562,-116.583175,90.0,top,C38,,,C_0805_2012Metric,100nF,smt
+133.0562,-135.623488,180.0,top,C4,,,C_0603_1608Metric,2.2uF,smt
+154.8062,-113.791456,90.0,top,C43,,,C_0603_1608Metric,100nF,smt
+130.3062,-135.375441,90.0,top,C5,,,C_0603_1608Metric,2.2uF,smt
+152.8062,-150.935988,-90.0,top,C6,,,C_0603_1608Metric,10uF,smt
+165.0562,-90.949659,180.0,top,C7,,,C_0603_1608Metric,1uF,smt
+154.0562,-105.540206,90.0,top,C8,,,C_0805_2012Metric,22uF,smt
+153.0562,-94.497238,90.0,top,C9,,,C_0805_2012Metric,22uF,smt
+148.3262,-135.299327,90.0,top,D4,,,D_SMA,D_Schottky,smt
+146.083055,-116.55134,90.0,top,D5,,,LED_0805_2012Metric,LED,smt
+166.6,-113.5,0.0,top,D6,,,D_SMA,D_Schottky,smt
+164.845,-118.32,0.0,top,D7,,,LED_0805_2012Metric,LED,smt
+164.845,-121.75,0.0,top,D8,,,LED_0805_2012Metric,LED,smt
+107.0,-50.86,90.0,top,F1,,,R_0805_2012Metric,PPTC,smt
+110.6,-50.8,90.0,top,F2,,,R_0805_2012Metric,PPTC,smt
+164.5,-36.0,0.0,top,GND1,,,TestPoint_Pad_D2.5mm,TestPoint,tht
+105.0,-30.0,0.0,top,H1,,,MountingHole_2.2mm_M2_DIN965_Pad,MountingHole,tht
+167.5,-30.0,0.0,top,H2,,,MountingHole_2.2mm_M2_DIN965_Pad,MountingHole,tht
+167.5,-150.0,0.0,top,H3,,,MountingHole_2.2mm_M2_DIN965_Pad,MountingHole,tht
+105.0,-150.0,0.0,top,H4,,,MountingHole_2.2mm_M2_DIN965_Pad,MountingHole,tht
+128.4,-148.0,0.0,top,I2C3-SCL1,,,TestPoint_Pad_D2.5mm,TestPoint,tht
+128.4,-152.2,0.0,top,I2C3-SDA1,,,TestPoint_Pad_D2.5mm,TestPoint,tht
+137.7,-151.81,0.0,top,J1,,,USB_C_Receptacle_HRO_TYPE-C-31-M-12,USB_C_Receptacle_USB2.0_14P,smt
+105.385,-94.0,180.0,top,J2,,,PinHeader_1x05_P2.54mm_Horizontal,Conn_01x05,tht
+137.8,-31.29,180.0,top,J3,,,HIROSE_DF40C-34DS-0.4V_58_,Conn_2Rows-35Pins_MountingPin,smt
+116.8,-146.54,0.0,top,J4,,,HIROSE_DF40C-34DS-0.4V_58_,Conn_2Rows-35Pins_MountingPin,smt
+155.6,-146.54,0.0,top,J5,,,HIROSE_DF40C-34DS-0.4V_58_,Conn_2Rows-35Pins_MountingPin,smt
+103.025,-121.275,0.0,top,J6,,,U.FL_Hirose_U.FL-R-SMT-1_Vertical,Conn_01x01_Socket,smt
+109.515,-105.72,-90.0,top,J7,,,microSD_HC_Hirose_DM3AT-SF-PEJM5,Micro_SD_Card_Det1,smt
+109.8,-56.26,0.0,top,J8,,,HIROSE_DF40C-34DS-0.4V_58_,Conn_2Rows-35Pins_MountingPin,smt
+106.704475,-124.982244,0.0,top,L1,,,L_01005_0402Metric,1µH,smt
+150.3262,-109.357784,-90.0,top,L2,,,L_Wurth_WE-LQSH-4020,1uH,smt
+167.3262,-107.851925,-90.0,top,L3,,,L_Wurth_WE-LQSH-4020,1.5uH,smt
+136.729085,-73.995419,0.0,top,MCM93_MOD1,,,LGA-140-080-30x30-iMX93,MCM93_MOD,tht
+169.8,-63.6,90.0,top,ON/OFF1,,None,SSSS810701,SSSS810701,smt
+150.3062,-96.053097,-90.0,top,R1,,,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1Mega Ohm,smt
+154.7562,-121.850753,180.0,top,R10,,,R_0805_2012Metric,1 MΩ,smt
+159.0262,-104.5563,90.0,top,R11,,,R_0805_2012Metric,51 kΩ,smt
+128.0262,-135.175441,90.0,top,R12,,,R_0805_2012Metric,10 kΩ,smt
+168.95,-118.95,0.0,top,R13,,,R_0805_2012Metric,1kΩ,smt
+146.2562,-148.454269,0.0,top,R2,,,R_0805_2012Metric,5.1 kΩ,smt
+136.7562,-142.430831,0.0,top,R3,,,R_0805_2012Metric,5.1 kΩ,smt
+139.7562,-130.885909,0.0,top,R4,,,R_0805_2012Metric,1.2 kΩ,smt
+136.0262,-49.843409,90.0,top,R5,,,R_0805_2012Metric,10 kΩ,smt
+164.7562,-59.608566,180.0,top,R6,,,R_0805_2012Metric,10 kΩ,smt
+149.0262,-118.109034,90.0,top,R7,,,R_0805_2012Metric,1.1 MΩ,smt
+151.2562,-128.376144,180.0,top,R8,,,R_0805_2012Metric,1kΩ,smt
+149.7562,-114.321456,180.0,top,R9,,,R_0805_2012Metric,174 kΩ,smt
+169.7,-55.45,90.0,top,RESET1,,,SW_Push_1P1T-SH_NO_CK_KMR2xxG,SW_Push,smt
+161.2762,-90.131613,-90.0,top,U1,,,SOT-23-5,AP2112K-3.3,smt
+129.589436,-140.981691,-90.0,top,U2,,TSSOP-20 Texas Instruments,SOP65P640X120-20N,PCM5102APWR,smt
+151.0262,-105.288253,180.0,top,U3,,,VREG_MIC2877-AYFT-TR,~,smt
+156.0262,-109.363196,90.0,top,U4,,VSON-14 Texas Instruments,IC_TPS63020DSJR,TPS63020DSJR/3.7V Reg,smt
+143.2762,-122.610519,0.0,top,U5,,,SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias,TP4056-42-ESOP8,smt
+110.55,-121.275,90.0,top,U6,,None,XCVR_LBEE5KL1YN-814,LBEE5KL1YN-814,smt
+169.0,-36.0,0.0,top,VBAT1,,,TestPoint_Pad_D2.5mm,TestPoint,tht
+110.0762,-131.023361,0.0,top,Y1,,,Oscillator_SMD_EuroQuartz_XO53-4Pin_5.0x3.2mm,XO53,smt
