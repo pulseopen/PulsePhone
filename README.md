@@ -1,10 +1,10 @@
 ![Pulsephonelogo](assets/pulsephone.png)
 
-# PulsePhone — Pulse Modular Phone (MCM-iMX93 SoM)
+# PulsePhone — Pulse Modular Phone (DART-MX8M-MINI SoM)
 
 > A modular, open-source smartphone built for repairability, upgradability, and hardware freedom.
 
-Built around the **MCM-iMX93 System-on-Module**, PulsePhone uses **Hirose DF40** board-to-board connectors across all subsystems — keeping modules isolated, swappable, and independently developable.
+Built around the **DART-MX8M-MINI SoM**, PulsePhone uses **Hirose DF40** board-to-board connectors across all subsystems — keeping modules isolated, swappable, and independently developable.
 
 ---
 
@@ -32,7 +32,7 @@ Full connector pinout in [MBI-Lite Specification](MBI-LITE.md).
 ## Project Goals
 
 - One connector standard (DF40) across every module
-- Yocto Linux (meta-imx BSP) as primary OS target
+- Debian
 - Kit-oriented design — bring your own display and case
 - Fully open: KiCad source + mechanical files under GNU GPL-V3.0
 
@@ -41,12 +41,11 @@ Full connector pinout in [MBI-Lite Specification](MBI-LITE.md).
 ## Hardware Status
 
 ### Main Board — Rev 2
-- MCM-iMX93 LGA-140 SoM (NXP iMX93, dual A55 + M33)
-- LBEE5KL1YN-814 WiFi/BT module with U.FL antenna connector
+- DART-MX8M-MINI
+- M.2 WiFi/BT Module.
 - PCM5102A audio DAC routed to SAI port
 - TPS63020 buck-boost regulator, AP2112K-3.3 LDO
 - TP4056 battery charger, MIC2877 5V boost
-- Schematic complete, PCB routed, pre-order review in progress
 
 ### Rev 1 — Lessons Learned
 - XL1509 EN pin active-low behavior caused 3.3V rail failure (fixed in Rev 2 by switching to AP2112K LDO)
@@ -62,8 +61,9 @@ Design TBD.
 ### Audio Module
 Design in progress.
 
-### Wifi/BT (Prior Module)
-Deffered to an embedded system within the main board. (LBEE5KL1YN-814 WiFi/BT)
+### Wifi/BT (M.2 Module)
+M.2 key e connector which allows for a wide range of consumer wifi solutions.
+
 
 ### Mod Port (NEW DF40 MODULE!)
 New connector that allows tinkerers to make their own custom pulsephone modules (ex. custom rfid modules, ir remote module, etc...)! Connector's pinout is stocked with loads of GPIO, UART, and I2C.
@@ -72,9 +72,8 @@ New connector that allows tinkerers to make their own custom pulsephone modules 
 
 ## Software Target
 
-- **OS:** Yocto Linux with NXP `meta-imx` BSP layer
-- **Target:** First Linux boot on A55 cores via SD card
-- **Planned:** Custom Yocto distro layer for UI and system configuration
+- **OS:** Debian linux
+- **Target:** First Linux boot soon...
 
 ---
 
