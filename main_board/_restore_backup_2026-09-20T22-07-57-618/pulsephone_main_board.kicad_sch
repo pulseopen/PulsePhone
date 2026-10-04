@@ -10363,12 +10363,6 @@
 		(uuid "eb78a6c5-a91c-4e3e-8039-faa6750d7da2")
 	)
 	(junction
-		(at 762 466.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed0ed822-9a7d-4066-b10c-0eddae22d70c")
-	)
-	(junction
 		(at 760.73 341.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10646,16 +10640,6 @@
 	)
 	(wire
 		(pts
-			(xy 762 466.09) (xy 763.27 466.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "245d9909-1504-4387-a1e9-9d802e60ff68")
-	)
-	(wire
-		(pts
 			(xy 763.27 469.9) (xy 741.68 469.9)
 		)
 		(stroke
@@ -10856,16 +10840,6 @@
 	)
 	(wire
 		(pts
-			(xy 779.78 452.12) (xy 789.94 452.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42028489-ce9f-4b90-9923-cb055a6d173f")
-	)
-	(wire
-		(pts
 			(xy 741.68 469.9) (xy 741.68 474.98)
 		)
 		(stroke
@@ -10976,7 +10950,7 @@
 	)
 	(wire
 		(pts
-			(xy 786.13 466.09) (xy 789.94 466.09)
+			(xy 786.13 466.09) (xy 798.83 466.09)
 		)
 		(stroke
 			(width 0)
@@ -11046,7 +11020,7 @@
 	)
 	(wire
 		(pts
-			(xy 753.11 466.09) (xy 762 466.09)
+			(xy 753.11 466.09) (xy 763.27 466.09)
 		)
 		(stroke
 			(width 0)
@@ -11406,6 +11380,16 @@
 	)
 	(wire
 		(pts
+			(xy 798.83 452.12) (xy 798.83 466.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995f07fe-1dc4-4bcc-b9f6-b817b1498830")
+	)
+	(wire
+		(pts
 			(xy 652.78 459.74) (xy 648.97 459.74)
 		)
 		(stroke
@@ -11586,16 +11570,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 224.79) (xy 368.3 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c99b180c-eb74-49fb-b412-91e41ddb0b7c")
-	)
-	(wire
-		(pts
 			(xy 748.03 160.02) (xy 762 160.02)
 		)
 		(stroke
@@ -11633,16 +11607,6 @@
 			(type default)
 		)
 		(uuid "cbf7e818-3318-4246-9107-010072810135")
-	)
-	(wire
-		(pts
-			(xy 789.94 452.12) (xy 789.94 466.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce9ecbba-1ab9-49ff-8ef6-1e7d6082b2f4")
 	)
 	(wire
 		(pts
@@ -11696,16 +11660,6 @@
 	)
 	(wire
 		(pts
-			(xy 762 452.12) (xy 772.16 452.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da0e6f08-5471-47b1-8484-920e26a9f16c")
-	)
-	(wire
-		(pts
 			(xy 622.3 389.89) (xy 626.11 389.89)
 		)
 		(stroke
@@ -11733,16 +11687,6 @@
 			(type default)
 		)
 		(uuid "dcb31803-4694-4867-bd41-55a851e07094")
-	)
-	(wire
-		(pts
-			(xy 762 466.09) (xy 762 452.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0d46b54-f000-499d-aa7b-b297e8a09e29")
 	)
 	(wire
 		(pts
@@ -12168,7 +12112,7 @@
 	)
 	(global_label "ONOFF"
 		(shape input)
-		(at 368.3 229.87 180)
+		(at 486.41 231.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12178,7 +12122,7 @@
 		)
 		(uuid "0acc1935-b005-4163-8fbc-a38d12a23153")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.1461 229.87 0)
+			(at 477.2561 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12405,30 +12349,6 @@
 			)
 		)
 	)
-	(global_label "AUD_R"
-		(shape input)
-		(at 622.3 379.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "209515f9-d6e5-499b-b95d-519c5fc040ab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 631.2119 379.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GPIO1_IO14"
 		(shape input)
 		(at 457.2 288.29 0)
@@ -12498,30 +12418,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 753.11 367.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "251ed722-eb2e-4b6d-84ff-7c3256ae2bdd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 760.9938 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -12681,30 +12577,6 @@
 		(uuid "3320f91c-37df-4c63-938c-5eb4bd73711a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 395.3547 494.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 457.2 242.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35e77a70-7600-4771-94c8-5094d4fcbf92")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 465.0838 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13096,6 +12968,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SD2_VDD"
+		(shape input)
+		(at 232.41 453.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53e4c1f9-63fb-404a-83b5-d8d975f97fe9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.1396 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -13794,30 +13690,6 @@
 			)
 		)
 	)
-	(global_label "MOD_GPIO_130"
-		(shape input)
-		(at 443.23 275.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8785e100-b41e-4e03-9813-27733104773d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.1539 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "GPIO1_IO11"
 		(shape input)
 		(at 462.28 405.13 0)
@@ -14440,30 +14312,6 @@
 			)
 		)
 	)
-	(global_label "MOD_GPIO_128"
-		(shape input)
-		(at 443.23 280.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bd7dea54-f6c8-498c-85b1-c3ba50961c7f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.1539 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "DSI_0_N"
 		(shape input)
 		(at 370.84 473.71 180)
@@ -14896,30 +14744,6 @@
 			)
 		)
 	)
-	(global_label "AUD_L"
-		(shape input)
-		(at 622.3 377.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "da51f087-d629-4fbc-a203-b1d2d4655c16")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 630.97 377.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "MOD_UART_RX"
 		(shape input)
 		(at 419.1 191.77 0)
@@ -15085,6 +14909,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "SD2_VDD"
+		(shape input)
+		(at 382.27 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8086e83-5c11-4b1f-bde5-34f3e95056fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 393.5404 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -15546,85 +15394,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 405.13 224.79 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "031c6489-5461-4a66-8134-42dbdb327f88")
-		(property "Reference" "#PWR0131"
-			(at 398.78 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 401.32 224.7899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 405.13 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 405.13 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 405.13 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3a37ebc-492e-4e6b-b4f7-14e4adac1573")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 732.79 139.7 180)
@@ -15994,7 +15763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVQ-P7A01P:SW_EVQ-P7A01P"
+		(property "Footprint" ""
 			(at 704.85 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -16117,85 +15886,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 382.27 285.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07b5019a-3bc8-4ccf-9fd5-d5c470d53522")
-		(property "Reference" "#PWR077"
-			(at 388.62 285.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 386.08 285.7499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 285.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 285.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 382.27 285.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3cdc96de-156f-40eb-be84-a89ca9405154")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -17079,17 +16769,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/generator"
-			(at 443.23 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "52"
 			(uuid "2d5246a3-7041-4a66-bdca-78bb1a7d08f6")
 		)
@@ -17434,17 +17113,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 812.8 468.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 812.8 468.63 0)
 			(hide yes)
 			(show_name no)
@@ -18385,6 +18053,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 798.83 452.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "192f693e-2638-4d8e-b09e-43ef8cbf0ce4")
+		(property "Reference" "#PWR03"
+			(at 798.83 455.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.7VBAT"
+			(at 800.608 450.088 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 798.83 452.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 798.83 452.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 798.83 452.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e8c5341-f57d-4694-a80b-1cea8899f7a0")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 674.37 454.66 90)
@@ -18459,85 +18205,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 368.3 262.89 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1dad2600-d5fc-4b1c-b129-241fc238444f")
-		(property "Reference" "#PWR074"
-			(at 361.95 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 364.49 262.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 368.3 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 368.3 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9a3fffb0-89bf-4e9d-a520-e9084af75e4e")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -19724,17 +19391,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 444.5 387.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4911f7d7-c97f-41f1-b0a4-82f369062bc0")
 		)
@@ -19987,85 +19643,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 443.23 217.17 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "319aa1c0-7f95-4b54-a2fc-1ebe9e46f017")
-		(property "Reference" "#PWR0139"
-			(at 436.88 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 439.42 217.1699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 443.23 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 443.23 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "84127c95-7d4f-4b17-9339-b8c4c9e07f6e")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 670.56 454.66 180)
 		(unit 1)
@@ -20130,17 +19707,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 670.56 454.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 670.56 454.66 0)
 			(hide yes)
 			(show_name no)
@@ -20557,85 +20123,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 443.23 232.41 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bec0aed-0ea3-4343-aaa4-3c62fd20dfb5")
-		(property "Reference" "#PWR0140"
-			(at 436.88 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 439.42 232.4099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 443.23 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 443.23 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "93ea572c-6d89-4e74-accf-381410cd4bce")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -21114,85 +20601,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 368.3 255.27 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45dc1597-6472-46f2-974c-3f61d9ba34d3")
-		(property "Reference" "#PWR073"
-			(at 361.95 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 364.49 255.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 368.3 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 368.3 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1672a4ad-cb21-4a56-9895-1540c6fb44b2")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 651.51 234.95 0)
 		(unit 1)
@@ -21263,85 +20671,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 457.2 250.19 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47997092-bc12-4f20-891d-cc51d5045739")
-		(property "Reference" "#PWR0149"
-			(at 463.55 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 461.01 250.1899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 457.2 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 457.2 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 457.2 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d2579d0-7f2a-4099-99fa-19fbf2bc629b")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -21502,85 +20831,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 419.1 275.59 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4aa7d761-75ee-4c01-b077-a0585a05763a")
-		(property "Reference" "#PWR0134"
-			(at 425.45 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 422.91 275.5899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 419.1 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 419.1 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 419.1 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "acb696bd-fb59-464a-9b3d-9f7606ad4642")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -21818,85 +21068,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 457.2 222.25 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4eccc73a-1771-411e-b899-48c60224d8ba")
-		(property "Reference" "#PWR0151"
-			(at 463.55 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 461.01 222.2499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 457.2 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 457.2 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 457.2 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b81373d-538c-446c-bc72-63ac00240ab1")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -22523,85 +21694,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 443.23 247.65 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ac7b2fe-c713-4562-bebc-f5a37b0bac6f")
-		(property "Reference" "#PWR0142"
-			(at 436.88 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 439.42 247.6499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 443.23 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 443.23 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa60f11e-6754-40b6-a593-133550640ceb")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -24217,17 +23309,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 468.63 387.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a8993733-2848-49dd-bff4-43ac30c295be")
 		)
@@ -24488,85 +23569,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 457.2 237.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b4eb7dc-2f2d-4dc0-a403-742278f2b614")
-		(property "Reference" "#PWR0150"
-			(at 463.55 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 461.01 237.4899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 457.2 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 457.2 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 457.2 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d8a7258-3002-46bd-814c-d7652c824a4c")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0150")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 232.41 415.29 270)
 		(unit 1)
 		(body_style 1)
@@ -24639,6 +23641,85 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 457.2 242.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e1726bb-1ea7-440d-b97e-7bd0e3392dca")
+		(property "Reference" "#PWR020"
+			(at 453.39 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 461.01 242.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 457.2 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 457.2 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 457.2 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6d5883f-4121-4f61-871d-61d40839e502")
+		)
+		(instances
+			(project "pulsephone_main_board"
+				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -25367,85 +24448,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 419.1 196.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e19c3ec-f222-4ef7-948c-3d597078dc5c")
-		(property "Reference" "#PWR0136"
-			(at 425.45 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 422.91 196.8499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 419.1 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 419.1 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 419.1 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe12e866-39ac-42bb-b122-862997a43c3c")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 370.84 403.86 90)
 		(unit 1)
@@ -25843,85 +24845,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 419.1 219.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93828013-4c04-434c-87ba-083d09dfdfc3")
-		(property "Reference" "#PWR0135"
-			(at 425.45 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 422.91 219.7099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 419.1 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 419.1 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 419.1 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c2f4a9c-76c0-416c-9c43-e8d7ffc00ceb")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_SoM:Conn_1x90")
 		(at 368.3 185.42 0)
 		(unit 1)
@@ -25976,17 +24899,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 368.3 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "connector/generator"
 			(at 368.3 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -26837,164 +25749,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 443.23 204.47 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98943dad-04e6-4c4e-847e-50ffdc6331f5")
-		(property "Reference" "#PWR0138"
-			(at 436.88 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 439.42 204.4699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 443.23 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 443.23 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64e63353-5606-4f1b-bbe7-408687d08e96")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 405.13 237.49 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98a3bfc6-e14e-4f73-ae1f-5722ed2b07a9")
-		(property "Reference" "#PWR0132"
-			(at 398.78 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 401.32 237.4899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 405.13 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 405.13 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 405.13 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e45addb3-c6df-4d00-936b-d4088eb423e6")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 462.28 425.45 90)
 		(unit 1)
 		(body_style 1)
@@ -27376,17 +26130,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 582.93 369.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "3d284b03-a45f-4394-aafc-2dbfb8fb4ecf")
 		)
@@ -27397,85 +26140,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 365.76 224.79 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c6fceed-b263-4758-b5b0-f470f79228e6")
-		(property "Reference" "#PWR02"
-			(at 359.41 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 361.95 224.7899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 365.76 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 365.76 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "13556785-4cb1-49a9-89a2-1aa688227c85")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -27536,17 +26200,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 405.13 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "connector/generator"
 			(at 405.13 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -28771,85 +27424,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 457.2 265.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a24c1bf0-8956-4207-ac12-ac731ca55916")
-		(property "Reference" "#PWR0148"
-			(at 463.55 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 461.01 265.4299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 457.2 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 457.2 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 457.2 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "84717869-083b-4dc0-a992-afc9662c1a07")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_2Rows-35Pins_MountingPin")
 		(at 375.92 488.95 0)
 		(unit 1)
@@ -29111,83 +27685,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 232.41 453.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a49ea47d-8b23-4574-a3cf-85024b1e2263")
-		(property "Reference" "#PWR0152"
-			(at 236.22 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 226.314 453.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 232.41 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "972513a0-fe03-4eda-b94d-3b039e41c9de")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0152")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 457.2 229.87 270)
 		(unit 1)
@@ -29421,86 +27918,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 775.97 452.12 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a80d30bc-8ae8-465b-8a28-9dc113d0268b")
-		(property "Reference" "R5"
-			(at 775.97 445.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kOHM"
-			(at 775.97 448.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 775.97 453.898 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 775.97 452.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 775.97 452.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e241ac18-3fcb-4cb4-8f54-756866e63251")
-		)
-		(pin "2"
-			(uuid "dd94842b-8958-420e-b2f3-6e0f160fea2f")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -30051,17 +28468,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 662.94 454.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "cb153fa6-bb0b-431f-8f25-ac43eb2d8d81")
 		)
@@ -30072,85 +28478,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 443.23 278.13 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1d3fd36-eb7f-4288-a42c-5fa369e1beac")
-		(property "Reference" "#PWR0145"
-			(at 436.88 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 439.42 278.1299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 443.23 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 443.23 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f32dc50-6fc8-4d91-b43a-30599ef28e42")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -30640,85 +28967,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 443.23 262.89 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b50d725a-6dec-4397-90c1-5cc4b8e823da")
-		(property "Reference" "#PWR0143"
-			(at 436.88 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 439.42 262.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 443.23 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 443.23 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f9d5551e-759c-4e70-a619-5c1c9f526d7d")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -31858,85 +30106,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 457.2 280.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c12e73e6-038a-48d5-a4fd-5d7b32f47479")
-		(property "Reference" "#PWR0147"
-			(at 463.55 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 461.01 280.6699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 457.2 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 457.2 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 457.2 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "92f653bf-0ee9-4368-956b-2f32dc330346")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 370.84 471.17 270)
 		(unit 1)
 		(body_style 1)
@@ -32331,85 +30500,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 382.27 194.31 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c68d0448-e8f9-42ca-a28e-0f4ae2e73e1a")
-		(property "Reference" "#PWR0130"
-			(at 388.62 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 386.08 194.3099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 382.27 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30bdf1b2-e911-4ece-b3c9-842dcb139951")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Micro_SD_Card_Det1")
 		(at 255.27 455.93 0)
 		(unit 1)
@@ -32587,85 +30677,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 443.23 240.03 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca0dd5e1-e0c9-44a8-a7fa-ef9c8ba1c695")
-		(property "Reference" "#PWR0141"
-			(at 436.88 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 439.42 240.0299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 443.23 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 443.23 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f8a1be7-fab4-46a5-bcb3-d2995b0bfaa1")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -33308,85 +31319,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 368.3 232.41 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0bd84ee-3858-4165-88be-97fa0740599a")
-		(property "Reference" "#PWR03"
-			(at 361.95 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 364.49 232.4099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 368.3 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 368.3 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce51454a-fc89-414a-81ea-b1139ca325b4")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 383.54 496.57 270)
 		(unit 1)
@@ -33824,85 +31756,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 382.27 217.17 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d54f12d0-89af-45fb-9336-f46aa1af062f")
-		(property "Reference" "#PWR0129"
-			(at 388.62 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 386.08 217.1699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 382.27 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ca7800f1-4fde-4105-bc6c-976d57623300")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 674.37 387.35 0)
@@ -33976,85 +31829,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 443.23 201.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9c36f0a-6fcc-4ea6-bd8e-463116c1b652")
-		(property "Reference" "#PWR0137"
-			(at 436.88 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 439.42 201.9299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 443.23 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 443.23 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c73ae5c3-75df-4ab0-a8c1-cda05f40a9cf")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -34832,85 +32606,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 443.23 265.43 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8019447-bbea-4279-a85a-7e5a7805d4a8")
-		(property "Reference" "#PWR0144"
-			(at 436.88 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 439.42 265.4299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 443.23 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 443.23 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ab97451c-95a5-4e7a-949c-08256625cb21")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_US")
 		(at 753.11 320.04 0)
 		(unit 1)
@@ -35309,85 +33004,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 419.1 290.83 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef841c5d-754e-442c-aa2a-9f7c941b738d")
-		(property "Reference" "#PWR0133"
-			(at 425.45 290.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 422.91 290.8299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 419.1 290.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 419.1 290.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 419.1 290.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4e077c4-281d-4aa1-9ab6-d62c04e55c08")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_US")
 		(at 687.07 156.21 180)
 		(unit 1)
@@ -35464,85 +33080,6 @@
 			(project "pulsephone_main_board"
 				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 443.23 293.37 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f076e838-9c66-4ec7-9cdc-16afda6e8a41")
-		(property "Reference" "#PWR0146"
-			(at 436.88 293.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 439.42 293.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 443.23 293.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 293.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 443.23 293.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d0ea0bf-603b-48ad-bc11-0be5046a90c8")
-		)
-		(instances
-			(project "pulsephone_main_board"
-				(path "/95397744-6eff-4b94-a4c8-db9ebac7d828"
-					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
